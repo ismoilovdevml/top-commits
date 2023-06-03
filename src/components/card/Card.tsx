@@ -30,7 +30,7 @@ const Card = ({
           <Image
             className={styles.img}
             src={avatarUrl}
-            alt="img"
+            alt={name}
             height={100}
             width={100}
           />

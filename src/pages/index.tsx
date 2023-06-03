@@ -1,16 +1,30 @@
 import Head from "next/head";
-import Image from "next/image";
-
 import styles from "../styles/home.module.scss";
-import { useEffect } from "react";
 import HeroTitle from "@/components/heroTitle/HeroTitle";
 import Card from "@/components/card/Card";
 import { GetStaticProps } from "next";
 import { Commetters, User } from "@/types/Committers";
+import { useCallback, useContext, useEffect, useState } from "react";
+import { SearchContext } from "@/components/context/SearchContext";
 
 export default function Home({ commiters }: { commiters: ICommiters }) {
+  const [filteredUsers, setFilteredUsers] = useState<User[]>(commiters.public);
   const generatedDate = new Date(commiters.generated);
-  console.log({ generatedDate });
+  const searchTerms = useContext(SearchContext);
+
+  const filterUsers = useCallback(
+    () =>
+      setFilteredUsers(
+        commiters[searchTerms.userType].filter((user) =>
+          user.login.includes(searchTerms.filterText.toLocaleLowerCase())
+        )
+      ),
+    [commiters, searchTerms]
+  );
+  useEffect(() => {
+    filterUsers();
+  }, [searchTerms, filterUsers]);
+
   return (
     <>
       <Head>
@@ -22,16 +36,18 @@ export default function Home({ commiters }: { commiters: ICommiters }) {
       <main className="container">
         <HeroTitle />
         <section>
-          <h2
-            className={styles.updateDate}
-          >{`Last update at ${generatedDate.getDate()}  ${generatedDate.toLocaleString(
-            "default",
-            {
-              month: "long",
-            }
-          )}, ${generatedDate.getFullYear()} y`}</h2>
+          <h2 className={styles.updateDate}>
+            {filteredUsers.length
+              ? `Last update at ${generatedDate.getDate()}  ${generatedDate.toLocaleString(
+                  "default",
+                  {
+                    month: "long",
+                  }
+                )}, ${generatedDate.getFullYear()} y`
+              : "No user"}
+          </h2>
           <ul className={styles.cardsWapper}>
-            {commiters.public.map((committer) => (
+            {filteredUsers.map((committer) => (
               <li key={committer.login}>
                 <Card {...committer} />
               </li>
@@ -44,11 +60,9 @@ export default function Home({ commiters }: { commiters: ICommiters }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const API_URL = "https://commiters.vercel.app/rank/uzbekistan";
+  const API_URL: string = "https://commiters.vercel.app/rank/uzbekistan";
 
-  const { users }: Commetters = await fetch(`${API_URL}`).then((res) =>
-    res.json()
-  );
+  const { users }: Commetters = await fetch(API_URL).then((res) => res.json());
 
   const commiters = {
     public: users.users,

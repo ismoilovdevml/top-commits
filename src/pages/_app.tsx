@@ -1,3 +1,4 @@
+import SearchProvider from "@/components/context/SearchContext";
 import Layout from "@/components/layout/Layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
@@ -24,9 +25,11 @@ export default function App({ Component, pageProps }: AppProps) {
           font-family: ${inter.style.fontFamily};
         }
       `}</style>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <SearchProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </SearchProvider>
     </>
   );
 }

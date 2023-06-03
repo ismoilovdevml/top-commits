@@ -1,13 +1,16 @@
 import Image from "next/image";
 import styles from "./navbar.module.scss";
-import { FormEvent, useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
+import { SearchContext } from "../context/SearchContext";
 
 const Navbar = () => {
   const [active, setActive] = useState<boolean>(false);
   const [navIsVisible, setNavIsVisible] = useState<boolean>(true);
   const lastScrollPosition = useRef<number>(0);
-  const searchHandler = (e: FormEvent) => {
-    e.preventDefault();
+  const { setSearchTerms } = useContext(SearchContext);
+
+  const searchHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerms((prev) => ({ ...prev, filterText: e.target.value }));
   };
   const toggleDropdown = (): void => {
     setActive((prev) => !prev);
@@ -33,23 +36,28 @@ const Navbar = () => {
     <nav className={`${styles.nav} ${!navIsVisible && styles.hide}`}>
       <div className="container">
         <div className={styles.navInner}>
-          {/* <div className={styles.logo}> */}
           <Image src={"/static/logo.svg"} alt="logo" height={70} width={80} />
-          {/* </div> */}
           <ul className={`${styles.filterWrapper} ${active && styles.active}`}>
             <li>
-              <form onSubmit={searchHandler} className={styles.searchBar}>
+              <div className={styles.searchBar}>
                 <input
                   onChange={searchHandler}
                   type="text"
                   className={styles.searchInput}
                   placeholder="@username"
                 />
-                <button className={styles.searchBarBtn} onClick={searchHandler}>
+                <button
+                  className={styles.searchBarBtn}
+                  onClick={() => {
+                    setSearchTerms((prev) => ({
+                      ...prev,
+                    }));
+                  }}
+                >
                   <Image src={"/static/search.svg"} alt="logo" fill />
                 </button>
                 <div className={styles.searchBarBorder} />
-              </form>
+              </div>
             </li>
             <li>
               <div className={styles.filterUserType}>
@@ -62,6 +70,12 @@ const Navbar = () => {
                     type="radio"
                     name="userType"
                     value="private"
+                    onChange={() => {
+                      setSearchTerms((prev) => ({
+                        ...prev,
+                        userType: "private",
+                      }));
+                    }}
                   />
                   <label htmlFor="user_public" className={styles.userType}>
                     public
@@ -73,6 +87,12 @@ const Navbar = () => {
                     value="public"
                     defaultChecked
                     placeholder="username"
+                    onChange={() => {
+                      setSearchTerms((prev) => ({
+                        ...prev,
+                        userType: "public",
+                      }));
+                    }}
                   />
                   <div className={styles.userTypeActiveBg} />
                 </div>
