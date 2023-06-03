@@ -1,13 +1,22 @@
 import Image from "next/image";
 import styles from "./style.module.scss";
+import { User } from "@/types/Committers";
 
-const Card = () => {
+const Card = ({
+  rank,
+  name,
+  login,
+  avatarUrl,
+  contributions,
+  company,
+  organizations,
+}: User) => {
   return (
-    <a target="_blank" href="http://localhost:3000">
+    <a target="_blank" href={`https://github.com/${login}`}>
       <article className={styles.card}>
         <header className={styles.head}>
           <div className={styles.rankWrapper}>
-            <span className={styles.rank}># 1</span>
+            <span className={styles.rank}># {rank}</span>
             <span className={styles.commit}>
               <Image
                 src="/static/commit.svg"
@@ -15,20 +24,18 @@ const Card = () => {
                 height={16}
                 width={16}
               />
-              23423
+              {contributions}
             </span>
           </div>
           <Image
             className={styles.img}
-            src={
-              "https://avatars.githubusercontent.com/u/102412893?u=30ef0c8f5e217fac5b40994a7ab6dfa1cc3e691c&v=4"
-            }
+            src={avatarUrl}
             alt="img"
             height={100}
             width={100}
           />
 
-          <h3 className={styles.name}>javohirbekkhaydarov</h3>
+          <h3 className={styles.name}>{name}</h3>
         </header>
         <ul className={styles.cardBody}>
           <li className={styles.infoItem}>
@@ -38,26 +45,36 @@ const Card = () => {
               height={20}
               width={20}
             />{" "}
-            ismoilovdevml
+            <span title={login} className={styles.ellipsisText}>
+              {login}
+            </span>
           </li>
-          <li className={styles.infoItem}>
-            <Image
-              src="/static/company.svg"
-              alt="company_icon"
-              height={20}
-              width={20}
-            />{" "}
-            XYZ
-          </li>
-          <li className={styles.infoItem}>
-            <Image
-              src="/static/organization.svg"
-              alt="organization_icon"
-              height={20}
-              width={20}
-            />{" "}
-            ABC
-          </li>
+          {company && (
+            <li className={styles.infoItem}>
+              <Image
+                src="/static/company.svg"
+                alt="company_icon"
+                height={20}
+                width={20}
+              />{" "}
+              <span title={company} className={styles.ellipsisText}>
+                {company}
+              </span>
+            </li>
+          )}
+          {organizations && (
+            <li className={styles.infoItem}>
+              <Image
+                src="/static/organization.svg"
+                alt="organization_icon"
+                height={20}
+                width={20}
+              />{" "}
+              <span title={organizations} className={styles.ellipsisText}>
+                {organizations}
+              </span>
+            </li>
+          )}
         </ul>
       </article>
     </a>

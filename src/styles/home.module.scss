@@ -1,3 +1,5 @@
+@import "../styles/variables";
+
 .updateDate {
   border: 1px solid #ffffff61;
   width: fit-content;
@@ -9,4 +11,22 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
+}
+
+.cardsWapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  @media (max-width: $lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: $md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 620px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

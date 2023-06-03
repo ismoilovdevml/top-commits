@@ -1,10 +1,11 @@
 .card {
   position: relative;
-  width: 400px;
+  width: 100%;
   padding: 2rem;
   border: 1px solid #ffffff32;
   border-radius: 5px;
   overflow: hidden;
+  height: 100%;
 
   * {
     // outline: 1px solid red;
@@ -66,8 +67,16 @@
   align-items: center;
   justify-content: center;
   gap: 3px;
-
+  line-break: anywhere;
   &:not(:first-child) {
     margin-top: 5px;
   }
+}
+
+.ellipsisText {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
