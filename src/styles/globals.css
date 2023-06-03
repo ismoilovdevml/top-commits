@@ -1,6 +1,7 @@
 :root {
-  --body-color: #000;
-  --primary-text: #fafafa;
+  --body-bg: #000;
+  --primary-text: #888888;
+  --white-text: #fafafa;
   --gray-100: #1a1a1a;
   --gray-200: #242424;
   --gray-300: #363636;
@@ -20,7 +21,7 @@ body {
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: var(--body-bg);
   color: var(--primary-text);
   padding-top: 70px;
 }

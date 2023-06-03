@@ -4,7 +4,9 @@ import { LayoutProps } from "./Layout.props";
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       {children}
     </>
   );
