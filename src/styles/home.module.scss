@@ -1,0 +1,32 @@
+@import "../styles/variables";
+
+.updateDate {
+  border: 1px solid #ffffff61;
+  width: fit-content;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 15px #0000002b;
+  background-color: #121212;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+.cardsWapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  @media (max-width: $lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: $md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 620px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

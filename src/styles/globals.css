@@ -1,0 +1,47 @@
+:root {
+  --body-bg: #000;
+  --primary-text: #888888;
+  --white-text: #fafafa;
+  --gray-100: #1a1a1a;
+  --gray-200: #242424;
+  --gray-300: #363636;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--primary-text);
+  padding-top: 70px;
+  padding-bottom: 10rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1rem;
+}
