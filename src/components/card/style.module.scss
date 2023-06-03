@@ -1,0 +1,73 @@
+.card {
+  position: relative;
+  width: 400px;
+  padding: 2rem;
+  border: 1px solid #ffffff32;
+  border-radius: 5px;
+  overflow: hidden;
+
+  * {
+    // outline: 1px solid red;
+  }
+}
+
+.head {
+  text-align: center;
+}
+
+/* 
+    border: #3C3C3C
+    body: #262626
+    text: #909090
+*/
+
+.rankWrapper {
+  font-family: var(--font-space-grotesk);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+
+  span {
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px solid #ffffff3e;
+  }
+}
+
+.commit {
+  display: flex;
+  gap: 3px;
+}
+
+.img {
+  // width: 100px;
+  // backdrop-filter: ;
+  filter: drop-shadow(0 0 5rem rgb(255, 30, 75));
+  border-radius: 50%;
+}
+
+.name {
+  color: var(--white-text);
+  margin: 1rem 0 1.5rem;
+}
+
+.cardBody {
+  text-align: center;
+  font-family: var(--font-space-grotesk);
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+
+  &:not(:first-child) {
+    margin-top: 5px;
+  }
+}

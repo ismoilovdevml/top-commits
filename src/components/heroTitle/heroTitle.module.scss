@@ -57,6 +57,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  font-family: var(--font-space-grotesk);
 
   @media (max-width: $md) {
     font-size: 24px;
