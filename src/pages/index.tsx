@@ -7,6 +7,8 @@ import { Commetters, User } from "@/types/Committers";
 import { useCallback, useContext, useEffect, useState } from "react";
 import { SearchContext } from "@/components/context/SearchContext";
 
+import { NextSeo } from "next-seo";
+
 export default function Home({ commiters }: { commiters: ICommiters }) {
   const [filteredUsers, setFilteredUsers] = useState<User[]>(commiters.public);
   const generatedDate = new Date(commiters.generated);
@@ -28,10 +30,18 @@ export default function Home({ commiters }: { commiters: ICommiters }) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="To github users uzbekistan" />
+        <title>Top github contributors in uzbekistan</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <NextSeo
+          title="Top github contributors in uzbekistan"
+          description="The most active github users in uzbekistan."
+          openGraph={{
+            url: "https://topgithubusers.vercel.app/",
+            title: "Top github contributors in uzbekistan",
+            description: "The most active github users in uzbekistan.",
+          }}
+        />
       </Head>
       <main className="container">
         <HeroTitle />
