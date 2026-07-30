@@ -5,7 +5,7 @@ Leaderboards of the most active GitHub users, ranked by contribution count, for
 automatically — a ranking is never more than a day behind its upstream source.
 
 <p align="center">
-  <a href="https://topgithubusers.vercel.app/"><strong>Live site →</strong></a>
+  <a href="https://top-commits.vercel.app/"><strong>Live site →</strong></a>
 </p>
 
 ![Leaderboard, public contributions](public/screenshots/hero.png)

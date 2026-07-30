@@ -1,6 +1,13 @@
 import Head from "next/head";
 
-export const SITE_URL = "https://topgithubusers.vercel.app";
+/**
+ * Canonical origin for canonical links and Open Graph URLs. Set
+ * NEXT_PUBLIC_SITE_URL when the site moves to a custom domain — pointing these
+ * at the wrong host sends crawlers and link previews somewhere else entirely.
+ */
+export const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://top-commits.vercel.app"
+).replace(/\/$/, "");
 
 interface SeoProps {
   title: string;
