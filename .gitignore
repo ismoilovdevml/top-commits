@@ -36,3 +36,6 @@ next-env.d.ts
 
 # playwright-mcp artifacts
 .playwright-mcp/
+
+# env files (vercel link writes .env.local)
+.env*
