@@ -50,17 +50,30 @@ const NAME_ALIASES: Record<string, string> = {
 };
 
 /**
- * Countries too small to appear in the 110m atlas. They have leaderboards but no
- * shape, so they are listed rather than drawn — worth knowing when the match
- * count looks short.
+ * Leaderboards with no polygon in the 110m atlas.
+ *
+ * A 50m atlas would include them, at roughly triple the payload — and they would
+ * still be two or three pixels wide, so effectively unclickable. Drawing them as
+ * markers costs six coordinate pairs and makes them the most legible things on
+ * the map instead of the least.
  */
-export const UNMAPPABLE = [
-  "bahrain",
-  "hong_kong",
-  "macau",
-  "malta",
-  "mauritius",
-  "singapore",
+const MICRO_STATES: Array<{
+  slug: string;
+  name: string;
+  lonLat: [number, number];
+  /**
+   * Pixel offset applied after projection. Hong Kong and Macau are 60km apart,
+   * which lands their markers on top of each other at this scale — the standard
+   * cartographic fix is to displace one rather than hide it.
+   */
+  nudge?: [number, number];
+}> = [
+  { slug: "singapore", name: "Singapore", lonLat: [103.82, 1.35] },
+  { slug: "hong_kong", name: "Hong Kong", lonLat: [114.17, 22.32], nudge: [5, -4] },
+  { slug: "macau", name: "Macau", lonLat: [113.54, 22.2], nudge: [-5, 5] },
+  { slug: "malta", name: "Malta", lonLat: [14.38, 35.9] },
+  { slug: "bahrain", name: "Bahrain", lonLat: [50.55, 26.07] },
+  { slug: "mauritius", name: "Mauritius", lonLat: [57.55, -20.35] },
 ];
 
 const slugify = (name: string): string =>
@@ -83,7 +96,18 @@ export interface MapShape {
 const round = (d: string | null): string =>
   d ? d.replace(/-?\d+\.\d+/g, (n) => String(Math.round(Number(n) * 10) / 10)) : "";
 
-export function buildMapShapes(knownSlugs: Set<string>): MapShape[] {
+export interface MapMarker {
+  slug: string;
+  name: string;
+  /** Centre of the marker in the same viewBox as the shapes. */
+  x: number;
+  y: number;
+}
+
+export function buildMapShapes(knownSlugs: Set<string>): {
+  shapes: MapShape[];
+  markers: MapMarker[];
+} {
   const topology = atlas as unknown as Topology;
   const collection = feature(
     topology,
@@ -118,5 +142,23 @@ export function buildMapShapes(knownSlugs: Set<string>): MapShape[] {
     shapes.push({ slug: knownSlugs.has(slug) ? slug : null, name, d });
   }
 
-  return shapes;
+  const markers: MapMarker[] = [];
+
+  for (const state of MICRO_STATES) {
+    if (!knownSlugs.has(state.slug)) continue;
+
+    const point = projection(state.lonLat);
+    if (!point) continue;
+
+    const [dx, dy] = state.nudge ?? [0, 0];
+
+    markers.push({
+      slug: state.slug,
+      name: state.name,
+      x: Math.round((point[0] + dx) * 10) / 10,
+      y: Math.round((point[1] + dy) * 10) / 10,
+    });
+  }
+
+  return { shapes, markers };
 }

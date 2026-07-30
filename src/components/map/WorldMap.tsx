@@ -22,6 +22,12 @@ interface HoverState {
   y: number;
 }
 
+/** Past this the tooltip is flipped to the left of the cursor so it stays on screen. */
+const FLIP_AT = 66;
+
+/** Radius of a micro-state marker, in viewBox units. */
+const MARKER_RADIUS = 4;
+
 /**
  * Choropleth of GitHub users per country.
  *
@@ -39,6 +45,32 @@ const WorldMap = ({ countries }: { countries: CountryStatsEntry[] }) => {
     () => new Map(countries.map((entry) => [entry.slug, entry])),
     [countries]
   );
+
+  /** Shared by the polygons and the micro-state markers. */
+  const interactions = (entry: CountryStatsEntry) => ({
+    tabIndex: 0,
+    role: "link",
+    "aria-label": `${entry.title}: ${full(entry.totalUsers)} GitHub users`,
+    onMouseMove: (event: React.MouseEvent<SVGElement>) => {
+      const box = event.currentTarget.ownerSVGElement?.getBoundingClientRect();
+      if (!box) return;
+      setHover({
+        entry,
+        x: ((event.clientX - box.left) / box.width) * 100,
+        y: ((event.clientY - box.top) / box.height) * 100,
+      });
+    },
+    onMouseLeave: () => setHover(null),
+    onFocus: () => setHover({ entry, x: 50, y: 50 }),
+    onBlur: () => setHover(null),
+    onClick: () => router.push(`/${entry.slug}`),
+    onKeyDown: (event: React.KeyboardEvent<SVGElement>) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        router.push(`/${entry.slug}`);
+      }
+    },
+  });
 
   return (
     <figure className={styles.figure}>
@@ -69,28 +101,26 @@ const WorldMap = ({ countries }: { countries: CountryStatsEntry[] }) => {
                 d={shape.d}
                 fill={fillFor(entry.totalUsers)}
                 className={`${styles.shape} ${styles.interactive}`}
-                tabIndex={0}
-                role="link"
-                aria-label={`${entry.title}: ${full(entry.totalUsers)} GitHub users`}
-                onMouseMove={(event) => {
-                  const box = event.currentTarget.ownerSVGElement?.getBoundingClientRect();
-                  if (!box) return;
-                  setHover({
-                    entry,
-                    x: ((event.clientX - box.left) / box.width) * 100,
-                    y: ((event.clientY - box.top) / box.height) * 100,
-                  });
-                }}
-                onMouseLeave={() => setHover(null)}
-                onFocus={() => setHover({ entry, x: 50, y: 50 })}
-                onBlur={() => setHover(null)}
-                onClick={() => router.push(`/${entry.slug}`)}
-                onKeyDown={(event) => {
-                  if (event.key === "Enter" || event.key === " ") {
-                    event.preventDefault();
-                    router.push(`/${entry.slug}`);
-                  }
-                }}
+                {...interactions(entry)}
+              />
+            );
+          })}
+
+          {/* City-states with no polygon at this atlas resolution. A ring makes
+              them read as deliberate markers rather than stray dots. */}
+          {map.markers.map((marker) => {
+            const entry = bySlug.get(marker.slug);
+            if (!entry) return null;
+
+            return (
+              <circle
+                key={marker.slug}
+                cx={marker.x}
+                cy={marker.y}
+                r={MARKER_RADIUS}
+                fill={fillFor(entry.totalUsers)}
+                className={`${styles.marker} ${styles.interactive}`}
+                {...interactions(entry)}
               />
             );
           })}
@@ -98,7 +128,7 @@ const WorldMap = ({ countries }: { countries: CountryStatsEntry[] }) => {
 
         {hover && (
           <div
-            className={styles.tooltip}
+            className={`${styles.tooltip} ${hover.x > FLIP_AT ? styles.tooltipFlipped : ""}`}
             style={{ left: `${hover.x}%`, top: `${hover.y}%` }}
             aria-hidden
           >

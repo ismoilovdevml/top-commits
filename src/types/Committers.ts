@@ -60,11 +60,21 @@ export interface MapShape {
   d: string;
 }
 
+/** A leaderboard too small to have a polygon at this atlas resolution. */
+export interface MapMarker {
+  slug: string;
+  name: string;
+  /** Centre of the marker, in the same viewBox as the shapes. */
+  x: number;
+  y: number;
+}
+
 /** `src/data/world-map.json`. */
 export interface WorldMap {
   width: number;
   height: number;
   shapes: MapShape[];
+  markers: MapMarker[];
 }
 
 /** One entry of `src/data/countries.json`. */

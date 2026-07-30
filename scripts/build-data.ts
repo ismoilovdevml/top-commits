@@ -215,16 +215,25 @@ async function buildStats(countries: Country[]): Promise<void> {
 }
 
 async function buildWorldMap(countries: Country[]): Promise<void> {
-  const shapes = buildMapShapes(new Set(countries.map((country) => country.slug)));
-  const mapped = new Set(shapes.map((shape) => shape.slug).filter(Boolean));
-  const missing = countries.filter((country) => !mapped.has(country.slug));
+  const { shapes, markers } = buildMapShapes(
+    new Set(countries.map((country) => country.slug))
+  );
 
-  const payload: WorldMap = { width: MAP_WIDTH, height: MAP_HEIGHT, shapes };
+  const drawn = new Set([
+    ...shapes.map((shape) => shape.slug).filter(Boolean),
+    ...markers.map((marker) => marker.slug),
+  ]);
+  // Anything left here is a leaderboard the reader cannot reach from the map.
+  const missing = countries.filter(
+    (country) => !drawn.has(country.slug) && country.slug !== "worldwide"
+  );
+
+  const payload: WorldMap = { width: MAP_WIDTH, height: MAP_HEIGHT, shapes, markers };
 
   await writeFile(WORLD_MAP_PATH, `${JSON.stringify(payload)}\n`, "utf8");
   console.log(
-    `  wrote ${shapes.length} shapes, ${mapped.size} linked to a leaderboard` +
-      (missing.length ? ` (no shape: ${missing.map((c) => c.slug).join(", ")})` : "")
+    `  wrote ${shapes.length} shapes + ${markers.length} markers, ${drawn.size} linked to a leaderboard` +
+      (missing.length ? ` (unreachable: ${missing.map((c) => c.slug).join(", ")})` : "")
   );
 }
 

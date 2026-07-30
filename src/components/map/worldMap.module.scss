@@ -38,6 +38,12 @@
   }
 }
 
+.marker {
+  stroke: var(--white-text);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
 .tooltip {
   position: absolute;
   /* Sits above-right of the cursor and never intercepts it. */
@@ -49,6 +55,11 @@
   padding: 10px 12px;
   min-width: 180px;
   z-index: 2;
+}
+
+/* Near the right edge the default offset would push the box off the map. */
+.tooltipFlipped {
+  transform: translate(calc(-100% - 12px), -100%);
 }
 
 .tooltipTitle {
