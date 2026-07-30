@@ -4,8 +4,15 @@ export const COUNTRY = "uzbekistan";
 
 const BASE_URL = "https://committers.top";
 
-/** A page returning fewer rows than this means the source changed or is broken. */
-const MIN_EXPECTED_USERS = 50;
+/**
+ * Proof that we fetched an intact ranking page.
+ *
+ * A row-count floor cannot do this job: South Sudan legitimately ranks 34 users,
+ * so any threshold high enough to catch a layout change also rejects real
+ * countries. The table header is structural — it is there whether the country
+ * ranks 300 people or three.
+ */
+const LAYOUT_MARKER = /<table class="users-list">/;
 
 /**
  * One row of the ranking table on committers.top. The markup is stable:
@@ -75,15 +82,13 @@ async function fetchText(url: string): Promise<string> {
 
 async function fetchRanking(country: string, userType: UserType): Promise<User[]> {
   const url = `${BASE_URL}/${country}_${userType}`;
-  const users = parseRankingPage(await fetchText(url));
+  const html = await fetchText(url);
 
-  if (users.length < MIN_EXPECTED_USERS) {
-    throw new Error(
-      `Parsed only ${users.length} users from ${url}; the page layout likely changed.`
-    );
+  if (!LAYOUT_MARKER.test(html)) {
+    throw new Error(`No ranking table on ${url}; the page layout likely changed.`);
   }
 
-  return users;
+  return parseRankingPage(html);
 }
 
 /** The machine-readable endpoint carries the display name and the as-of stamp. */

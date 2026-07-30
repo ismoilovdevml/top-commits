@@ -161,7 +161,12 @@ const Leaderboard = ({ country, path, commiters }: LeaderboardProps) => {
               : `${filteredUsers.length} of ${source.length} committers`}
           </p>
 
-          {filteredUsers.length === 0 ? (
+          {source.length === 0 ? (
+            <p className={styles.empty}>
+              {country.title} has no ranked committers yet — nobody there clears the
+              follower threshold this ranking requires.
+            </p>
+          ) : filteredUsers.length === 0 ? (
             <p className={styles.empty}>
               No committer matches these filters.{" "}
               <button
