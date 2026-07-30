@@ -1,4 +1,3 @@
-import Head from "next/head";
 import styles from "../styles/home.module.scss";
 import HeroTitle from "@/components/heroTitle/HeroTitle";
 import Card from "@/components/card/Card";
@@ -11,45 +10,33 @@ import {
   withEnrichment,
 } from "@/lib/committers";
 import snapshot from "@/data/committers.json";
-import { useCallback, useContext, useEffect, useState } from "react";
+import { useContext, useMemo } from "react";
 import { SearchContext } from "@/components/context/SearchContext";
 
-import { NextSeo } from "next-seo";
+import Seo, { SITE_URL } from "@/components/seo/Seo";
 
 export default function Home({ commiters }: { commiters: ICommiters }) {
-  const [filteredUsers, setFilteredUsers] = useState<User[]>(commiters.public);
   const generatedDate = new Date(commiters.generated);
   const searchTerms = useContext(SearchContext);
 
-  const filterUsers = useCallback(
-    () =>
-      setFilteredUsers(
-        commiters[searchTerms.userType].filter((user) =>
-          user.login.includes(searchTerms.filterText.toLocaleLowerCase())
-        )
-      ),
-    [commiters, searchTerms]
-  );
-  useEffect(() => {
-    filterUsers();
-  }, [searchTerms, filterUsers]);
+  // Derived from props + context rather than mirrored into state, so a keystroke
+  // costs one render instead of two.
+  const filteredUsers = useMemo(() => {
+    const query = searchTerms.filterText.toLocaleLowerCase();
+
+    return commiters[searchTerms.userType].filter((user) =>
+      user.login.toLocaleLowerCase().includes(query)
+    );
+  }, [commiters, searchTerms]);
 
   return (
     <>
-      <Head>
-        <title>Top github contributors in uzbekistan</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        <NextSeo
-          title="Top github contributors in uzbekistan"
-          description="The most active github users in uzbekistan."
-          openGraph={{
-            url: "https://topgithubusers.vercel.app/",
-            title: "Top github contributors in uzbekistan",
-            description: "The most active github users in uzbekistan.",
-          }}
-        />
-      </Head>
+      <Seo
+        title="Top GitHub contributors in Uzbekistan"
+        description="The most active GitHub users in Uzbekistan."
+        path="/"
+        image={`${SITE_URL}/banner.png`}
+      />
       <main className="container">
         <HeroTitle />
         <section>

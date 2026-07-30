@@ -1,6 +1,10 @@
-# tsx ships esbuild, whose postinstall unpacks the platform binary — without
-# this pnpm 10+ refuses to run the install script and `pnpm data:build` fails.
 allowBuilds:
   '@parcel/watcher': false
   esbuild: true
+  sharp: true
   unrs-resolver: false
+minimumReleaseAgeExclude:
+  - next-seo@7.3.0
+overrides:
+  '@types/react': 19.2.17
+  '@types/react-dom': 19.2.3

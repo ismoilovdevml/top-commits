@@ -4,14 +4,10 @@ import styles from "./heroTitle.module.scss";
 
 const HeroTitle = () => {
   const [activeTextIntex, setActiveTextIndex] = useState<number>(0);
-  const textAnim = (): NodeJS.Timer => {
-    return setInterval(() => {
-      setActiveTextIndex((prev) => (prev === 2 ? 0 : ++prev));
-    }, 4000);
-  };
-
   useEffect(() => {
-    const interval: NodeJS.Timer = textAnim();
+    const interval = setInterval(() => {
+      setActiveTextIndex((prev) => (prev === 2 ? 0 : prev + 1));
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);

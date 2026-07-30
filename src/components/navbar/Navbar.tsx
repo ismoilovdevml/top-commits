@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const scrollHandler = (e: Event) => {
+    const scrollHandler = () => {
       if (window.scrollY < 70) return;
       if (lastScrollPosition.current > window.scrollY) {
         lastScrollPosition.current = window.scrollY + 1;
@@ -27,9 +27,9 @@ const Navbar = () => {
         setNavIsVisible(false);
       }
     };
-    window.addEventListener("scroll", scrollHandler);
+    window.addEventListener("scroll", scrollHandler, { passive: true });
 
-    () => window.removeEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
   }, []);
 
   return (
