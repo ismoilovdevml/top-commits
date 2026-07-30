@@ -86,14 +86,14 @@ async function fetchRanking(country: string, userType: UserType): Promise<User[]
   return users;
 }
 
-/** `data_asof` is the only field we need from the machine-readable endpoint. */
-async function fetchDataAsOf(country: string): Promise<string> {
+/** The machine-readable endpoint carries the display name and the as-of stamp. */
+async function fetchMetadata(country: string): Promise<{ title: string; dataAsOf: string }> {
   const raw = await fetchText(`${BASE_URL}/rank_only/${country}.json`);
-  const asOf = (JSON.parse(raw) as { data_asof?: string }).data_asof;
+  const payload = JSON.parse(raw) as { title?: string; data_asof?: string };
 
-  if (!asOf) throw new Error("rank_only payload has no data_asof field");
+  if (!payload.data_asof) throw new Error("rank_only payload has no data_asof field");
 
-  return asOf;
+  return { title: payload.title ?? country, dataAsOf: payload.data_asof };
 }
 
 /**
@@ -106,13 +106,39 @@ async function fetchDataAsOf(country: string): Promise<string> {
 export async function fetchLiveSnapshot(
   country = COUNTRY
 ): Promise<Omit<CommittersSnapshot, "fetchedAt">> {
-  const [dataAsOf, publicUsers, privateUsers] = await Promise.all([
-    fetchDataAsOf(country),
+  const [metadata, publicUsers, privateUsers] = await Promise.all([
+    fetchMetadata(country),
     fetchRanking(country, "public"),
     fetchRanking(country, "private"),
   ]);
 
-  return { country, dataAsOf, public: publicUsers, private: privateUsers };
+  return {
+    country,
+    title: metadata.title,
+    dataAsOf: metadata.dataAsOf,
+    public: publicUsers,
+    private: privateUsers,
+  };
+}
+
+/** Scrapes the country index so the switcher and `getStaticPaths` stay in sync with the source. */
+export async function fetchCountryIndex(): Promise<Array<{ slug: string; title: string }>> {
+  const html = await fetchText(`${BASE_URL}/`);
+  const pattern = /<a href="([a-z_]+)">([^<]+)<\/a>/g;
+  const seen = new Map<string, string>();
+  let match: RegExpExecArray | null;
+
+  while ((match = pattern.exec(html)) !== null) {
+    const [, slug, title] = match;
+    if (slug.endsWith("_public") || slug.endsWith("_private")) continue;
+    seen.set(slug, decodeEntities(title));
+  }
+
+  if (seen.size < 100) {
+    throw new Error(`Parsed only ${seen.size} countries; the index layout likely changed.`);
+  }
+
+  return [...seen].map(([slug, title]) => ({ slug, title }));
 }
 
 /** Copies company/organizations from a previous snapshot onto freshly fetched rows. */

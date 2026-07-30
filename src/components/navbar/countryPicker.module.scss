@@ -1,0 +1,68 @@
+/* Mirrors the .searchBar styling in navbar.module.scss so the two controls read
+   as one group. */
+.picker {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background-color: var(--gray-100);
+  padding: 10px;
+  min-width: 170px;
+  color: var(--white-text);
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+  &::placeholder {
+    color: var(--white-text);
+    opacity: 1;
+  }
+
+  &:focus {
+    box-shadow: rgba(0, 119, 255, 0.745) 0px 0px 0px 4px;
+  }
+}
+
+.results {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 100%;
+  max-height: 320px;
+  overflow-y: auto;
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  border-radius: 5px;
+  padding: 4px;
+  z-index: 3;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  white-space: nowrap;
+  padding: 8px 10px;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  color: var(--primary-text);
+  font-family: inherit;
+  font-size: 15px;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--gray-300);
+    color: var(--white-text);
+  }
+}
+
+.resultActive {
+  color: var(--white-text);
+}
