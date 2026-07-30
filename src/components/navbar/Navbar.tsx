@@ -1,9 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import styles from "./navbar.module.scss";
 import { useContext, useEffect, useRef, useState } from "react";
 import { SearchContext } from "../context/SearchContext";
+import CountryPicker from "./CountryPicker";
+import { DEFAULT_COUNTRY } from "@/lib/countries";
 
 const Navbar = () => {
+  const router = useRouter();
+  // Reading the route keeps the picker in sync without threading page props
+  // through _app and Layout.
+  const currentCountry =
+    typeof router.query.country === "string" ? router.query.country : DEFAULT_COUNTRY;
+
   const [active, setActive] = useState<boolean>(false);
   const [navIsVisible, setNavIsVisible] = useState<boolean>(true);
   const lastScrollPosition = useRef<number>(0);
@@ -36,8 +46,13 @@ const Navbar = () => {
     <nav className={`${styles.nav} ${!navIsVisible && styles.hide}`}>
       <div className="container">
         <div className={styles.navInner}>
-          <Image src={"/static/logo.svg"} alt="logo" height={70} width={80} />
+          <Link href="/" aria-label="Home">
+            <Image src={"/static/logo.svg"} alt="logo" height={70} width={80} />
+          </Link>
           <ul className={`${styles.filterWrapper} ${active && styles.active}`}>
+            <li>
+              <CountryPicker current={currentCountry} />
+            </li>
             <li>
               <div className={styles.searchBar}>
                 <input

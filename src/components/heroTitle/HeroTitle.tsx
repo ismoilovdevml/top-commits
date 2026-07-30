@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import styles from "./heroTitle.module.scss";
+import type { Country } from "@/types/Committers";
 
-const HeroTitle = () => {
+const HeroTitle = ({ country }: { country: Country }) => {
   const [activeTextIntex, setActiveTextIndex] = useState<number>(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -38,13 +38,12 @@ const HeroTitle = () => {
           </span>
         </span>{" "}
         <span className={styles.heroTitleSmall}>
-          in Uzbekistan{" "}
-          <Image
-            src="/static/uzb-flag.png"
-            alt="uzbekistan flag"
-            height={40}
-            width={40}
-          />
+          in {country.title}{" "}
+          {country.flag && (
+            <span className={styles.flag} role="img" aria-label={`${country.title} flag`}>
+              {country.flag}
+            </span>
+          )}
         </span>
       </h1>
     </div>

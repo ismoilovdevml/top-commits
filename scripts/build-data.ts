@@ -1,5 +1,6 @@
 /**
- * Regenerates `src/data/committers.json`.
+ * Regenerates `src/data/countries.json` and one `src/data/committers/<slug>.json`
+ * per prerendered country.
  *
  * Ranking + contribution counts come from committers.top, which recomputes them
  * every few days. `company` and `organizations` are not on those pages, so they
@@ -9,13 +10,22 @@
  *
  * Usage: pnpm data:build
  */
-import { writeFile, readFile } from "node:fs/promises";
+import { mkdir, writeFile, readFile } from "node:fs/promises";
 import path from "node:path";
 
-import { COUNTRY, fetchLiveSnapshot, indexByLogin, withEnrichment } from "../src/lib/committers";
-import type { CommittersSnapshot, User } from "../src/types/Committers";
+import {
+  fetchCountryIndex,
+  fetchLiveSnapshot,
+  indexByLogin,
+  withEnrichment,
+} from "../src/lib/committers";
+import { PRERENDERED_COUNTRIES } from "../src/lib/countries.config";
+import type { CommittersSnapshot, Country, User } from "../src/types/Committers";
+import { flagFor } from "./flags";
 
-const OUTPUT_PATH = path.join(process.cwd(), "src/data/committers.json");
+const DATA_DIR = path.join(process.cwd(), "src/data");
+const SNAPSHOT_DIR = path.join(DATA_DIR, "committers");
+const COUNTRY_INDEX_PATH = path.join(DATA_DIR, "countries.json");
 const GRAPHQL_URL = "https://api.github.com/graphql";
 
 /** GitHub rejects aliased queries that grow much past this. */
@@ -27,6 +37,8 @@ interface ProfileFields {
 }
 
 const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN ?? "";
+
+const snapshotPath = (slug: string): string => path.join(SNAPSHOT_DIR, `${slug}.json`);
 
 /**
  * GraphQL aliases let us ask for many users in one request. A login that no
@@ -79,7 +91,7 @@ async function fetchProfiles(logins: string[]): Promise<Map<string, ProfileField
     for (const [login, profile] of await fetchProfileBatch(batch)) {
       profiles.set(login, profile);
     }
-    console.log(`  enriched ${Math.min(offset + BATCH_SIZE, logins.length)}/${logins.length}`);
+    console.log(`    enriched ${Math.min(offset + BATCH_SIZE, logins.length)}/${logins.length}`);
   }
 
   return profiles;
@@ -98,17 +110,34 @@ function applyProfiles(users: User[], profiles: Map<string, ProfileFields>): Use
   });
 }
 
-async function readPreviousSnapshot(): Promise<CommittersSnapshot | null> {
+async function readPreviousSnapshot(slug: string): Promise<CommittersSnapshot | null> {
   try {
-    return JSON.parse(await readFile(OUTPUT_PATH, "utf8")) as CommittersSnapshot;
+    return JSON.parse(await readFile(snapshotPath(slug), "utf8")) as CommittersSnapshot;
   } catch {
     return null;
   }
 }
 
-async function main(): Promise<void> {
-  console.log(`Fetching ranking for ${COUNTRY}…`);
-  const live = await fetchLiveSnapshot(COUNTRY);
+async function buildCountryIndex(): Promise<void> {
+  const countries = await fetchCountryIndex();
+  const index: Country[] = countries
+    .map(({ slug, title }) => ({ slug, title, flag: flagFor(slug) }))
+    .sort((a, b) => a.title.localeCompare(b.title));
+
+  const unflagged = index.filter((country) => !country.flag);
+  if (unflagged.length) {
+    console.warn(
+      `  ${unflagged.length} countries have no flag: ${unflagged.map((c) => c.slug).join(", ")}`
+    );
+  }
+
+  await writeFile(COUNTRY_INDEX_PATH, `${JSON.stringify(index, null, 2)}\n`, "utf8");
+  console.log(`  wrote ${index.length} countries to ${COUNTRY_INDEX_PATH}`);
+}
+
+async function buildSnapshot(slug: string): Promise<void> {
+  console.log(`\n${slug}`);
+  const live = await fetchLiveSnapshot(slug);
   console.log(`  public: ${live.public.length}, private: ${live.private.length}`);
   console.log(`  data as of ${live.dataAsOf}`);
 
@@ -117,13 +146,12 @@ async function main(): Promise<void> {
 
   if (token) {
     const logins = [...new Set([...publicUsers, ...privateUsers].map((user) => user.login))];
-    console.log(`Enriching ${logins.length} profiles via GraphQL…`);
+    console.log(`  enriching ${logins.length} profiles via GraphQL…`);
     const profiles = await fetchProfiles(logins);
     publicUsers = applyProfiles(publicUsers, profiles);
     privateUsers = applyProfiles(privateUsers, profiles);
   } else {
-    console.warn("GITHUB_TOKEN is not set — reusing company/organizations from the previous snapshot.");
-    const previous = await readPreviousSnapshot();
+    const previous = await readPreviousSnapshot(slug);
     if (previous) {
       const known = indexByLogin(previous);
       publicUsers = withEnrichment(publicUsers, known);
@@ -132,15 +160,35 @@ async function main(): Promise<void> {
   }
 
   const snapshot: CommittersSnapshot = {
-    country: COUNTRY,
+    country: slug,
+    title: live.title,
     dataAsOf: live.dataAsOf,
     fetchedAt: new Date().toISOString(),
     public: publicUsers,
     private: privateUsers,
   };
 
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
-  console.log(`Wrote ${OUTPUT_PATH}`);
+  await writeFile(snapshotPath(slug), `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
+  console.log(`  wrote ${snapshotPath(slug)}`);
+}
+
+async function main(): Promise<void> {
+  await mkdir(SNAPSHOT_DIR, { recursive: true });
+
+  if (!token) {
+    console.warn(
+      "GITHUB_TOKEN is not set — reusing company/organizations from the previous snapshots."
+    );
+  }
+
+  console.log("Building country index…");
+  await buildCountryIndex();
+
+  // Sequential on purpose: the GraphQL calls already saturate the rate limit,
+  // and a failure here should name the country it happened on.
+  for (const slug of PRERENDERED_COUNTRIES) {
+    await buildSnapshot(slug);
+  }
 }
 
 main().catch((error) => {

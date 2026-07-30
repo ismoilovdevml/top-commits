@@ -1,0 +1,757 @@
+[
+  {
+    "slug": "afghanistan",
+    "title": "Afghanistan",
+    "flag": "🇦🇫"
+  },
+  {
+    "slug": "albania",
+    "title": "Albania",
+    "flag": "🇦🇱"
+  },
+  {
+    "slug": "algeria",
+    "title": "Algeria",
+    "flag": "🇩🇿"
+  },
+  {
+    "slug": "angola",
+    "title": "Angola",
+    "flag": "🇦🇴"
+  },
+  {
+    "slug": "argentina",
+    "title": "Argentina",
+    "flag": "🇦🇷"
+  },
+  {
+    "slug": "armenia",
+    "title": "Armenia",
+    "flag": "🇦🇲"
+  },
+  {
+    "slug": "australia",
+    "title": "Australia",
+    "flag": "🇦🇺"
+  },
+  {
+    "slug": "austria",
+    "title": "Austria",
+    "flag": "🇦🇹"
+  },
+  {
+    "slug": "azerbaijan",
+    "title": "Azerbaijan",
+    "flag": "🇦🇿"
+  },
+  {
+    "slug": "bahrain",
+    "title": "Bahrain",
+    "flag": "🇧🇭"
+  },
+  {
+    "slug": "bangladesh",
+    "title": "Bangladesh",
+    "flag": "🇧🇩"
+  },
+  {
+    "slug": "belarus",
+    "title": "Belarus",
+    "flag": "🇧🇾"
+  },
+  {
+    "slug": "belgium",
+    "title": "Belgium",
+    "flag": "🇧🇪"
+  },
+  {
+    "slug": "benin",
+    "title": "Benin",
+    "flag": "🇧🇯"
+  },
+  {
+    "slug": "bolivia",
+    "title": "Bolivia",
+    "flag": "🇧🇴"
+  },
+  {
+    "slug": "bosnia_and_herzegovina",
+    "title": "Bosnia and Herzegovina",
+    "flag": "🇧🇦"
+  },
+  {
+    "slug": "botswana",
+    "title": "Botswana",
+    "flag": "🇧🇼"
+  },
+  {
+    "slug": "brazil",
+    "title": "Brazil",
+    "flag": "🇧🇷"
+  },
+  {
+    "slug": "bulgaria",
+    "title": "Bulgaria",
+    "flag": "🇧🇬"
+  },
+  {
+    "slug": "burkina_faso",
+    "title": "Burkina Faso",
+    "flag": "🇧🇫"
+  },
+  {
+    "slug": "burundi",
+    "title": "Burundi",
+    "flag": "🇧🇮"
+  },
+  {
+    "slug": "cambodia",
+    "title": "Cambodia",
+    "flag": "🇰🇭"
+  },
+  {
+    "slug": "cameroon",
+    "title": "Cameroon",
+    "flag": "🇨🇲"
+  },
+  {
+    "slug": "canada",
+    "title": "Canada",
+    "flag": "🇨🇦"
+  },
+  {
+    "slug": "chad",
+    "title": "Chad",
+    "flag": "🇹🇩"
+  },
+  {
+    "slug": "chile",
+    "title": "Chile",
+    "flag": "🇨🇱"
+  },
+  {
+    "slug": "china",
+    "title": "China",
+    "flag": "🇨🇳"
+  },
+  {
+    "slug": "colombia",
+    "title": "Colombia",
+    "flag": "🇨🇴"
+  },
+  {
+    "slug": "costa_rica",
+    "title": "Costa Rica",
+    "flag": "🇨🇷"
+  },
+  {
+    "slug": "croatia",
+    "title": "Croatia",
+    "flag": "🇭🇷"
+  },
+  {
+    "slug": "cuba",
+    "title": "Cuba",
+    "flag": "🇨🇺"
+  },
+  {
+    "slug": "cyprus",
+    "title": "Cyprus",
+    "flag": "🇨🇾"
+  },
+  {
+    "slug": "czech_republic",
+    "title": "Czech Republic",
+    "flag": "🇨🇿"
+  },
+  {
+    "slug": "congo_kinshasa",
+    "title": "Democratic Republic of the Congo",
+    "flag": "🇨🇩"
+  },
+  {
+    "slug": "denmark",
+    "title": "Denmark",
+    "flag": "🇩🇰"
+  },
+  {
+    "slug": "dominican_republic",
+    "title": "Dominican Republic",
+    "flag": "🇩🇴"
+  },
+  {
+    "slug": "ecuador",
+    "title": "Ecuador",
+    "flag": "🇪🇨"
+  },
+  {
+    "slug": "egypt",
+    "title": "Egypt",
+    "flag": "🇪🇬"
+  },
+  {
+    "slug": "el_salvador",
+    "title": "El Salvador",
+    "flag": "🇸🇻"
+  },
+  {
+    "slug": "estonia",
+    "title": "Estonia",
+    "flag": "🇪🇪"
+  },
+  {
+    "slug": "ethiopia",
+    "title": "Ethiopia",
+    "flag": "🇪🇹"
+  },
+  {
+    "slug": "finland",
+    "title": "Finland",
+    "flag": "🇫🇮"
+  },
+  {
+    "slug": "france",
+    "title": "France",
+    "flag": "🇫🇷"
+  },
+  {
+    "slug": "gabon",
+    "title": "Gabon",
+    "flag": "🇬🇦"
+  },
+  {
+    "slug": "georgia",
+    "title": "Georgia",
+    "flag": "🇬🇪"
+  },
+  {
+    "slug": "germany",
+    "title": "Germany",
+    "flag": "🇩🇪"
+  },
+  {
+    "slug": "ghana",
+    "title": "Ghana",
+    "flag": "🇬🇭"
+  },
+  {
+    "slug": "greece",
+    "title": "Greece",
+    "flag": "🇬🇷"
+  },
+  {
+    "slug": "guatemala",
+    "title": "Guatemala",
+    "flag": "🇬🇹"
+  },
+  {
+    "slug": "guinea",
+    "title": "Guinea",
+    "flag": "🇬🇳"
+  },
+  {
+    "slug": "haiti",
+    "title": "Haiti",
+    "flag": "🇭🇹"
+  },
+  {
+    "slug": "honduras",
+    "title": "Honduras",
+    "flag": "🇭🇳"
+  },
+  {
+    "slug": "hong_kong",
+    "title": "Hong Kong",
+    "flag": "🇭🇰"
+  },
+  {
+    "slug": "hungary",
+    "title": "Hungary",
+    "flag": "🇭🇺"
+  },
+  {
+    "slug": "india",
+    "title": "India",
+    "flag": "🇮🇳"
+  },
+  {
+    "slug": "indonesia",
+    "title": "Indonesia",
+    "flag": "🇮🇩"
+  },
+  {
+    "slug": "iran",
+    "title": "Iran",
+    "flag": "🇮🇷"
+  },
+  {
+    "slug": "iraq",
+    "title": "Iraq",
+    "flag": "🇮🇶"
+  },
+  {
+    "slug": "ireland",
+    "title": "Ireland",
+    "flag": "🇮🇪"
+  },
+  {
+    "slug": "israel",
+    "title": "Israel",
+    "flag": "🇮🇱"
+  },
+  {
+    "slug": "italy",
+    "title": "Italy",
+    "flag": "🇮🇹"
+  },
+  {
+    "slug": "ivory_coast",
+    "title": "Ivory Coast",
+    "flag": "🇨🇮"
+  },
+  {
+    "slug": "japan",
+    "title": "Japan",
+    "flag": "🇯🇵"
+  },
+  {
+    "slug": "jordan",
+    "title": "Jordan",
+    "flag": "🇯🇴"
+  },
+  {
+    "slug": "kazakhstan",
+    "title": "Kazakhstan",
+    "flag": "🇰🇿"
+  },
+  {
+    "slug": "kenya",
+    "title": "Kenya",
+    "flag": "🇰🇪"
+  },
+  {
+    "slug": "kosovo",
+    "title": "Kosovo",
+    "flag": "🇽🇰"
+  },
+  {
+    "slug": "kurdistan",
+    "title": "Kurdistan",
+    "flag": "🏴"
+  },
+  {
+    "slug": "kyrgyzstan",
+    "title": "Kyrgyzstan",
+    "flag": "🇰🇬"
+  },
+  {
+    "slug": "laos",
+    "title": "Laos",
+    "flag": "🇱🇦"
+  },
+  {
+    "slug": "latvia",
+    "title": "Latvia",
+    "flag": "🇱🇻"
+  },
+  {
+    "slug": "lebanon",
+    "title": "Lebanon",
+    "flag": "🇱🇧"
+  },
+  {
+    "slug": "libya",
+    "title": "Libya",
+    "flag": "🇱🇾"
+  },
+  {
+    "slug": "lithuania",
+    "title": "Lithuania",
+    "flag": "🇱🇹"
+  },
+  {
+    "slug": "luxembourg",
+    "title": "Luxembourg",
+    "flag": "🇱🇺"
+  },
+  {
+    "slug": "macau",
+    "title": "Macau",
+    "flag": "🇲🇴"
+  },
+  {
+    "slug": "madagascar",
+    "title": "Madagascar",
+    "flag": "🇲🇬"
+  },
+  {
+    "slug": "malawi",
+    "title": "Malawi",
+    "flag": "🇲🇼"
+  },
+  {
+    "slug": "malaysia",
+    "title": "Malaysia",
+    "flag": "🇲🇾"
+  },
+  {
+    "slug": "mali",
+    "title": "Mali",
+    "flag": "🇲🇱"
+  },
+  {
+    "slug": "malta",
+    "title": "Malta",
+    "flag": "🇲🇹"
+  },
+  {
+    "slug": "mauritania",
+    "title": "Mauritania",
+    "flag": "🇲🇷"
+  },
+  {
+    "slug": "mauritius",
+    "title": "Mauritius",
+    "flag": "🇲🇺"
+  },
+  {
+    "slug": "mexico",
+    "title": "Mexico",
+    "flag": "🇲🇽"
+  },
+  {
+    "slug": "moldova",
+    "title": "Moldova",
+    "flag": "🇲🇩"
+  },
+  {
+    "slug": "morocco",
+    "title": "Morocco",
+    "flag": "🇲🇦"
+  },
+  {
+    "slug": "mozambique",
+    "title": "Mozambique",
+    "flag": "🇲🇿"
+  },
+  {
+    "slug": "myanmar",
+    "title": "Myanmar",
+    "flag": "🇲🇲"
+  },
+  {
+    "slug": "nepal",
+    "title": "Nepal",
+    "flag": "🇳🇵"
+  },
+  {
+    "slug": "netherlands",
+    "title": "Netherlands",
+    "flag": "🇳🇱"
+  },
+  {
+    "slug": "new_zealand",
+    "title": "New Zealand",
+    "flag": "🇳🇿"
+  },
+  {
+    "slug": "nicaragua",
+    "title": "Nicaragua",
+    "flag": "🇳🇮"
+  },
+  {
+    "slug": "niger",
+    "title": "Niger",
+    "flag": "🇳🇪"
+  },
+  {
+    "slug": "nigeria",
+    "title": "Nigeria",
+    "flag": "🇳🇬"
+  },
+  {
+    "slug": "macedonia",
+    "title": "North Macedonia",
+    "flag": "🇲🇰"
+  },
+  {
+    "slug": "norway",
+    "title": "Norway",
+    "flag": "🇳🇴"
+  },
+  {
+    "slug": "oman",
+    "title": "Oman",
+    "flag": "🇴🇲"
+  },
+  {
+    "slug": "pakistan",
+    "title": "Pakistan",
+    "flag": "🇵🇰"
+  },
+  {
+    "slug": "palestine",
+    "title": "Palestine",
+    "flag": "🇵🇸"
+  },
+  {
+    "slug": "panama",
+    "title": "Panama",
+    "flag": "🇵🇦"
+  },
+  {
+    "slug": "papua_new_guinea",
+    "title": "Papua New Guinea",
+    "flag": "🇵🇬"
+  },
+  {
+    "slug": "paraguay",
+    "title": "Paraguay",
+    "flag": "🇵🇾"
+  },
+  {
+    "slug": "peru",
+    "title": "Peru",
+    "flag": "🇵🇪"
+  },
+  {
+    "slug": "philippines",
+    "title": "Philippines",
+    "flag": "🇵🇭"
+  },
+  {
+    "slug": "poland",
+    "title": "Poland",
+    "flag": "🇵🇱"
+  },
+  {
+    "slug": "portugal",
+    "title": "Portugal",
+    "flag": "🇵🇹"
+  },
+  {
+    "slug": "qatar",
+    "title": "Qatar",
+    "flag": "🇶🇦"
+  },
+  {
+    "slug": "south_korea",
+    "title": "Republic of Korea",
+    "flag": "🇰🇷"
+  },
+  {
+    "slug": "congo_brazzaville",
+    "title": "Republic of the Congo",
+    "flag": "🇨🇬"
+  },
+  {
+    "slug": "romania",
+    "title": "Romania",
+    "flag": "🇷🇴"
+  },
+  {
+    "slug": "russia",
+    "title": "Russia",
+    "flag": "🇷🇺"
+  },
+  {
+    "slug": "rwanda",
+    "title": "Rwanda",
+    "flag": "🇷🇼"
+  },
+  {
+    "slug": "saudi_arabia",
+    "title": "Saudi Arabia",
+    "flag": "🇸🇦"
+  },
+  {
+    "slug": "senegal",
+    "title": "Senegal",
+    "flag": "🇸🇳"
+  },
+  {
+    "slug": "serbia",
+    "title": "Serbia",
+    "flag": "🇷🇸"
+  },
+  {
+    "slug": "sierra_leone",
+    "title": "Sierra Leone",
+    "flag": "🇸🇱"
+  },
+  {
+    "slug": "singapore",
+    "title": "Singapore",
+    "flag": "🇸🇬"
+  },
+  {
+    "slug": "slovakia",
+    "title": "Slovakia",
+    "flag": "🇸🇰"
+  },
+  {
+    "slug": "slovenia",
+    "title": "Slovenia",
+    "flag": "🇸🇮"
+  },
+  {
+    "slug": "somalia",
+    "title": "Somalia",
+    "flag": "🇸🇴"
+  },
+  {
+    "slug": "south_africa",
+    "title": "South Africa",
+    "flag": "🇿🇦"
+  },
+  {
+    "slug": "south_sudan",
+    "title": "South Sudan",
+    "flag": "🇸🇸"
+  },
+  {
+    "slug": "spain",
+    "title": "Spain",
+    "flag": "🇪🇸"
+  },
+  {
+    "slug": "sri_lanka",
+    "title": "Sri Lanka",
+    "flag": "🇱🇰"
+  },
+  {
+    "slug": "sudan",
+    "title": "Sudan",
+    "flag": "🇸🇩"
+  },
+  {
+    "slug": "suriname",
+    "title": "Suriname",
+    "flag": "🇸🇷"
+  },
+  {
+    "slug": "sweden",
+    "title": "Sweden",
+    "flag": "🇸🇪"
+  },
+  {
+    "slug": "switzerland",
+    "title": "Switzerland",
+    "flag": "🇨🇭"
+  },
+  {
+    "slug": "syria",
+    "title": "Syria",
+    "flag": "🇸🇾"
+  },
+  {
+    "slug": "taiwan",
+    "title": "Taiwan",
+    "flag": "🇹🇼"
+  },
+  {
+    "slug": "tajikistan",
+    "title": "Tajikistan",
+    "flag": "🇹🇯"
+  },
+  {
+    "slug": "tanzania",
+    "title": "Tanzania",
+    "flag": "🇹🇿"
+  },
+  {
+    "slug": "thailand",
+    "title": "Thailand",
+    "flag": "🇹🇭"
+  },
+  {
+    "slug": "the_bahamas",
+    "title": "The Bahamas",
+    "flag": "🇧🇸"
+  },
+  {
+    "slug": "togo",
+    "title": "Togo",
+    "flag": "🇹🇬"
+  },
+  {
+    "slug": "tunisia",
+    "title": "Tunisia",
+    "flag": "🇹🇳"
+  },
+  {
+    "slug": "turkey",
+    "title": "Turkey",
+    "flag": "🇹🇷"
+  },
+  {
+    "slug": "turkmenistan",
+    "title": "Turkmenistan",
+    "flag": "🇹🇲"
+  },
+  {
+    "slug": "uganda",
+    "title": "Uganda",
+    "flag": "🇺🇬"
+  },
+  {
+    "slug": "ukraine",
+    "title": "Ukraine",
+    "flag": "🇺🇦"
+  },
+  {
+    "slug": "uae",
+    "title": "United Arab Emirates",
+    "flag": "🇦🇪"
+  },
+  {
+    "slug": "uk",
+    "title": "United Kingdom",
+    "flag": "🇬🇧"
+  },
+  {
+    "slug": "united_states",
+    "title": "United States",
+    "flag": "🇺🇸"
+  },
+  {
+    "slug": "uruguay",
+    "title": "Uruguay",
+    "flag": "🇺🇾"
+  },
+  {
+    "slug": "uzbekistan",
+    "title": "Uzbekistan",
+    "flag": "🇺🇿"
+  },
+  {
+    "slug": "venezuela",
+    "title": "Venezuela",
+    "flag": "🇻🇪"
+  },
+  {
+    "slug": "vietnam",
+    "title": "Vietnam",
+    "flag": "🇻🇳"
+  },
+  {
+    "slug": "worldwide",
+    "title": "Worldwide",
+    "flag": "🌍"
+  },
+  {
+    "slug": "yemen",
+    "title": "Yemen",
+    "flag": "🇾🇪"
+  },
+  {
+    "slug": "zambia",
+    "title": "Zambia",
+    "flag": "🇿🇲"
+  },
+  {
+    "slug": "zimbabwe",
+    "title": "Zimbabwe",
+    "flag": "🇿🇼"
+  }
+]
