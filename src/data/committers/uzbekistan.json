@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-07-27 19:23:46 +0000",
-  "fetchedAt": "2026-07-30T16:41:53.107Z",
+  "fetchedAt": "2026-07-30T17:20:05.506Z",
   "public": [
     {
       "rank": 1,
@@ -1172,7 +1172,7 @@
       "contributions": 280,
       "avatarUrl": "https://avatars.githubusercontent.com/u/60962668?u=63f7dd043cc3f6408231414241f1ec5c0ca42fc5&v=4&s=200",
       "company": "FreightPOP",
-      "organizations": "rahmatapp"
+      "organizations": ""
     },
     {
       "rank": 131,
@@ -1658,7 +1658,7 @@
       "contributions": 165,
       "avatarUrl": "https://avatars.githubusercontent.com/u/107093598?u=4f1f2877ac8e5e5daad306c75cebf6ce0dd5406e&v=4&s=200",
       "company": "Ucell",
-      "organizations": "RaqamliAvlod, ArmadaMotors, sado-24, mdc-uz, ostackuz"
+      "organizations": "ostackuz"
     },
     {
       "rank": 185,
@@ -3667,7 +3667,7 @@
       "contributions": 1274,
       "avatarUrl": "https://avatars.githubusercontent.com/u/107093598?u=4f1f2877ac8e5e5daad306c75cebf6ce0dd5406e&v=4&s=200",
       "company": "Ucell",
-      "organizations": "RaqamliAvlod, ArmadaMotors, sado-24, mdc-uz, ostackuz"
+      "organizations": "ostackuz"
     },
     {
       "rank": 152,
