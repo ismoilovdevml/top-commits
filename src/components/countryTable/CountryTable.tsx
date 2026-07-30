@@ -22,16 +22,24 @@ const CountryTable = ({ countries }: { countries: CountryStatsEntry[] }) => {
   const [sort, setSort] = useState<SortKey>("totalUsers");
   const [expanded, setExpanded] = useState(false);
 
+  /**
+   * Rank is assigned over the whole list before filtering, so a search shows a
+   * country's real standing — filtering to Uzbekistan must read 62, not 1.
+   */
+  const ranked = useMemo(
+    () =>
+      [...countries]
+        .sort((a, b) => (sort === "title" ? a.title.localeCompare(b.title) : b[sort] - a[sort]))
+        .map((country, index) => ({ country, position: index + 1 })),
+    [countries, sort]
+  );
+
   const rows = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase();
-    const filtered = needle
-      ? countries.filter((country) => country.title.toLocaleLowerCase().includes(needle))
-      : countries;
+    if (!needle) return ranked;
 
-    return [...filtered].sort((a, b) =>
-      sort === "title" ? a.title.localeCompare(b.title) : b[sort] - a[sort]
-    );
-  }, [countries, query, sort]);
+    return ranked.filter((row) => row.country.title.toLocaleLowerCase().includes(needle));
+  }, [ranked, query]);
 
   // A search always shows every match; the cap only applies to the full list.
   const capped = expanded || query.trim() ? rows : rows.slice(0, INITIAL_ROWS);
@@ -91,9 +99,9 @@ const CountryTable = ({ countries }: { countries: CountryStatsEntry[] }) => {
               </tr>
             </thead>
             <tbody>
-              {capped.map((country, index) => (
+              {capped.map(({ country, position }) => (
                 <tr key={country.slug}>
-                  <td className={styles.numeric}>{index + 1}</td>
+                  <td className={styles.numeric}>{position}</td>
                   <th scope="row" className={styles.country}>
                     <span
                       className={styles.swatch}
