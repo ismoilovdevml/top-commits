@@ -14,8 +14,9 @@ automatically — a ranking is never more than a day behind its upstream source.
 
 ## Features
 
-- **A choropleth of where GitHub users are.** 143 countries drawn, shaded by user
-  count, hoverable and clickable through to each leaderboard.
+- **A choropleth of where GitHub users are.** 149 countries reachable, shaded by
+  user count, with zoom, drag-to-pan and click-through to each leaderboard.
+  Hovering a table row locates that country on the map, and vice versa.
 - **149 countries.** Central Asia is prerendered and snapshot-backed; every other
   country committers.top publishes renders on first request and is then cached.
 - **Two rankings.** `public` counts public contributions only; `private` also counts
@@ -223,6 +224,14 @@ import to [`src/lib/leaderboard-data.ts`](src/lib/leaderboard-data.ts), and reru
 `pnpm data:build`.
 
 ---
+
+## SEO
+
+`/sitemap.xml` and `/robots.txt` are routes rather than files in `public/`, so
+both follow `NEXT_PUBLIC_SITE_URL` — a hard-coded sitemap points at the old
+domain the day the site moves. The sitemap lists all 150 pages; without it a
+crawler would find one, since country pages are reachable only through the map
+and the table and most render on demand.
 
 ## Tech stack
 

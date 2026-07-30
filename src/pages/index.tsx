@@ -1,4 +1,5 @@
 import type { GetStaticProps } from "next";
+import { useState } from "react";
 
 import CountryTable from "@/components/countryTable/CountryTable";
 import WorldMap from "@/components/map/WorldMap";
@@ -27,6 +28,9 @@ export default function Home({
     month: "long",
     year: "numeric",
   });
+
+  // Shared so the map and the table can locate each other's rows.
+  const [highlighted, setHighlighted] = useState<string | null>(null);
 
   return (
     <>
@@ -77,14 +81,22 @@ export default function Home({
           <h2 id="map-heading" className={styles.sectionTitle}>
             Where GitHub users are
           </h2>
-          <WorldMap countries={countries} />
+          <WorldMap
+            countries={countries}
+            highlighted={highlighted}
+            onHighlight={setHighlighted}
+          />
         </section>
 
         <section className={styles.section} aria-labelledby="table-heading">
           <h2 id="table-heading" className={styles.sectionTitle}>
             Every country
           </h2>
-          <CountryTable countries={countries} />
+          <CountryTable
+            countries={countries}
+            highlighted={highlighted}
+            onHighlight={setHighlighted}
+          />
         </section>
       </main>
     </>

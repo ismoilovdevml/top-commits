@@ -17,7 +17,19 @@ const SORTS: Array<{ key: SortKey; label: string }> = [
 /** Rows rendered before the "show all" control appears. */
 const INITIAL_ROWS = 25;
 
-const CountryTable = ({ countries }: { countries: CountryStatsEntry[] }) => {
+interface CountryTableProps {
+  countries: CountryStatsEntry[];
+  /** Slug highlighted from elsewhere on the page, e.g. a hovered map shape. */
+  highlighted?: string | null;
+  /** Reports the hovered row so the map can light up the matching country. */
+  onHighlight?: (slug: string | null) => void;
+}
+
+const CountryTable = ({
+  countries,
+  highlighted = null,
+  onHighlight,
+}: CountryTableProps) => {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("totalUsers");
   const [expanded, setExpanded] = useState(false);
@@ -100,7 +112,14 @@ const CountryTable = ({ countries }: { countries: CountryStatsEntry[] }) => {
             </thead>
             <tbody>
               {capped.map(({ country, position }) => (
-                <tr key={country.slug}>
+                <tr
+                  key={country.slug}
+                  className={highlighted === country.slug ? styles.highlighted : ""}
+                  onMouseEnter={() => onHighlight?.(country.slug)}
+                  onMouseLeave={() => onHighlight?.(null)}
+                  onFocus={() => onHighlight?.(country.slug)}
+                  onBlur={() => onHighlight?.(null)}
+                >
                   <td className={styles.numeric}>{position}</td>
                   <th scope="row" className={styles.country}>
                     <span

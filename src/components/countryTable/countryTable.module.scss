@@ -155,3 +155,10 @@
     background: var(--gray-200);
   }
 }
+
+/* Mirrors the map's highlight so hovering either side locates the other. */
+.highlighted td,
+.highlighted th {
+  background-color: var(--gray-200);
+  color: var(--white-text);
+}

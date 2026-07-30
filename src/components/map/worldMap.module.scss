@@ -127,3 +127,61 @@
   height: 14px;
   border-radius: 3px;
 }
+
+/* --- Highlight, zoom and pan ---------------------------------------------- */
+
+/* Driven from the table so hovering a row locates the country on the map. */
+.highlighted {
+  filter: brightness(1.5);
+  stroke: var(--white-text);
+  stroke-width: 1.5;
+}
+
+.pannable {
+  cursor: grab;
+  touch-action: none;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.zoomControls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  button {
+    width: 32px;
+    height: 32px;
+    background: var(--gray-100);
+    border: 1px solid var(--gray-300);
+    border-radius: 6px;
+    color: var(--white-text);
+    font-size: 16px;
+    line-height: 1;
+
+    &:hover:not(:disabled) {
+      background: var(--gray-200);
+    }
+
+    &:focus-visible {
+      outline: 2px solid #01a6f8;
+      outline-offset: 2px;
+    }
+
+    &:disabled {
+      opacity: 0.35;
+      cursor: default;
+    }
+  }
+}
+
+.hint {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--primary-text);
+}
