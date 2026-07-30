@@ -1,4 +1,3 @@
-import SearchProvider from "@/components/context/SearchContext";
 import Layout from "@/components/layout/Layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
@@ -22,11 +21,9 @@ const space_grotesk = Space_Grotesk({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={`${inter.variable} ${space_grotesk.variable} appRoot`}>
-      <SearchProvider>
         <Layout>
           <Component {...pageProps} />
         </Layout>
-      </SearchProvider>
     </div>
   );
 }

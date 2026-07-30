@@ -1,0 +1,73 @@
+@import "./variables";
+
+.hero {
+  text-align: center;
+  padding: 3rem 0 1.5rem;
+}
+
+.title {
+  font-family: var(--font-space-grotesk);
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  color: var(--white-text);
+  line-height: 1.05;
+}
+
+.accent {
+  color: #01a6f8;
+  text-shadow: 0 0 10px #01a6f873;
+}
+
+.subtitle {
+  margin-top: 0.75rem;
+  color: var(--primary-text);
+  font-family: var(--font-space-grotesk);
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+
+  li {
+    background: var(--gray-100);
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+.statValue {
+  font-family: var(--font-space-grotesk);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  color: var(--white-text);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.statLabel {
+  color: var(--primary-text);
+  font-size: 0.9rem;
+}
+
+.note {
+  margin-top: 1rem;
+  color: var(--primary-text);
+  font-size: 0.9rem;
+  max-width: 62ch;
+}
+
+.section {
+  margin-top: 3.5rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-space-grotesk);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  color: var(--white-text);
+  margin-bottom: 1.25rem;
+}

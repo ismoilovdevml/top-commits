@@ -15,21 +15,35 @@ import path from "node:path";
 
 import {
   fetchCountryIndex,
+  fetchCountryStats,
   fetchLiveSnapshot,
   indexByLogin,
   withEnrichment,
 } from "../src/lib/committers";
 import { PRERENDERED_COUNTRIES } from "../src/lib/countries.config";
-import type { CommittersSnapshot, Country, User } from "../src/types/Committers";
+import type {
+  CommittersSnapshot,
+  Country,
+  CountryStatsEntry,
+  GlobalStats,
+  User,
+  WorldMap,
+} from "../src/types/Committers";
 import { flagFor } from "./flags";
+import { buildMapShapes, MAP_HEIGHT, MAP_WIDTH } from "./build-map";
 
 const DATA_DIR = path.join(process.cwd(), "src/data");
 const SNAPSHOT_DIR = path.join(DATA_DIR, "committers");
 const COUNTRY_INDEX_PATH = path.join(DATA_DIR, "countries.json");
+const STATS_PATH = path.join(DATA_DIR, "stats.json");
+const WORLD_MAP_PATH = path.join(DATA_DIR, "world-map.json");
 const GRAPHQL_URL = "https://api.github.com/graphql";
 
 /** GitHub rejects aliased queries that grow much past this. */
 const BATCH_SIZE = 50;
+
+/** Parallel country-stat requests. Enough to finish in under a minute, gentle enough to stay welcome. */
+const STATS_CONCURRENCY = 6;
 
 interface ProfileFields {
   company: string | null;
@@ -118,7 +132,7 @@ async function readPreviousSnapshot(slug: string): Promise<CommittersSnapshot | 
   }
 }
 
-async function buildCountryIndex(): Promise<void> {
+async function buildCountryIndex(): Promise<Country[]> {
   const countries = await fetchCountryIndex();
   const index: Country[] = countries
     .map(({ slug, title }) => ({ slug, title, flag: flagFor(slug) }))
@@ -133,6 +147,85 @@ async function buildCountryIndex(): Promise<void> {
 
   await writeFile(COUNTRY_INDEX_PATH, `${JSON.stringify(index, null, 2)}\n`, "utf8");
   console.log(`  wrote ${index.length} countries to ${COUNTRY_INDEX_PATH}`);
+
+  return index;
+}
+
+/** Runs `worker` over `items`, keeping at most `limit` in flight. */
+async function mapWithLimit<T, R>(
+  items: T[],
+  limit: number,
+  worker: (item: T) => Promise<R>
+): Promise<Array<R | null>> {
+  const results = new Array<R | null>(items.length).fill(null);
+  let cursor = 0;
+
+  const runners = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (cursor < items.length) {
+      const index = cursor;
+      cursor += 1;
+      try {
+        results[index] = await worker(items[index]);
+      } catch (error) {
+        // One country failing must not lose the other 150.
+        console.warn(`  stats failed for ${String(items[index])}: ${(error as Error).message}`);
+      }
+    }
+  });
+
+  await Promise.all(runners);
+
+  return results;
+}
+
+async function buildStats(countries: Country[]): Promise<void> {
+  console.log(`Collecting stats for ${countries.length} countries…`);
+
+  const collected = await mapWithLimit(
+    countries.map((country) => country.slug),
+    STATS_CONCURRENCY,
+    fetchCountryStats
+  );
+
+  const bySlug = new Map(collected.filter(Boolean).map((stats) => [stats!.slug, stats!]));
+
+  const entries: CountryStatsEntry[] = countries
+    .map((country) => {
+      const stats = bySlug.get(country.slug);
+      if (!stats) return null;
+
+      return {
+        slug: country.slug,
+        title: country.title,
+        flag: country.flag,
+        totalUsers: stats.totalUsers,
+        minFollowers: stats.minFollowers,
+        rankedContributions: stats.rankedContributions,
+        rankedUsers: stats.rankedUsers,
+        topUser: stats.topUser,
+      };
+    })
+    .filter((entry): entry is CountryStatsEntry => entry !== null)
+    .sort((a, b) => b.totalUsers - a.totalUsers);
+
+  const payload: GlobalStats = { generatedAt: new Date().toISOString(), countries: entries };
+
+  await writeFile(STATS_PATH, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  console.log(`  wrote stats for ${entries.length}/${countries.length} countries`);
+}
+
+async function buildWorldMap(countries: Country[]): Promise<void> {
+  const shapes = buildMapShapes(new Set(countries.map((country) => country.slug)));
+  const mapped = new Set(shapes.map((shape) => shape.slug).filter(Boolean));
+  const missing = countries.filter((country) => !mapped.has(country.slug));
+
+  const payload: WorldMap = { width: MAP_WIDTH, height: MAP_HEIGHT, shapes };
+
+  await writeFile(WORLD_MAP_PATH, `${JSON.stringify(payload)}\n`, "utf8");
+  console.log(
+    `  wrote ${shapes.length} shapes, ${mapped.size} linked to a leaderboard` +
+      (missing.length ? ` (no shape: ${missing.map((c) => c.slug).join(", ")})` : "")
+  );
 }
 
 async function buildSnapshot(slug: string): Promise<void> {
@@ -182,7 +275,12 @@ async function main(): Promise<void> {
   }
 
   console.log("Building country index…");
-  await buildCountryIndex();
+  const countries = await buildCountryIndex();
+
+  console.log("Building world map…");
+  await buildWorldMap(countries);
+
+  await buildStats(countries);
 
   // Sequential on purpose: the GraphQL calls already saturate the rate limit,
   // and a failure here should name the country it happened on.

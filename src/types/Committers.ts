@@ -29,6 +29,44 @@ export interface CommittersSnapshot {
   private: User[];
 }
 
+/** One row of `src/data/stats.json` — a country's headline numbers. */
+export interface CountryStatsEntry {
+  slug: string;
+  title: string;
+  flag: string;
+  /** GitHub users the source found in the region, not just the ranked ones. */
+  totalUsers: number;
+  /** Followers needed to appear on the ranking at all. */
+  minFollowers: number;
+  /** Summed contributions of the ranked users — the source caps the list at 256. */
+  rankedContributions: number;
+  rankedUsers: number;
+  topUser: { login: string; name: string; avatarUrl: string; contributions: number } | null;
+}
+
+/** `src/data/stats.json`. */
+export interface GlobalStats {
+  /** ISO timestamp of when the stats were collected. */
+  generatedAt: string;
+  countries: CountryStatsEntry[];
+}
+
+/** One country outline in `src/data/world-map.json`. */
+export interface MapShape {
+  /** committers.top slug, or null when the country has no leaderboard. */
+  slug: string | null;
+  name: string;
+  /** SVG path data, already projected into the viewBox below. */
+  d: string;
+}
+
+/** `src/data/world-map.json`. */
+export interface WorldMap {
+  width: number;
+  height: number;
+  shapes: MapShape[];
+}
+
 /** One entry of `src/data/countries.json`. */
 export interface Country {
   /** committers.top slug, e.g. "bosnia_and_herzegovina". */

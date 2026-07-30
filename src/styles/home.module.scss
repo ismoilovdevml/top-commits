@@ -10,7 +10,7 @@
   background-color: #121212;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 .cardsWapper {
@@ -28,5 +28,96 @@
 
   @media (max-width: 620px) {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* --- Toolbar, filters and paging ------------------------------------------ */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-text);
+  font-size: 14px;
+
+  select {
+    background-color: var(--gray-100);
+    border: 1px solid var(--gray-300);
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: var(--white-text);
+    font-family: inherit;
+    font-size: 15px;
+    max-width: 220px;
+    outline: none;
+
+    &:focus-visible {
+      box-shadow: rgba(0, 119, 255, 0.745) 0 0 0 3px;
+    }
+  }
+}
+
+.count {
+  text-align: center;
+  color: var(--primary-text);
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--primary-text);
+  padding: 3rem 0;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  color: #01a6f8;
+  font: inherit;
+  text-decoration: underline;
+  padding: 0;
+
+  &:focus-visible {
+    outline: 2px solid #01a6f8;
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+}
+
+.loadMore {
+  display: block;
+  margin: 2.5rem auto 0;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: var(--white-text);
+  font-family: var(--font-space-grotesk);
+  font-size: 16px;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--gray-200);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #01a6f8;
+    outline-offset: 2px;
   }
 }

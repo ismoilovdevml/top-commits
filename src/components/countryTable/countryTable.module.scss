@@ -1,0 +1,157 @@
+@import "../../styles/variables";
+
+.wrapper {
+  margin-top: 2rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.search {
+  flex: 1 1 240px;
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: var(--white-text);
+  font-family: inherit;
+  font-size: 15px;
+  outline: none;
+
+  &:focus-visible {
+    box-shadow: rgba(0, 119, 255, 0.745) 0 0 0 3px;
+  }
+}
+
+.sortLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-text);
+  font-size: 14px;
+}
+
+.select {
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  padding: 9px 10px;
+  color: var(--white-text);
+  font-family: inherit;
+  font-size: 15px;
+  outline: none;
+
+  &:focus-visible {
+    box-shadow: rgba(0, 119, 255, 0.745) 0 0 0 3px;
+  }
+}
+
+/* The table is the widest thing on the page; it scrolls itself rather than the
+   page scrolling sideways. */
+.tableScroll {
+  overflow-x: auto;
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.caption {
+  text-align: left;
+  padding: 12px 14px;
+  color: var(--primary-text);
+  font-size: 13px;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.table thead th {
+  text-align: left;
+  font-family: var(--font-space-grotesk);
+  font-weight: 500;
+  color: var(--white-text);
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.table tbody td,
+.table tbody th {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--gray-100);
+  color: var(--primary-text);
+  font-weight: 400;
+  text-align: left;
+}
+
+.table tbody tr:last-child td,
+.table tbody tr:last-child th {
+  border-bottom: none;
+}
+
+.table tbody tr:hover {
+  background-color: var(--gray-100);
+}
+
+.numeric {
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  a {
+    color: var(--white-text);
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+  }
+}
+
+.swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.top a:hover,
+.top a:focus-visible {
+  color: var(--white-text);
+  text-decoration: underline;
+}
+
+.empty {
+  padding: 1.5rem 0;
+  color: var(--primary-text);
+}
+
+.more {
+  margin-top: 1rem;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  padding: 10px 16px;
+  color: var(--white-text);
+  font-family: inherit;
+  font-size: 15px;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--gray-200);
+  }
+}

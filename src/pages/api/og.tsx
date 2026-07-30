@@ -82,16 +82,20 @@ const Podium = ({ users }: { users: User[] }) => (
 );
 
 export default async function handler(request: NextRequest) {
-  const slug = new URL(request.url).searchParams.get("country") ?? "uzbekistan";
-  const country = countries.find((entry) => entry.slug === slug);
+  // No ?country= means the global index, which gets the worldwide podium.
+  const slug = new URL(request.url).searchParams.get("country") ?? "";
+  const country = slug ? countries.find((entry) => entry.slug === slug) : undefined;
+  const subtitle = country
+    ? `in ${country.title} ${country.flag}`
+    : `${countries.filter((entry) => entry.slug !== "worldwide" && entry.slug !== "kurdistan").length} country leaderboards`;
 
   let podium: User[] = [];
   try {
-    podium = await fetchPodium(slug);
+    podium = await fetchPodium(slug || "worldwide");
   } catch (error) {
     // A missing podium degrades the card to its title; it must never 500 and
     // leave a link preview blank.
-    console.error(`OG podium for "${slug}" unavailable:`, error);
+    console.error(`OG podium for "${slug || "worldwide"}" unavailable:`, error);
   }
 
   return new ImageResponse(
@@ -122,7 +126,7 @@ export default async function handler(request: NextRequest) {
             marginBottom: podium.length ? 44 : 0,
           }}
         >
-          in {country?.title ?? slug} {country?.flag ?? ""}
+          {subtitle}
         </div>
 
         {podium.length > 0 && <Podium users={podium} />}

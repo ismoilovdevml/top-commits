@@ -18,13 +18,20 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/geojson": "^7946.0.16",
     "@types/node": "^22.19.0",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
+    "d3-geo": "^3.1.1",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.2.12",
     "sass": "^1.102.0",
+    "topojson-client": "^3.1.0",
     "tsx": "^4.23.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "world-atlas": "^2.0.2"
   }
 }

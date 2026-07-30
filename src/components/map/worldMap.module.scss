@@ -1,0 +1,118 @@
+@import "../../styles/variables";
+
+.figure {
+  margin: 0;
+}
+
+.canvas {
+  position: relative;
+}
+
+.svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.shape {
+  /* A hairline of surface between neighbours so borders read without a stroke
+     colour competing with the ramp. */
+  stroke: #000;
+  stroke-width: 0.4;
+  vector-effect: non-scaling-stroke;
+}
+
+.interactive {
+  cursor: pointer;
+  transition: filter 120ms ease;
+
+  &:hover,
+  &:focus-visible {
+    filter: brightness(1.35);
+    outline: none;
+  }
+
+  &:focus-visible {
+    stroke: var(--white-text);
+    stroke-width: 1.5;
+  }
+}
+
+.tooltip {
+  position: absolute;
+  /* Sits above-right of the cursor and never intercepts it. */
+  transform: translate(12px, -100%);
+  pointer-events: none;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-width: 180px;
+  z-index: 2;
+}
+
+.tooltipTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--white-text);
+  font-family: var(--font-space-grotesk);
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.tooltipRows {
+  margin: 0;
+  display: grid;
+  gap: 4px;
+  font-size: 13px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  dt {
+    color: var(--primary-text);
+  }
+
+  dd {
+    margin: 0;
+    color: var(--white-text);
+  }
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--primary-text);
+}
+
+.legendLabel {
+  font-family: var(--font-space-grotesk);
+  color: var(--white-text);
+}
+
+.legendScale {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+.swatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+}

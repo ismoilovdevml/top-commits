@@ -86,18 +86,16 @@ $smBreakpoint: 630px;
   box-shadow: rgba(0, 119, 255, 0.745) 0px 0px 0px 4px;
 }
 
-.searchBarBtn {
-  position: relative;
-  background-color: transparent;
-  border: none;
+/* Decorative now that the input filters as you type — there is nothing to submit. */
+.searchIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #000;
   height: 30px;
   width: 30px;
   border-radius: 5px;
-  img {
-    max-width: 70%;
-    transform: translateX(20%);
-  }
+  flex-shrink: 0;
 }
 
 .filterUserType {
@@ -116,8 +114,15 @@ $smBreakpoint: 630px;
   border-radius: 5px;
   border: 1px solid var(--gray-300);
   height: 100%;
+
+  /* Visually hidden rather than display:none — a display:none input cannot be
+     focused, which would take the toggle off the keyboard entirely. */
   input {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
   }
 }
 
@@ -197,5 +202,66 @@ input[id="user_public"]:checked ~ .userTypeActiveBg {
 
   @media (max-width: $smBreakpoint) {
     display: flex;
+  }
+}
+
+/* --- Accessibility & mobile ------------------------------------------------ */
+
+.logo {
+  display: inline-flex;
+  border-radius: 6px;
+
+  &:focus-visible {
+    outline: 2px solid #01a6f8;
+    outline-offset: 2px;
+  }
+}
+
+/* The radio inputs are visually hidden, so the focus ring has to live on the
+   label the user actually sees. */
+.userTypeBox input:focus-visible + .userType,
+.userTypeBox input:focus-visible ~ .userTypeActiveBg {
+  outline: 2px solid #01a6f8;
+  outline-offset: 2px;
+  border-radius: 5px;
+}
+
+.burger:focus-visible {
+  outline: 2px solid #01a6f8;
+  outline-offset: 2px;
+}
+
+@media (max-width: $smBreakpoint) {
+  .filterWrapper {
+    gap: 12px;
+
+    &.active {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 14px;
+    }
+
+    li {
+      width: 100%;
+    }
+  }
+
+  .searchBar {
+    width: 100%;
+  }
+
+  .searchInput {
+    width: 100%;
+  }
+
+  /* The active-pill offsets below are hard-coded pixels, so the box must keep
+     its natural width — stretching it slides the pill off its label. */
+  .filterUserType {
+    justify-content: center;
+  }
+
+  /* Decorative, and the first thing to overflow at 390px. */
+  .userTxt {
+    display: none;
   }
 }

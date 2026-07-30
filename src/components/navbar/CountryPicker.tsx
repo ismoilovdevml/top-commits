@@ -1,13 +1,13 @@
 import { useRouter } from "next/router";
 import { useMemo, useState } from "react";
 
-import { ALL_COUNTRIES, DEFAULT_COUNTRY } from "@/lib/countries";
+import { ALL_COUNTRIES } from "@/lib/countries";
 import styles from "./countryPicker.module.scss";
 
 /** How many suggestions to render before the list stops being scannable. */
 const MAX_RESULTS = 8;
 
-const CountryPicker = ({ current }: { current: string }) => {
+const CountryPicker = ({ current }: { current: string | null }) => {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
@@ -26,7 +26,7 @@ const CountryPicker = ({ current }: { current: string }) => {
   const go = (slug: string) => {
     setOpen(false);
     setQuery("");
-    router.push(slug === DEFAULT_COUNTRY ? "/" : `/${slug}`);
+    router.push(`/${slug}`);
   };
 
   const currentCountry = ALL_COUNTRIES.find((country) => country.slug === current);

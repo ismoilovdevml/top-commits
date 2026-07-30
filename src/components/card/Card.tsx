@@ -10,9 +10,10 @@ const Card = ({
   contributions,
   company,
   organizations,
-}: User) => {
+  priority = false,
+}: User & { /** Fetch the avatar eagerly — reserved for above-the-fold cards. */ priority?: boolean }) => {
   return (
-    <a target="_blank" href={`https://github.com/${login}`}>
+    <a target="_blank" rel="noreferrer" href={`https://github.com/${login}`}>
       <article className={styles.card}>
         <header className={styles.head}>
           <div className={styles.rankWrapper}>
@@ -30,9 +31,12 @@ const Card = ({
           <Image
             className={styles.img}
             src={avatarUrl}
-            alt={name}
+            alt=""
             height={100}
             width={100}
+            sizes="100px"
+            priority={priority}
+            loading={priority ? "eager" : "lazy"}
           />
 
           <h3 className={styles.name}>{name}</h3>

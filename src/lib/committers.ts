@@ -121,6 +121,61 @@ export async function fetchLiveSnapshot(
   };
 }
 
+/**
+ * Every country page states its population and entry bar:
+ *
+ *   There are <b>19309</b> total users in the region and you need at least
+ *   <b>20</b> followers to be on this list.
+ */
+const TOTALS_PATTERN =
+  /There are <b>([\d,]+)<\/b> total users in the region and you need at least <b>([\d,]+)<\/b> followers/;
+
+const toInt = (value: string): number => Number(value.replace(/,/g, ""));
+
+export interface CountryStats {
+  slug: string;
+  /** GitHub users the source found in the region, not just the ranked ones. */
+  totalUsers: number;
+  /** Followers needed to appear on the ranking at all. */
+  minFollowers: number;
+  /** Summed contributions of the ranked users — the source caps the list at 256. */
+  rankedContributions: number;
+  /** How many users the ranking actually lists. */
+  rankedUsers: number;
+  topUser: { login: string; name: string; avatarUrl: string; contributions: number } | null;
+}
+
+/**
+ * One request per country, reading both the totals sentence and the ranking
+ * table off the same page. Called once a day by the data builder, never at
+ * request time.
+ */
+export async function fetchCountryStats(slug: string): Promise<CountryStats> {
+  const html = await fetchText(`${BASE_URL}/${slug}_public`);
+  const totals = TOTALS_PATTERN.exec(html);
+  const users = parseRankingPage(html);
+
+  if (!totals) {
+    throw new Error(`No totals sentence on ${slug}_public; the page layout likely changed.`);
+  }
+
+  return {
+    slug,
+    totalUsers: toInt(totals[1]),
+    minFollowers: toInt(totals[2]),
+    rankedContributions: users.reduce((sum, user) => sum + user.contributions, 0),
+    rankedUsers: users.length,
+    topUser: users[0]
+      ? {
+          login: users[0].login,
+          name: users[0].name,
+          avatarUrl: users[0].avatarUrl,
+          contributions: users[0].contributions,
+        }
+      : null,
+  };
+}
+
 /** Scrapes the country index so the switcher and `getStaticPaths` stay in sync with the source. */
 export async function fetchCountryIndex(): Promise<Array<{ slug: string; title: string }>> {
   const html = await fetchText(`${BASE_URL}/`);
