@@ -1,0 +1,6 @@
+# tsx ships esbuild, whose postinstall unpacks the platform binary — without
+# this pnpm 10+ refuses to run the install script and `pnpm data:build` fails.
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: true
+  unrs-resolver: false

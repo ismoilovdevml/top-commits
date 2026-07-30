@@ -3,7 +3,14 @@ import styles from "../styles/home.module.scss";
 import HeroTitle from "@/components/heroTitle/HeroTitle";
 import Card from "@/components/card/Card";
 import { GetStaticProps } from "next";
-import { Commetters, User } from "@/types/Committers";
+import { CommittersSnapshot, User } from "@/types/Committers";
+import {
+  COUNTRY,
+  fetchLiveSnapshot,
+  indexByLogin,
+  withEnrichment,
+} from "@/lib/committers";
+import snapshot from "@/data/committers.json";
 import { useCallback, useContext, useEffect, useState } from "react";
 import { SearchContext } from "@/components/context/SearchContext";
 
@@ -69,18 +76,44 @@ export default function Home({ commiters }: { commiters: ICommiters }) {
   );
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  const API_URL: string = "https://commiters.vercel.app/rank/uzbekistan";
+/** Six hours: committers.top recomputes its ranking every few days. */
+const REVALIDATE_SECONDS = 6 * 60 * 60;
 
-  const { users }: Commetters = await fetch(API_URL).then((res) => res.json());
+const fallback = snapshot as CommittersSnapshot;
 
-  const commiters = {
-    public: users.users,
-    private: users.private_users,
-    generated: users.generated.split(" ")[0],
+/** "2026-07-27 19:23:46 +0000" -> "2026-07-27", which `new Date()` parses reliably. */
+const toDateOnly = (timestamp: string): string => timestamp.split(" ")[0];
+
+/**
+ * Tries committers.top directly so the page keeps refreshing between deploys,
+ * and falls back to the snapshot committed by the `update-data` workflow if the
+ * source is down or its markup changed. Either way the build never fails on a
+ * network hiccup, and the data is never silently stale without the date in the
+ * header showing it.
+ */
+export const getStaticProps: GetStaticProps<{
+  commiters: ICommiters;
+}> = async () => {
+  let commiters: ICommiters = {
+    public: fallback.public,
+    private: fallback.private,
+    generated: toDateOnly(fallback.dataAsOf),
   };
 
-  return { props: { commiters } };
+  try {
+    const live = await fetchLiveSnapshot(COUNTRY);
+    const enrichedBy = indexByLogin(fallback);
+
+    commiters = {
+      public: withEnrichment(live.public, enrichedBy),
+      private: withEnrichment(live.private, enrichedBy),
+      generated: toDateOnly(live.dataAsOf),
+    };
+  } catch (error) {
+    console.error("Live committers.top fetch failed, using committed snapshot:", error);
+  }
+
+  return { props: { commiters }, revalidate: REVALIDATE_SECONDS };
 };
 
 interface ICommiters {

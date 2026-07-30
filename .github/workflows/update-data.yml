@@ -1,0 +1,49 @@
+name: Update committers data
+
+# Refreshes src/data/committers.json from committers.top. Pushing the change is
+# what triggers a redeploy, so the site never serves a snapshot older than a day
+# even if incremental revalidation is disabled on the host.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Version comes from the "packageManager" field in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Rebuild snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm data:build
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- src/data/committers.json; then
+            echo "No ranking changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/committers.json
+          git commit -m "chore(data): refresh committers snapshot"
+          git push
