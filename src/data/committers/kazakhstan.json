@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-07-31 07:56:04 +0000",
-  "fetchedAt": "2026-08-04T06:06:09.829Z",
+  "fetchedAt": "2026-08-05T06:03:17.697Z",
   "public": [
     {
       "rank": 1,
@@ -433,7 +433,7 @@
       "name": "rwdw",
       "contributions": 609,
       "avatarUrl": "https://avatars.githubusercontent.com/u/66177436?u=6b171c72f38b1d0156d54b212ecd6b45b5d892d6&v=4&s=200",
-      "company": "",
+      "company": "ATLA (Agents Trained on Live Actions)",
       "organizations": ""
     },
     {
@@ -3522,7 +3522,7 @@
       "name": "rwdw",
       "contributions": 1170,
       "avatarUrl": "https://avatars.githubusercontent.com/u/66177436?u=6b171c72f38b1d0156d54b212ecd6b45b5d892d6&v=4&s=200",
-      "company": "",
+      "company": "ATLA (Agents Trained on Live Actions)",
       "organizations": ""
     },
     {
