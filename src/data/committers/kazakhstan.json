@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-08-05 11:13:38 +0000",
-  "fetchedAt": "2026-08-07T05:05:00.311Z",
+  "fetchedAt": "2026-08-08T04:30:47.431Z",
   "public": [
     {
       "rank": 1,
@@ -2415,8 +2415,8 @@
       "name": "askhat",
       "contributions": 6949,
       "avatarUrl": "https://avatars.githubusercontent.com/u/3759947?u=b62fda56df4d18c9c85d26bfa0100fb35e1df072&v=4&s=200",
-      "company": "Pinely International",
-      "organizations": "webtalks-crew, pinely-international, lizing-navigator"
+      "company": "",
+      "organizations": "webtalks-crew, lizing-navigator"
     },
     {
       "rank": 13,
