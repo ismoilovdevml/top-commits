@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T04:38:38.400Z",
+  "generatedAt": "2026-08-10T04:56:14.740Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -1040,15 +1040,15 @@
       "slug": "kazakhstan",
       "title": "Kazakhstan",
       "flag": "🇰🇿",
-      "totalUsers": 14168,
+      "totalUsers": 14202,
       "minFollowers": 12,
-      "rankedContributions": 130346,
+      "rankedContributions": 129712,
       "rankedUsers": 256,
       "topUser": {
         "login": "IManss-ai",
         "name": "Mansur Zhiger",
         "avatarUrl": "https://avatars.githubusercontent.com/u/254088976?u=0f4746b238d9617d92084af8feb9a40f9b7fa422&v=4&s=200",
-        "contributions": 9793
+        "contributions": 9929
       }
     },
     {
@@ -1070,15 +1070,15 @@
       "slug": "croatia",
       "title": "Croatia",
       "flag": "🇭🇷",
-      "totalUsers": 12181,
+      "totalUsers": 12190,
       "minFollowers": 12,
-      "rankedContributions": 196384,
+      "rankedContributions": 198275,
       "rankedUsers": 256,
       "topUser": {
         "login": "stepanic",
         "name": "Matija Stepanic",
         "avatarUrl": "https://avatars.githubusercontent.com/u/315282?u=1eb01ff06baa307b48200d456fa62ed19cfc3cce&v=4&s=200",
-        "contributions": 33281
+        "contributions": 33339
       }
     },
     {
@@ -1880,15 +1880,15 @@
       "slug": "iraq",
       "title": "Iraq",
       "flag": "🇮🇶",
-      "totalUsers": 2031,
+      "totalUsers": 2040,
       "minFollowers": 0,
-      "rankedContributions": 39100,
+      "rankedContributions": 37601,
       "rankedUsers": 256,
       "topUser": {
         "login": "shaheenfarjo",
         "name": "Shaheen K. Farjo",
         "avatarUrl": "https://avatars.githubusercontent.com/u/58872085?u=5f8770472c48212dfe557d9479471f505609d93b&v=4&s=200",
-        "contributions": 4970
+        "contributions": 4980
       }
     },
     {
@@ -2015,9 +2015,9 @@
       "slug": "niger",
       "title": "Niger",
       "flag": "🇳🇪",
-      "totalUsers": 1274,
+      "totalUsers": 1276,
       "minFollowers": 0,
-      "rankedContributions": 33676,
+      "rankedContributions": 33986,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
@@ -2045,15 +2045,15 @@
       "slug": "sierra_leone",
       "title": "Sierra Leone",
       "flag": "🇸🇱",
-      "totalUsers": 920,
+      "totalUsers": 926,
       "minFollowers": 0,
-      "rankedContributions": 27098,
+      "rankedContributions": 26722,
       "rankedUsers": 256,
       "topUser": {
         "login": "walonCode",
         "name": "Mohamed Lamin Walon Jalloh",
         "avatarUrl": "https://avatars.githubusercontent.com/u/193446375?u=35733cdad352ce2d2d5ecb18f161da941017e730&v=4&s=200",
-        "contributions": 2266
+        "contributions": 2235
       }
     },
     {
@@ -2150,9 +2150,9 @@
       "slug": "gabon",
       "title": "Gabon",
       "flag": "🇬🇦",
-      "totalUsers": 458,
+      "totalUsers": 460,
       "minFollowers": 0,
-      "rankedContributions": 18432,
+      "rankedContributions": 18445,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
