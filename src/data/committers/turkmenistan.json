@@ -2,7 +2,7 @@
   "country": "turkmenistan",
   "title": "Turkmenistan",
   "dataAsOf": "2026-08-08 02:37:50 +0000",
-  "fetchedAt": "2026-08-11T04:42:34.681Z",
+  "fetchedAt": "2026-08-12T05:05:58.319Z",
   "public": [
     {
       "rank": 1,
@@ -1675,7 +1675,7 @@
       "name": "Gulbahar",
       "contributions": 8,
       "avatarUrl": "https://avatars.githubusercontent.com/u/58729614?u=8f362d636e19caf5b0c6ee311aa8c14ad47ad527&v=4&s=200",
-      "company": "@AreborTradingCompany",
+      "company": "",
       "organizations": ""
     },
     {
@@ -2505,7 +2505,7 @@
       "name": "Gulbahar",
       "contributions": 1604,
       "avatarUrl": "https://avatars.githubusercontent.com/u/58729614?u=8f362d636e19caf5b0c6ee311aa8c14ad47ad527&v=4&s=200",
-      "company": "@AreborTradingCompany",
+      "company": "",
       "organizations": ""
     },
     {

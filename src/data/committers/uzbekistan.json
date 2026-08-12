@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-08-07 22:22:58 +0000",
-  "fetchedAt": "2026-08-11T04:41:53.125Z",
+  "fetchedAt": "2026-08-12T05:05:18.875Z",
   "public": [
     {
       "rank": 1,
@@ -163,7 +163,7 @@
       "name": "Shohruhmirzo Usmonov",
       "contributions": 1684,
       "avatarUrl": "https://avatars.githubusercontent.com/u/94287375?u=ced67af5f8f8e63e7d92838fdd3fada2009994ec&v=4&s=200",
-      "company": "@nitrobrain",
+      "company": "Maintainer of @nitrobrain projects",
       "organizations": "NitroBrainLabs, NitroBrain, NitroScript, NitroVim, NitroShell"
     },
     {
@@ -452,7 +452,7 @@
       "contributions": 721,
       "avatarUrl": "https://avatars.githubusercontent.com/u/73842170?u=c750477cbf23ac166579ad15ee39b5f3b71012f4&v=4&s=200",
       "company": "@uzinfocom-org oss & @floss-uz contributer @poydevor maintainer",
-      "organizations": "FazoDevelopers, xinux-org, uchar-org, nnolan-labs, UzStack"
+      "organizations": ""
     },
     {
       "rank": 51,
@@ -496,7 +496,7 @@
       "name": "Lazizbek Ergashev",
       "contributions": 663,
       "avatarUrl": "https://avatars.githubusercontent.com/u/20501725?v=4&s=200",
-      "company": "danads.com",
+      "company": "",
       "organizations": ""
     },
     {
@@ -2667,7 +2667,7 @@
       "name": "Shohruhmirzo Usmonov",
       "contributions": 3864,
       "avatarUrl": "https://avatars.githubusercontent.com/u/94287375?u=ced67af5f8f8e63e7d92838fdd3fada2009994ec&v=4&s=200",
-      "company": "@nitrobrain",
+      "company": "Maintainer of @nitrobrain projects",
       "organizations": "NitroBrainLabs, NitroBrain, NitroScript, NitroVim, NitroShell"
     },
     {
@@ -3289,7 +3289,7 @@
       "contributions": 1779,
       "avatarUrl": "https://avatars.githubusercontent.com/u/73842170?u=c750477cbf23ac166579ad15ee39b5f3b71012f4&v=4&s=200",
       "company": "@uzinfocom-org oss & @floss-uz contributer @poydevor maintainer",
-      "organizations": "FazoDevelopers, xinux-org, uchar-org, nnolan-labs, UzStack"
+      "organizations": ""
     },
     {
       "rank": 110,
@@ -3316,7 +3316,7 @@
       "contributions": 1770,
       "avatarUrl": "https://avatars.githubusercontent.com/u/52325239?u=5c76562b77c15d91ad20b699125be118d3890fd6&v=4&s=200",
       "company": "@aisha-group",
-      "organizations": "voicelab-uz"
+      "organizations": ""
     },
     {
       "rank": 113,
@@ -3657,7 +3657,7 @@
       "name": "Lazizbek Ergashev",
       "contributions": 1325,
       "avatarUrl": "https://avatars.githubusercontent.com/u/20501725?v=4&s=200",
-      "company": "danads.com",
+      "company": "",
       "organizations": ""
     },
     {

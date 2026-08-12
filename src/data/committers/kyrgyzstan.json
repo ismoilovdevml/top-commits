@@ -2,7 +2,7 @@
   "country": "kyrgyzstan",
   "title": "Kyrgyzstan",
   "dataAsOf": "2026-08-07 20:26:36 +0000",
-  "fetchedAt": "2026-08-11T04:42:15.984Z",
+  "fetchedAt": "2026-08-12T05:05:39.649Z",
   "public": [
     {
       "rank": 1,
@@ -955,7 +955,7 @@
       "name": "Kutman Melisov",
       "contributions": 119,
       "avatarUrl": "https://avatars.githubusercontent.com/u/231414666?u=67945a1e58890668d86b83bb975389a57b3bc9b3&v=4&s=200",
-      "company": "AIT Solutions",
+      "company": "",
       "organizations": ""
     },
     {
@@ -2379,7 +2379,7 @@
       "name": "Kutman Melisov",
       "contributions": 5484,
       "avatarUrl": "https://avatars.githubusercontent.com/u/231414666?u=67945a1e58890668d86b83bb975389a57b3bc9b3&v=4&s=200",
-      "company": "AIT Solutions",
+      "company": "",
       "organizations": ""
     },
     {
