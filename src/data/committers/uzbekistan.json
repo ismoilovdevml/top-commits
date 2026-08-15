@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-08-12 19:02:09 +0000",
-  "fetchedAt": "2026-08-14T05:05:04.038Z",
+  "fetchedAt": "2026-08-15T03:56:44.156Z",
   "public": [
     {
       "rank": 1,
@@ -703,7 +703,7 @@
       "name": "Orzklv",
       "contributions": 476,
       "avatarUrl": "https://avatars.githubusercontent.com/u/54666588?u=e8d704d465779f710a4345c3fe8f89c14246bbe7&v=4&s=200",
-      "company": "@uzinfocom-org chief technical advisor, oss department leader; @gov-uz advisor, analyst & researcher; @floss-uz maintainer; @kolyma-labs owner",
+      "company": "@uzinfocom-org chief technical advisor, oss department leader; @gov-uz advisor, analyst & researcher; @floss-uz maintainer",
       "organizations": "NixOS, EpicGames, NVIDIAGameWorks, llvm, rust-lang-uz"
     },
     {
@@ -1621,7 +1621,7 @@
       "name": "Temurbek Farkhodovich",
       "contributions": 176,
       "avatarUrl": "https://avatars.githubusercontent.com/u/174900849?u=99397eb7b8178902779f06f02cc5c11908a5f4b2&v=4&s=200",
-      "company": "IT Company",
+      "company": "Sfera Company",
       "organizations": ""
     },
     {
@@ -3684,7 +3684,7 @@
       "name": "Usmanov Muhammad",
       "contributions": 1296,
       "avatarUrl": "https://avatars.githubusercontent.com/u/115770601?u=5ffd1d12a48e89b0763932d0e5e0f415e0b76f36&v=4&s=200",
-      "company": "Samarkand TUIT",
+      "company": "CreedDevs",
       "organizations": ""
     },
     {
@@ -4413,7 +4413,7 @@
       "name": "Orzklv",
       "contributions": 787,
       "avatarUrl": "https://avatars.githubusercontent.com/u/54666588?u=e8d704d465779f710a4345c3fe8f89c14246bbe7&v=4&s=200",
-      "company": "@uzinfocom-org chief technical advisor, oss department leader; @gov-uz advisor, analyst & researcher; @floss-uz maintainer; @kolyma-labs owner",
+      "company": "@uzinfocom-org chief technical advisor, oss department leader; @gov-uz advisor, analyst & researcher; @floss-uz maintainer",
       "organizations": "NixOS, EpicGames, NVIDIAGameWorks, llvm, rust-lang-uz"
     },
     {
@@ -4548,7 +4548,7 @@
       "name": "Temurbek Farkhodovich",
       "contributions": 711,
       "avatarUrl": "https://avatars.githubusercontent.com/u/174900849?u=99397eb7b8178902779f06f02cc5c11908a5f4b2&v=4&s=200",
-      "company": "IT Company",
+      "company": "Sfera Company",
       "organizations": ""
     },
     {
