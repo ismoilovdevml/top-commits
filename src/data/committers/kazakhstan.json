@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-08-15 04:31:39 +0000",
-  "fetchedAt": "2026-08-16T04:01:43.393Z",
+  "fetchedAt": "2026-08-17T04:05:01.002Z",
   "public": [
     {
       "rank": 1,
@@ -1594,7 +1594,7 @@
       "name": "Bexultan",
       "contributions": 152,
       "avatarUrl": "https://avatars.githubusercontent.com/u/119839014?u=79075e7336c38fb1316151e69a630759cfe69686&v=4&s=200",
-      "company": "kbtu",
+      "company": "ff",
       "organizations": ""
     },
     {
