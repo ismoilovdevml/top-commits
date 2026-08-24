@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-08-22 02:14:01 +0000",
-  "fetchedAt": "2026-08-23T04:03:21.542Z",
+  "fetchedAt": "2026-08-24T04:08:20.507Z",
   "public": [
     {
       "rank": 1,
@@ -803,7 +803,7 @@
       "contributions": 410,
       "avatarUrl": "https://avatars.githubusercontent.com/u/95611906?u=9681806816ca865e20bbfb4c57c95d4471c39300&v=4&s=200",
       "company": "DIVIDEND GROUP LLC",
-      "organizations": "Techno-Vision-uz, astrumuz, dividendgroupllc"
+      "organizations": "Techno-Vision-uz, astrumuz"
     },
     {
       "rank": 90,
@@ -1963,7 +1963,7 @@
       "name": "Xusanboyev01",
       "contributions": 134,
       "avatarUrl": "https://avatars.githubusercontent.com/u/222348840?u=eb73d2dc373a6885ce4aff702836761d258c3280&v=4&s=200",
-      "company": "",
+      "company": "Algoritm Education",
       "organizations": ""
     },
     {
