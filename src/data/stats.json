@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:15:58.755Z",
+  "generatedAt": "2026-08-28T15:25:56.947Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -110,15 +110,15 @@
       "slug": "canada",
       "title": "Canada",
       "flag": "🇨🇦",
-      "totalUsers": 264458,
-      "minFollowers": 246,
-      "rankedContributions": 646685,
+      "totalUsers": 264337,
+      "minFollowers": 169,
+      "rankedContributions": 803828,
       "rankedUsers": 256,
       "topUser": {
-        "login": "atgreen",
-        "name": "Anthony Green",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/89993?u=da95bebb0fde6683509601bf56351598e574e0e8&v=4&s=200",
-        "contributions": 22241
+        "login": "Amey-Thakur",
+        "name": "Amey Thakur",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54937357?u=88edb508c9d54f7b7dc80c40ae3da78420a0c514&v=4&s=200",
+        "contributions": 28941
       }
     },
     {
@@ -170,15 +170,15 @@
       "slug": "pakistan",
       "title": "Pakistan",
       "flag": "🇵🇰",
-      "totalUsers": 159179,
-      "minFollowers": 67,
-      "rankedContributions": 640381,
+      "totalUsers": 159972,
+      "minFollowers": 68,
+      "rankedContributions": 633368,
       "rankedUsers": 256,
       "topUser": {
         "login": "SufiyanShahidDev",
         "name": "Sufiyan Shahid",
         "avatarUrl": "https://avatars.githubusercontent.com/u/224948898?u=46fb9a24e707a380020cdabc04011f66937cf1f3&v=4&s=200",
-        "contributions": 140658
+        "contributions": 140646
       }
     },
     {
@@ -455,15 +455,15 @@
       "slug": "philippines",
       "title": "Philippines",
       "flag": "🇵🇭",
-      "totalUsers": 60135,
+      "totalUsers": 60288,
       "minFollowers": 37,
-      "rankedContributions": 1617526,
+      "rankedContributions": 1670326,
       "rankedUsers": 256,
       "topUser": {
         "login": "jaymar921",
         "name": "Jayharron Abejar",
         "avatarUrl": "https://avatars.githubusercontent.com/u/72720429?u=5d350d8026966f626506162689deb7f5f8f9a5de&v=4&s=200",
-        "contributions": 1133843
+        "contributions": 1187934
       }
     },
     {
@@ -530,15 +530,15 @@
       "slug": "singapore",
       "title": "Singapore",
       "flag": "🇸🇬",
-      "totalUsers": 48531,
-      "minFollowers": 86,
-      "rankedContributions": 358906,
+      "totalUsers": 47985,
+      "minFollowers": 50,
+      "rankedContributions": 510413,
       "rankedUsers": 256,
       "topUser": {
-        "login": "lupyuen",
-        "name": "Lup Yuen Lee",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9960133?u=d9f94db174776621c4fadd0faad20ab12d0b3e11&v=4&s=200",
-        "contributions": 14819
+        "login": "beonespecial112",
+        "name": "Be One",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4290896?v=4&s=200",
+        "contributions": 53191
       }
     },
     {
@@ -935,15 +935,15 @@
       "slug": "uzbekistan",
       "title": "Uzbekistan",
       "flag": "🇺🇿",
-      "totalUsers": 19607,
+      "totalUsers": 19663,
       "minFollowers": 20,
-      "rankedContributions": 384206,
+      "rankedContributions": 383345,
       "rankedUsers": 256,
       "topUser": {
         "login": "AbdullayevTemurmalik",
         "name": "TemurMalik",
         "avatarUrl": "https://avatars.githubusercontent.com/u/225833678?u=b3319471aee657a628b0330f2ebfb9bb914849e0&v=4&s=200",
-        "contributions": 144750
+        "contributions": 144755
       }
     },
     {
@@ -1895,15 +1895,15 @@
       "slug": "mauritius",
       "title": "Mauritius",
       "flag": "🇲🇺",
-      "totalUsers": 1934,
+      "totalUsers": 1932,
       "minFollowers": 0,
-      "rankedContributions": 49764,
+      "rankedContributions": 50326,
       "rankedUsers": 256,
       "topUser": {
-        "login": "wyxos",
-        "name": "Wyxos",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/23614232?u=3f783cb7c4bc50681fea7236b1b1a09078bac06f&v=4&s=200",
-        "contributions": 4110
+        "login": "EdgarEldy",
+        "name": "EDGAR MUHAMYANGABO",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26207338?u=70ad39bc8b2cdf04913db3e9a2f009e6df197eb7&v=4&s=200",
+        "contributions": 4286
       }
     },
     {
