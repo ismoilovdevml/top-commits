@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T15:25:56.947Z",
+  "generatedAt": "2026-08-29T10:08:33.560Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -50,15 +50,15 @@
       "slug": "brazil",
       "title": "Brazil",
       "flag": "🇧🇷",
-      "totalUsers": 556315,
-      "minFollowers": 340,
-      "rankedContributions": 333303,
+      "totalUsers": 558063,
+      "minFollowers": 341,
+      "rankedContributions": 338323,
       "rankedUsers": 256,
       "topUser": {
         "login": "FabianaCampanari",
         "name": "Fabiana  ⚡️ Campanari",
         "avatarUrl": "https://avatars.githubusercontent.com/u/113218619?u=ed62c7ce5df2ba474cd3bf391cf4dab7be0d19ad&v=4&s=200",
-        "contributions": 20216
+        "contributions": 19451
       }
     },
     {
@@ -710,15 +710,15 @@
       "slug": "sri_lanka",
       "title": "Sri Lanka",
       "flag": "🇱🇰",
-      "totalUsers": 36685,
+      "totalUsers": 36822,
       "minFollowers": 37,
-      "rankedContributions": 654751,
+      "rankedContributions": 659888,
       "rankedUsers": 256,
       "topUser": {
         "login": "nuuuwan",
         "name": "Nuwan I. Senaratna",
         "avatarUrl": "https://avatars.githubusercontent.com/u/1114457?u=efb821f874d3ed26ef58e6571fc7b80d2d30ff32&v=4&s=200",
-        "contributions": 165910
+        "contributions": 164049
       }
     },
     {
@@ -830,15 +830,15 @@
       "slug": "bulgaria",
       "title": "Bulgaria",
       "flag": "🇧🇬",
-      "totalUsers": 26571,
+      "totalUsers": 26638,
       "minFollowers": 28,
-      "rankedContributions": 237114,
+      "rankedContributions": 241183,
       "rankedUsers": 256,
       "topUser": {
         "login": "NikolaRHristov",
         "name": "Nikola Hristov",
         "avatarUrl": "https://avatars.githubusercontent.com/u/90222871?u=e1a0c2e65b75ab173d2ffbe9eb14ad4bcc0437c3&v=4&s=200",
-        "contributions": 11838
+        "contributions": 11863
       }
     },
     {
@@ -875,15 +875,15 @@
       "slug": "morocco",
       "title": "Morocco",
       "flag": "🇲🇦",
-      "totalUsers": 24362,
+      "totalUsers": 24427,
       "minFollowers": 44,
-      "rankedContributions": 169659,
+      "rankedContributions": 169643,
       "rankedUsers": 256,
       "topUser": {
         "login": "Mohammedcha",
         "name": "Mohammed cha",
         "avatarUrl": "https://avatars.githubusercontent.com/u/40530012?u=98af635326e7a626440f07e43f7a08b0db3c65b2&v=4&s=200",
-        "contributions": 13951
+        "contributions": 14098
       }
     },
     {
@@ -1220,15 +1220,15 @@
       "slug": "latvia",
       "title": "Latvia",
       "flag": "🇱🇻",
-      "totalUsers": 7827,
+      "totalUsers": 7838,
       "minFollowers": 6,
-      "rankedContributions": 181014,
+      "rankedContributions": 170258,
       "rankedUsers": 256,
       "topUser": {
         "login": "ThePixelMoon",
         "name": "ThePixelMoon",
         "avatarUrl": "https://avatars.githubusercontent.com/u/176160477?u=e2954e6aa25593abb7cdd8d3f3676fc6aeb43bda&v=4&s=200",
-        "contributions": 70802
+        "contributions": 60677
       }
     },
     {
@@ -1502,6 +1502,21 @@
       }
     },
     {
+      "slug": "paraguay",
+      "title": "Paraguay",
+      "flag": "🇵🇾",
+      "totalUsers": 4480,
+      "minFollowers": 5,
+      "rankedContributions": 83366,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "vargascarlitos",
+        "name": "Carlitos Vargas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18080099?u=a886de89b1d250bf96fa0e973d2a238a0b899fcc&v=4&s=200",
+        "contributions": 12759
+      }
+    },
+    {
       "slug": "kyrgyzstan",
       "title": "Kyrgyzstan",
       "flag": "🇰🇬",
@@ -1514,21 +1529,6 @@
         "name": "Zh Beknazar",
         "avatarUrl": "https://avatars.githubusercontent.com/u/139379787?u=a155123b5a1aa68483c82588234027003b205ff1&v=4&s=200",
         "contributions": 11923
-      }
-    },
-    {
-      "slug": "paraguay",
-      "title": "Paraguay",
-      "flag": "🇵🇾",
-      "totalUsers": 4470,
-      "minFollowers": 5,
-      "rankedContributions": 83687,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "vargascarlitos",
-        "name": "Carlitos Vargas",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18080099?u=a886de89b1d250bf96fa0e973d2a238a0b899fcc&v=4&s=200",
-        "contributions": 12759
       }
     },
     {
@@ -1550,15 +1550,15 @@
       "slug": "syria",
       "title": "Syria",
       "flag": "🇸🇾",
-      "totalUsers": 4401,
+      "totalUsers": 4430,
       "minFollowers": 2,
-      "rankedContributions": 72678,
+      "rankedContributions": 75259,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
         "name": "Wajahat Ali Mir",
         "avatarUrl": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6&v=4&s=200",
-        "contributions": 5593
+        "contributions": 5591
       }
     },
     {
@@ -1655,15 +1655,15 @@
       "slug": "congo_kinshasa",
       "title": "Democratic Republic of the Congo",
       "flag": "🇨🇩",
-      "totalUsers": 3143,
+      "totalUsers": 3155,
       "minFollowers": 2,
-      "rankedContributions": 115733,
+      "rankedContributions": 117175,
       "rankedUsers": 256,
       "topUser": {
         "login": "coolbeatz71",
         "name": "Mutombo Jean-vincent",
         "avatarUrl": "https://avatars.githubusercontent.com/u/25999336?u=b786afd91e3b61a2d9c132d1ce48bb038f607122&v=4&s=200",
-        "contributions": 23822
+        "contributions": 25265
       }
     },
     {
@@ -2180,15 +2180,15 @@
       "slug": "congo_brazzaville",
       "title": "Republic of the Congo",
       "flag": "🇨🇬",
-      "totalUsers": 423,
+      "totalUsers": 424,
       "minFollowers": 0,
-      "rankedContributions": 19848,
+      "rankedContributions": 23956,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
         "name": "Wajahat Ali Mir",
         "avatarUrl": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6&v=4&s=200",
-        "contributions": 5593
+        "contributions": 5591
       }
     },
     {
