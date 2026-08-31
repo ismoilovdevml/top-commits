@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-08-25 03:36:50 +0000",
-  "fetchedAt": "2026-08-30T09:17:41.845Z",
+  "fetchedAt": "2026-08-31T09:49:51.643Z",
   "public": [
     {
       "rank": 1,
@@ -1846,7 +1846,7 @@
       "name": "Arystanbek Saule",
       "contributions": 124,
       "avatarUrl": "https://avatars.githubusercontent.com/u/98650996?v=4&s=200",
-      "company": "KBTU",
+      "company": "",
       "organizations": "Netcracker"
     },
     {
