@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-08-25 03:36:50 +0000",
-  "fetchedAt": "2026-08-31T09:49:51.643Z",
+  "fetchedAt": "2026-09-01T08:42:43.089Z",
   "public": [
     {
       "rank": 1,
@@ -1081,7 +1081,7 @@
       "name": "Meiirzhan Muratbekuly",
       "contributions": 256,
       "avatarUrl": "https://avatars.githubusercontent.com/u/77477996?u=938b85261024672cd2b52f904e9ef3377d73de29&v=4&s=200",
-      "company": "SDU Technopark",
+      "company": "qCloudy",
       "organizations": ""
     },
     {
