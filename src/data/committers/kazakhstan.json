@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-09-01 10:40:54 +0000",
-  "fetchedAt": "2026-09-02T07:57:46.061Z",
+  "fetchedAt": "2026-09-03T08:06:22.641Z",
   "public": [
     {
       "rank": 1,
@@ -83,7 +83,7 @@
       "contributions": 2690,
       "avatarUrl": "https://avatars.githubusercontent.com/u/22654782?u=fea2bcf4be58beca5a02dd88075daf8284a7fb82&v=4&s=200",
       "company": "",
-      "organizations": "NixOS, EpicGames, NVIDIAGameWorks, Terminal, readifcute"
+      "organizations": "NixOS, EpicGames, NVIDIAGameWorks, Terminal, n2pm"
     },
     {
       "rank": 10,
@@ -2893,7 +2893,7 @@
       "contributions": 2691,
       "avatarUrl": "https://avatars.githubusercontent.com/u/22654782?u=fea2bcf4be58beca5a02dd88075daf8284a7fb82&v=4&s=200",
       "company": "",
-      "organizations": "NixOS, EpicGames, NVIDIAGameWorks, Terminal, readifcute"
+      "organizations": "NixOS, EpicGames, NVIDIAGameWorks, Terminal, n2pm"
     },
     {
       "rank": 66,

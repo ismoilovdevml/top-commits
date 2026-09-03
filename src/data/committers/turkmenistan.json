@@ -2,7 +2,7 @@
   "country": "turkmenistan",
   "title": "Turkmenistan",
   "dataAsOf": "2026-08-23 04:25:04 +0000",
-  "fetchedAt": "2026-09-02T07:58:18.809Z",
+  "fetchedAt": "2026-09-03T08:06:55.508Z",
   "public": [
     {
       "rank": 1,
@@ -10,7 +10,7 @@
       "name": "Kemal Atayev",
       "contributions": 8647,
       "avatarUrl": "https://avatars.githubusercontent.com/u/175585453?u=48f9f9bc07f00a336641b56c9e2390b229c54389&v=4&s=200",
-      "company": "Armyt Studio",
+      "company": ".",
       "organizations": ""
     },
     {
@@ -2316,7 +2316,7 @@
       "name": "Kemal Atayev",
       "contributions": 16184,
       "avatarUrl": "https://avatars.githubusercontent.com/u/175585453?u=48f9f9bc07f00a336641b56c9e2390b229c54389&v=4&s=200",
-      "company": "Armyt Studio",
+      "company": ".",
       "organizations": ""
     },
     {
