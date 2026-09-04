@@ -2,7 +2,7 @@
   "country": "kyrgyzstan",
   "title": "Kyrgyzstan",
   "dataAsOf": "2026-08-22 02:09:26 +0000",
-  "fetchedAt": "2026-09-03T08:06:34.965Z",
+  "fetchedAt": "2026-09-04T08:08:46.186Z",
   "public": [
     {
       "rank": 1,
@@ -47,7 +47,7 @@
       "contributions": 1749,
       "avatarUrl": "https://avatars.githubusercontent.com/u/158167689?u=b6f22c99791e6fcc20eed21490dc41d9e1a1e741&v=4&s=200",
       "company": "",
-      "organizations": "itd-sdk, openfacture"
+      "organizations": "itd-sdk, openfacture, lotusgram"
     },
     {
       "rank": 6,
@@ -74,7 +74,7 @@
       "contributions": 1184,
       "avatarUrl": "https://avatars.githubusercontent.com/u/62465404?u=a908606887df5026790b22b5d92f1d3202068ed0&v=4&s=200",
       "company": "",
-      "organizations": "EpicGames, enoobis-org"
+      "organizations": ""
     },
     {
       "rank": 9,
@@ -2758,7 +2758,7 @@
       "contributions": 1942,
       "avatarUrl": "https://avatars.githubusercontent.com/u/158167689?u=b6f22c99791e6fcc20eed21490dc41d9e1a1e741&v=4&s=200",
       "company": "",
-      "organizations": "itd-sdk, openfacture"
+      "organizations": "itd-sdk, openfacture, lotusgram"
     },
     {
       "rank": 51,
@@ -3082,7 +3082,7 @@
       "contributions": 1236,
       "avatarUrl": "https://avatars.githubusercontent.com/u/62465404?u=a908606887df5026790b22b5d92f1d3202068ed0&v=4&s=200",
       "company": "",
-      "organizations": "EpicGames, enoobis-org"
+      "organizations": ""
     },
     {
       "rank": 87,

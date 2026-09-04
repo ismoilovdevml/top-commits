@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-09-02 18:19:51 +0000",
-  "fetchedAt": "2026-09-03T08:06:09.753Z",
+  "fetchedAt": "2026-09-04T08:08:23.177Z",
   "public": [
     {
       "rank": 1,
@@ -1783,7 +1783,7 @@
       "name": "Sherzod Axadov",
       "contributions": 154,
       "avatarUrl": "https://avatars.githubusercontent.com/u/101390847?u=998b4f3c1a844611db0f6d94d7d3abb130be0b25&v=4&s=200",
-      "company": "ZETT",
+      "company": "MIIT",
       "organizations": ""
     },
     {
@@ -2839,7 +2839,7 @@
       "contributions": 2995,
       "avatarUrl": "https://avatars.githubusercontent.com/u/441436?u=b378aa8ad2326d2132e08c81f61001ded1819c3a&v=4&s=200",
       "company": "@datatruck",
-      "organizations": "nwebs, EXXETA, netsyno, it-roockies"
+      "organizations": "nwebs, netsyno, it-roockies"
     },
     {
       "rank": 60,
