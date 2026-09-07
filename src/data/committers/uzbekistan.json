@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-09-02 18:19:51 +0000",
-  "fetchedAt": "2026-09-06T07:56:54.206Z",
+  "fetchedAt": "2026-09-07T08:22:26.243Z",
   "public": [
     {
       "rank": 1,
@@ -235,7 +235,7 @@
       "name": "Shohruhmirzo Usmonov",
       "contributions": 1494,
       "avatarUrl": "https://avatars.githubusercontent.com/u/94287375?u=ced67af5f8f8e63e7d92838fdd3fada2009994ec&v=4&s=200",
-      "company": "Maintainer of @nitrobrain projects",
+      "company": "@NitroBrain",
       "organizations": "NitroBrainLabs, NitroBrain, NitroScript, NitroVim, NitroShell"
     },
     {
@@ -2712,7 +2712,7 @@
       "name": "Shohruhmirzo Usmonov",
       "contributions": 3838,
       "avatarUrl": "https://avatars.githubusercontent.com/u/94287375?u=ced67af5f8f8e63e7d92838fdd3fada2009994ec&v=4&s=200",
-      "company": "Maintainer of @nitrobrain projects",
+      "company": "@NitroBrain",
       "organizations": "NitroBrainLabs, NitroBrain, NitroScript, NitroVim, NitroShell"
     },
     {
