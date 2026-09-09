@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-09-02 18:19:51 +0000",
-  "fetchedAt": "2026-09-08T08:08:23.823Z",
+  "fetchedAt": "2026-09-09T08:12:25.803Z",
   "public": [
     {
       "rank": 1,
@@ -1360,7 +1360,7 @@
       "name": "Mr. Otabek",
       "contributions": 228,
       "avatarUrl": "https://avatars.githubusercontent.com/u/146438558?u=e5f22340dfae1e41f30b6a7786a82cf9d8528cd7&v=4&s=200",
-      "company": "ABUTECH",
+      "company": "",
       "organizations": "NET-Bootcamp-N11, Supra-Pro"
     },
     {
