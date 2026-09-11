@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T08:11:00.195Z",
+  "generatedAt": "2026-09-11T08:06:19.839Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -110,15 +110,15 @@
       "slug": "canada",
       "title": "Canada",
       "flag": "🇨🇦",
-      "totalUsers": 265106,
-      "minFollowers": 170,
-      "rankedContributions": 835587,
+      "totalUsers": 265957,
+      "minFollowers": 202,
+      "rankedContributions": 799265,
       "rankedUsers": 256,
       "topUser": {
         "login": "Amey-Thakur",
         "name": "Amey Thakur",
         "avatarUrl": "https://avatars.githubusercontent.com/u/54937357?u=88edb508c9d54f7b7dc80c40ae3da78420a0c514&v=4&s=200",
-        "contributions": 31629
+        "contributions": 32010
       }
     },
     {
@@ -335,15 +335,15 @@
       "slug": "ukraine",
       "title": "Ukraine",
       "flag": "🇺🇦",
-      "totalUsers": 100120,
+      "totalUsers": 100215,
       "minFollowers": 53,
-      "rankedContributions": 278979,
+      "rankedContributions": 281337,
       "rankedUsers": 256,
       "topUser": {
         "login": "MikhailKasimov",
         "name": "Mikhail Kasimov",
         "avatarUrl": "https://avatars.githubusercontent.com/u/7167300?u=6e6fa04368b15a5a57505eb1078246514faa64e3&v=4&s=200",
-        "contributions": 21885
+        "contributions": 22040
       }
     },
     {
@@ -800,15 +800,15 @@
       "slug": "peru",
       "title": "Peru",
       "flag": "🇵🇪",
-      "totalUsers": 29154,
+      "totalUsers": 29265,
       "minFollowers": 19,
-      "rankedContributions": 172972,
+      "rankedContributions": 172082,
       "rankedUsers": 256,
       "topUser": {
         "login": "Railly",
         "name": "Railly Hugo",
         "avatarUrl": "https://avatars.githubusercontent.com/u/51397083?u=662c12eb819810138fc0542c6a5fdbdbf208a710&v=4&s=200",
-        "contributions": 6814
+        "contributions": 6759
       }
     },
     {
@@ -935,15 +935,15 @@
       "slug": "uzbekistan",
       "title": "Uzbekistan",
       "flag": "🇺🇿",
-      "totalUsers": 19721,
+      "totalUsers": 19825,
       "minFollowers": 20,
-      "rankedContributions": 404893,
+      "rankedContributions": 386099,
       "rankedUsers": 256,
       "topUser": {
         "login": "AbdullayevTemurmalik",
         "name": "TemurMalik",
         "avatarUrl": "https://avatars.githubusercontent.com/u/225833678?u=b3319471aee657a628b0330f2ebfb9bb914849e0&v=4&s=200",
-        "contributions": 144828
+        "contributions": 144829
       }
     },
     {
@@ -1070,15 +1070,15 @@
       "slug": "lithuania",
       "title": "Lithuania",
       "flag": "🇱🇹",
-      "totalUsers": 12279,
+      "totalUsers": 12315,
       "minFollowers": 11,
-      "rankedContributions": 145043,
+      "rankedContributions": 149626,
       "rankedUsers": 256,
       "topUser": {
         "login": "Dambre",
         "name": "Lukas",
         "avatarUrl": "https://avatars.githubusercontent.com/u/9976600?u=85f56cddbf15a822fdf7695c7520553b1ebc4667&v=4&s=200",
-        "contributions": 12246
+        "contributions": 12257
       }
     },
     {
@@ -1337,6 +1337,21 @@
       }
     },
     {
+      "slug": "lebanon",
+      "title": "Lebanon",
+      "flag": "🇱🇧",
+      "totalUsers": 6935,
+      "minFollowers": 6,
+      "rankedContributions": 85912,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "1homsi",
+        "name": "Mohamad Homsi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65892600?u=7518805ac6c737e8de4d0c8f00367d1819cb02a2&v=4&s=200",
+        "contributions": 4041
+      }
+    },
+    {
       "slug": "cambodia",
       "title": "Cambodia",
       "flag": "🇰🇭",
@@ -1349,21 +1364,6 @@
         "name": "pphat",
         "avatarUrl": "https://avatars.githubusercontent.com/u/65520537?u=98073942283017c3fea726f5cb4e003a385211ee&v=4&s=200",
         "contributions": 4712
-      }
-    },
-    {
-      "slug": "lebanon",
-      "title": "Lebanon",
-      "flag": "🇱🇧",
-      "totalUsers": 6884,
-      "minFollowers": 6,
-      "rankedContributions": 84727,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "1homsi",
-        "name": "Mohamad Homsi",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/65892600?u=7518805ac6c737e8de4d0c8f00367d1819cb02a2&v=4&s=200",
-        "contributions": 4037
       }
     },
     {
@@ -1415,15 +1415,15 @@
       "slug": "angola",
       "title": "Angola",
       "flag": "🇦🇴",
-      "totalUsers": 5802,
+      "totalUsers": 5883,
       "minFollowers": 6,
-      "rankedContributions": 96407,
+      "rankedContributions": 102107,
       "rankedUsers": 256,
       "topUser": {
         "login": "runtechx",
         "name": "RunTech",
         "avatarUrl": "https://avatars.githubusercontent.com/u/278734461?u=689cc05f13c0d1c8101bff01f917298ea0b93141&v=4&s=200",
-        "contributions": 26581
+        "contributions": 29879
       }
     },
     {
@@ -1697,6 +1697,21 @@
       }
     },
     {
+      "slug": "malta",
+      "title": "Malta",
+      "flag": "🇲🇹",
+      "totalUsers": 3037,
+      "minFollowers": 1,
+      "rankedContributions": 96172,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "ksazid",
+        "name": "Sazid",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47315271?u=ea3e4f054d8f330ffc098aa419691764baf85f66&v=4&s=200",
+        "contributions": 5389
+      }
+    },
+    {
       "slug": "nicaragua",
       "title": "Nicaragua",
       "flag": "🇳🇮",
@@ -1709,21 +1724,6 @@
         "name": "William Moreno",
         "avatarUrl": "https://avatars.githubusercontent.com/u/3522386?v=4&s=200",
         "contributions": 5952
-      }
-    },
-    {
-      "slug": "malta",
-      "title": "Malta",
-      "flag": "🇲🇹",
-      "totalUsers": 3028,
-      "minFollowers": 1,
-      "rankedContributions": 94930,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "ksazid",
-        "name": "Sazid",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47315271?u=ea3e4f054d8f330ffc098aa419691764baf85f66&v=4&s=200",
-        "contributions": 5210
       }
     },
     {
@@ -2075,15 +2075,15 @@
       "slug": "mali",
       "title": "Mali",
       "flag": "🇲🇱",
-      "totalUsers": 715,
+      "totalUsers": 722,
       "minFollowers": 0,
-      "rankedContributions": 30228,
+      "rankedContributions": 30276,
       "rankedUsers": 256,
       "topUser": {
         "login": "koneke55",
         "name": "कोनेके",
         "avatarUrl": "https://avatars.githubusercontent.com/u/139575233?u=2e9226b84d47b0607440af932208379dd817842b&v=4&s=200",
-        "contributions": 5923
+        "contributions": 5934
       }
     },
     {
@@ -2105,15 +2105,15 @@
       "slug": "laos",
       "title": "Laos",
       "flag": "🇱🇦",
-      "totalUsers": 679,
+      "totalUsers": 680,
       "minFollowers": 0,
-      "rankedContributions": 23077,
+      "rankedContributions": 23110,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
         "name": "Wajahat Ali Mir",
         "avatarUrl": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6&v=4&s=200",
-        "contributions": 5591
+        "contributions": 5585
       }
     },
     {
@@ -2165,9 +2165,9 @@
       "slug": "mauritania",
       "title": "Mauritania",
       "flag": "🇲🇷",
-      "totalUsers": 435,
+      "totalUsers": 436,
       "minFollowers": 0,
-      "rankedContributions": 17220,
+      "rankedContributions": 17170,
       "rankedUsers": 256,
       "topUser": {
         "login": "mohameden19961",
@@ -2225,15 +2225,15 @@
       "slug": "chad",
       "title": "Chad",
       "flag": "🇹🇩",
-      "totalUsers": 311,
+      "totalUsers": 314,
       "minFollowers": 0,
-      "rankedContributions": 9913,
+      "rankedContributions": 9952,
       "rankedUsers": 256,
       "topUser": {
         "login": "adoumouangnamouemmanuel",
         "name": "Emmanuel Adoum",
         "avatarUrl": "https://avatars.githubusercontent.com/u/125479958?u=29b079e297fb0267dbfaed271884a405cfb4561e&v=4&s=200",
-        "contributions": 2273
+        "contributions": 2239
       }
     },
     {
