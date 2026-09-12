@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-09-11 06:57:33 +0000",
-  "fetchedAt": "2026-09-11T08:06:34.773Z",
+  "fetchedAt": "2026-09-12T07:57:50.952Z",
   "public": [
     {
       "rank": 1,
@@ -1163,7 +1163,7 @@
       "contributions": 287,
       "avatarUrl": "https://avatars.githubusercontent.com/u/37299109?u=6ac690ac62c9560075300f90dc1e7f4c03afa8bc&v=4&s=200",
       "company": "",
-      "organizations": "NixOS, shakhzodkudratov, xinux-org, odc-2024, SafeBite-Hackathon"
+      "organizations": "NixOS, shakhzodkudratov, odc-2024, SafeBite-Hackathon, dowhile-uz"
     },
     {
       "rank": 130,
