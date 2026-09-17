@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-09-13 20:03:21 +0000",
-  "fetchedAt": "2026-09-16T08:38:48.897Z",
+  "fetchedAt": "2026-09-17T08:42:51.163Z",
   "public": [
     {
       "rank": 1,
@@ -2775,8 +2775,8 @@
       "name": "Odilkhon Mukhtorkhujaev",
       "contributions": 3164,
       "avatarUrl": "https://avatars.githubusercontent.com/u/39410006?u=192b3128a6f24291eaacd3fb1b4f76b4e8ae59e1&v=4&s=200",
-      "company": "@CLS-International @AgroDevUz",
-      "organizations": "AgroDevUz, Odya-LLC, CLS-International"
+      "company": "@CLS-International @Quiel-App",
+      "organizations": "AgroDevUz, Odya-LLC, CLS-International, Quiel-App"
     },
     {
       "rank": 53,
