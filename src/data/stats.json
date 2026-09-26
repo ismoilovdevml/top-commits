@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T08:52:38.428Z",
+  "generatedAt": "2026-09-26T08:38:55.222Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -170,15 +170,15 @@
       "slug": "pakistan",
       "title": "Pakistan",
       "flag": "🇵🇰",
-      "totalUsers": 163356,
+      "totalUsers": 164062,
       "minFollowers": 69,
-      "rankedContributions": 644266,
+      "rankedContributions": 609764,
       "rankedUsers": 256,
       "topUser": {
         "login": "SufiyanShahidDev",
         "name": "Sufiyan Shahid",
         "avatarUrl": "https://avatars.githubusercontent.com/u/224948898?u=46fb9a24e707a380020cdabc04011f66937cf1f3&v=4&s=200",
-        "contributions": 140690
+        "contributions": 140700
       }
     },
     {
@@ -257,21 +257,6 @@
       }
     },
     {
-      "slug": "poland",
-      "title": "Poland",
-      "flag": "🇵🇱",
-      "totalUsers": 114938,
-      "minFollowers": 79,
-      "rankedContributions": 594048,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "mgorny",
-        "name": "Michał Górny",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/110765?u=8b45f2ed8365e91a745800335adcedb95e0aae30&v=4&s=200",
-        "contributions": 36092
-      }
-    },
-    {
       "slug": "south_korea",
       "title": "Republic of Korea",
       "flag": "🇰🇷",
@@ -284,6 +269,21 @@
         "name": "YeonGyu-Kim",
         "avatarUrl": "https://avatars.githubusercontent.com/u/11153873?u=568c08de254b942a8ec466fcba17f2a02cb68802&v=4&s=200",
         "contributions": 27222
+      }
+    },
+    {
+      "slug": "poland",
+      "title": "Poland",
+      "flag": "🇵🇱",
+      "totalUsers": 114418,
+      "minFollowers": 49,
+      "rankedContributions": 707437,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "mgorny",
+        "name": "Michał Górny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110765?u=8b45f2ed8365e91a745800335adcedb95e0aae30&v=4&s=200",
+        "contributions": 36078
       }
     },
     {
@@ -335,15 +335,15 @@
       "slug": "ukraine",
       "title": "Ukraine",
       "flag": "🇺🇦",
-      "totalUsers": 100457,
+      "totalUsers": 100608,
       "minFollowers": 53,
-      "rankedContributions": 288736,
+      "rankedContributions": 295923,
       "rankedUsers": 256,
       "topUser": {
         "login": "MikhailKasimov",
         "name": "Mikhail Kasimov",
         "avatarUrl": "https://avatars.githubusercontent.com/u/7167300?u=6e6fa04368b15a5a57505eb1078246514faa64e3&v=4&s=200",
-        "contributions": 22354
+        "contributions": 22547
       }
     },
     {
@@ -452,6 +452,21 @@
       }
     },
     {
+      "slug": "philippines",
+      "title": "Philippines",
+      "flag": "🇵🇭",
+      "totalUsers": 61137,
+      "minFollowers": 38,
+      "rankedContributions": 1884597,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "jaymar921",
+        "name": "Jayharron Abejar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72720429?u=5d350d8026966f626506162689deb7f5f8f9a5de&v=4&s=200",
+        "contributions": 1362081
+      }
+    },
+    {
       "slug": "switzerland",
       "title": "Switzerland",
       "flag": "🇨🇭",
@@ -464,21 +479,6 @@
         "name": "Fabian Affolter",
         "avatarUrl": "https://avatars.githubusercontent.com/u/116184?v=4&s=200",
         "contributions": 17714
-      }
-    },
-    {
-      "slug": "philippines",
-      "title": "Philippines",
-      "flag": "🇵🇭",
-      "totalUsers": 60288,
-      "minFollowers": 37,
-      "rankedContributions": 1670326,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "jaymar921",
-        "name": "Jayharron Abejar",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/72720429?u=5d350d8026966f626506162689deb7f5f8f9a5de&v=4&s=200",
-        "contributions": 1187934
       }
     },
     {
@@ -545,15 +545,15 @@
       "slug": "taiwan",
       "title": "Taiwan",
       "flag": "🇹🇼",
-      "totalUsers": 47254,
+      "totalUsers": 47434,
       "minFollowers": 71,
-      "rankedContributions": 572947,
+      "rankedContributions": 586365,
       "rankedUsers": 256,
       "topUser": {
         "login": "dennislee928",
         "name": "Pei-Chen (Dennis) Lee",
         "avatarUrl": "https://avatars.githubusercontent.com/u/55692615?u=5fb024a6176fe010f5d2fbae0a231e8be763c79d&v=4&s=200",
-        "contributions": 37776
+        "contributions": 37628
       }
     },
     {
@@ -755,15 +755,15 @@
       "slug": "malaysia",
       "title": "Malaysia",
       "flag": "🇲🇾",
-      "totalUsers": 32770,
+      "totalUsers": 32940,
       "minFollowers": 27,
-      "rankedContributions": 287032,
+      "rankedContributions": 292756,
       "rankedUsers": 256,
       "topUser": {
         "login": "azaharizaman",
         "name": "Azahari Zaman",
         "avatarUrl": "https://avatars.githubusercontent.com/u/117408?u=feba8f3cfabcfed770d958ab2095412e3b889c3d&v=4&s=200",
-        "contributions": 42585
+        "contributions": 42789
       }
     },
     {
@@ -1025,15 +1025,15 @@
       "slug": "costa_rica",
       "title": "Costa Rica",
       "flag": "🇨🇷",
-      "totalUsers": 15060,
+      "totalUsers": 15119,
       "minFollowers": 8,
-      "rankedContributions": 144758,
+      "rankedContributions": 146037,
       "rankedUsers": 256,
       "topUser": {
         "login": "skylartaylor",
         "name": "skylar taylor-barrick",
         "avatarUrl": "https://avatars.githubusercontent.com/u/26588250?u=8ccb4577fcdeaa738e224e432c70213e5b644f24&v=4&s=200",
-        "contributions": 8288
+        "contributions": 8284
       }
     },
     {
@@ -1307,6 +1307,21 @@
       }
     },
     {
+      "slug": "georgia",
+      "title": "Georgia",
+      "flag": "🇬🇪",
+      "totalUsers": 7187,
+      "minFollowers": 6,
+      "rankedContributions": 222180,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "po4yka",
+        "name": "Nikita Pochaev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42894392?u=64578004eeac0f44e86e664e01868b997a2a5ab4&v=4&s=200",
+        "contributions": 15641
+      }
+    },
+    {
       "slug": "dominican_republic",
       "title": "Dominican Republic",
       "flag": "🇩🇴",
@@ -1319,21 +1334,6 @@
         "name": "Max Castro",
         "avatarUrl": "https://avatars.githubusercontent.com/u/118385?u=fcadf7e603a62e766ddebcef87f9ac05a9f5658f&v=4&s=200",
         "contributions": 11463
-      }
-    },
-    {
-      "slug": "georgia",
-      "title": "Georgia",
-      "flag": "🇬🇪",
-      "totalUsers": 7170,
-      "minFollowers": 6,
-      "rankedContributions": 217294,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "po4yka",
-        "name": "Nikita Pochaev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/42894392?u=64578004eeac0f44e86e664e01868b997a2a5ab4&v=4&s=200",
-        "contributions": 15353
       }
     },
     {
@@ -1430,15 +1430,15 @@
       "slug": "el_salvador",
       "title": "El Salvador",
       "flag": "🇸🇻",
-      "totalUsers": 5182,
+      "totalUsers": 5196,
       "minFollowers": 4,
-      "rankedContributions": 88692,
+      "rankedContributions": 91443,
       "rankedUsers": 256,
       "topUser": {
         "login": "b-mendoza",
         "name": "Bryan Mendoza",
         "avatarUrl": "https://avatars.githubusercontent.com/u/69016561?u=77da5e68c2c0cce778a2c1bfff96634562b5add0&v=4&s=200",
-        "contributions": 7556
+        "contributions": 7646
       }
     },
     {
@@ -1640,15 +1640,15 @@
       "slug": "honduras",
       "title": "Honduras",
       "flag": "🇭🇳",
-      "totalUsers": 3284,
+      "totalUsers": 3292,
       "minFollowers": 1,
-      "rankedContributions": 63481,
+      "rankedContributions": 64756,
       "rankedUsers": 256,
       "topUser": {
         "login": "eliac-d",
         "name": "Eliac",
         "avatarUrl": "https://avatars.githubusercontent.com/u/245125913?u=9aeddaa713c29082e3c6fb94d1a87da0e602449a&v=4&s=200",
-        "contributions": 3500
+        "contributions": 3507
       }
     },
     {
@@ -1685,9 +1685,9 @@
       "slug": "yemen",
       "title": "Yemen",
       "flag": "🇾🇪",
-      "totalUsers": 3168,
+      "totalUsers": 3200,
       "minFollowers": 2,
-      "rankedContributions": 250577,
+      "rankedContributions": 248208,
       "rankedUsers": 256,
       "topUser": {
         "login": "thejulan",
@@ -1745,15 +1745,15 @@
       "slug": "mozambique",
       "title": "Mozambique",
       "flag": "🇲🇿",
-      "totalUsers": 2822,
-      "minFollowers": 1,
-      "rankedContributions": 53144,
+      "totalUsers": 2840,
+      "minFollowers": 2,
+      "rankedContributions": 54712,
       "rankedUsers": 256,
       "topUser": {
         "login": "afonsoDomingos",
         "name": "Afonso Domingos (Vibe)",
         "avatarUrl": "https://avatars.githubusercontent.com/u/52966432?u=a1e49c550b7cbbc670b048f1c9ab94df3493be04&v=4&s=200",
-        "contributions": 5074
+        "contributions": 5410
       }
     },
     {
@@ -1817,6 +1817,21 @@
       }
     },
     {
+      "slug": "ivory_coast",
+      "title": "Ivory Coast",
+      "flag": "🇨🇮",
+      "totalUsers": 2473,
+      "minFollowers": 0,
+      "rankedContributions": 60546,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "adrielzimbril",
+        "name": "Adriel Zimbril",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109924237?u=935916955fc5c66fc68f10dcc0f419c19d42b25e&v=4&s=200",
+        "contributions": 3725
+      }
+    },
+    {
       "slug": "benin",
       "title": "Benin",
       "flag": "🇧🇯",
@@ -1829,21 +1844,6 @@
         "name": "Steve Aster AFOVO",
         "avatarUrl": "https://avatars.githubusercontent.com/u/72698973?u=a08e4cbb9bbfccf7ddf8605573f8073f7d468f2a&v=4&s=200",
         "contributions": 11472
-      }
-    },
-    {
-      "slug": "ivory_coast",
-      "title": "Ivory Coast",
-      "flag": "🇨🇮",
-      "totalUsers": 2464,
-      "minFollowers": 0,
-      "rankedContributions": 59901,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "adrielzimbril",
-        "name": "Adriel Zimbril",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/109924237?u=935916955fc5c66fc68f10dcc0f419c19d42b25e&v=4&s=200",
-        "contributions": 3845
       }
     },
     {
@@ -1967,6 +1967,21 @@
       }
     },
     {
+      "slug": "togo",
+      "title": "Togo",
+      "flag": "🇹🇬",
+      "totalUsers": 1381,
+      "minFollowers": 0,
+      "rankedContributions": 81497,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "MaximeKELI",
+        "name": "Maxime KELI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/172617927?u=340135e766894ac20bdfe3638320a25639c4808b&v=4&s=200",
+        "contributions": 7346
+      }
+    },
+    {
       "slug": "macau",
       "title": "Macau",
       "flag": "🇲🇴",
@@ -1979,21 +1994,6 @@
         "name": "Magne Dina Neves",
         "avatarUrl": "https://avatars.githubusercontent.com/u/142139028?u=b6e2459bec00d50ba170b7c233c3067c41ff6bdd&v=4&s=200",
         "contributions": 16879
-      }
-    },
-    {
-      "slug": "togo",
-      "title": "Togo",
-      "flag": "🇹🇬",
-      "totalUsers": 1373,
-      "minFollowers": 0,
-      "rankedContributions": 81022,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "MaximeKELI",
-        "name": "Maxime KELI",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/172617927?u=340135e766894ac20bdfe3638320a25639c4808b&v=4&s=200",
-        "contributions": 7340
       }
     },
     {
@@ -2195,15 +2195,15 @@
       "slug": "the_bahamas",
       "title": "The Bahamas",
       "flag": "🇧🇸",
-      "totalUsers": 393,
+      "totalUsers": 394,
       "minFollowers": 0,
-      "rankedContributions": 6565,
+      "rankedContributions": 6491,
       "rankedUsers": 256,
       "topUser": {
         "login": "Tec4Sho",
         "name": "Ziona",
         "avatarUrl": "https://avatars.githubusercontent.com/u/143420949?v=4&s=200",
-        "contributions": 1342
+        "contributions": 1216
       }
     },
     {
