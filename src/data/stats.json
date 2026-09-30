@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T09:53:37.323Z",
+  "generatedAt": "2026-09-30T09:45:54.956Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -50,15 +50,15 @@
       "slug": "brazil",
       "title": "Brazil",
       "flag": "🇧🇷",
-      "totalUsers": 563328,
-      "minFollowers": 345,
-      "rankedContributions": 372468,
+      "totalUsers": 565871,
+      "minFollowers": 344,
+      "rankedContributions": 391398,
       "rankedUsers": 256,
       "topUser": {
-        "login": "FabianaCampanari",
-        "name": "Fabiana  ⚡️ Campanari",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/113218619?u=ed62c7ce5df2ba474cd3bf391cf4dab7be0d19ad&v=4&s=200",
-        "contributions": 19823
+        "login": "vitormattos",
+        "name": "Vitor Mattos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1079143?u=0d00d368ae3c321bc984f89e96fbe89c886c8cdb&v=4&s=200",
+        "contributions": 21768
       }
     },
     {
@@ -95,15 +95,15 @@
       "slug": "uk",
       "title": "United Kingdom",
       "flag": "🇬🇧",
-      "totalUsers": 308650,
-      "minFollowers": 238,
-      "rankedContributions": 956116,
+      "totalUsers": 311686,
+      "minFollowers": 282,
+      "rankedContributions": 928239,
       "rankedUsers": 256,
       "topUser": {
         "login": "steipete",
         "name": "Peter Steinberger",
         "avatarUrl": "https://avatars.githubusercontent.com/u/58493?u=95a4fccef3d341039661c427695691a664e333ba&v=4&s=200",
-        "contributions": 91069
+        "contributions": 101679
       }
     },
     {
@@ -335,15 +335,15 @@
       "slug": "ukraine",
       "title": "Ukraine",
       "flag": "🇺🇦",
-      "totalUsers": 100608,
+      "totalUsers": 100685,
       "minFollowers": 53,
-      "rankedContributions": 295923,
+      "rankedContributions": 299186,
       "rankedUsers": 256,
       "topUser": {
         "login": "MikhailKasimov",
         "name": "Mikhail Kasimov",
         "avatarUrl": "https://avatars.githubusercontent.com/u/7167300?u=6e6fa04368b15a5a57505eb1078246514faa64e3&v=4&s=200",
-        "contributions": 22547
+        "contributions": 22686
       }
     },
     {
@@ -695,15 +695,15 @@
       "slug": "thailand",
       "title": "Thailand",
       "flag": "🇹🇭",
-      "totalUsers": 37827,
+      "totalUsers": 37889,
       "minFollowers": 39,
-      "rankedContributions": 393931,
+      "rankedContributions": 404607,
       "rankedUsers": 256,
       "topUser": {
         "login": "gHashTag",
         "name": "Vasilev Dmitrii",
         "avatarUrl": "https://avatars.githubusercontent.com/u/6774813?u=18c30d1c223759bf1a70f1c3fda5935952c38c20&v=4&s=200",
-        "contributions": 23490
+        "contributions": 24401
       }
     },
     {
@@ -815,15 +815,15 @@
       "slug": "nepal",
       "title": "Nepal",
       "flag": "🇳🇵",
-      "totalUsers": 29267,
+      "totalUsers": 29428,
       "minFollowers": 35,
-      "rankedContributions": 209093,
+      "rankedContributions": 208427,
       "rankedUsers": 256,
       "topUser": {
         "login": "Azathothas",
         "name": "Ajam",
         "avatarUrl": "https://avatars.githubusercontent.com/u/58171889?u=75f39865124e04b917ebed203788a3285a118820&v=4&s=200",
-        "contributions": 22966
+        "contributions": 21972
       }
     },
     {
@@ -950,15 +950,15 @@
       "slug": "ghana",
       "title": "Ghana",
       "flag": "🇬🇭",
-      "totalUsers": 17163,
-      "minFollowers": 24,
-      "rankedContributions": 229776,
+      "totalUsers": 17243,
+      "minFollowers": 25,
+      "rankedContributions": 234926,
       "rankedUsers": 256,
       "topUser": {
         "login": "sedegah",
         "name": "Kimathi  Sedegah",
         "avatarUrl": "https://avatars.githubusercontent.com/u/171694895?u=3d3c5dea7164e7af4049629e11a18c6c24646e05&v=4&s=200",
-        "contributions": 24183
+        "contributions": 23797
       }
     },
     {
@@ -1055,15 +1055,15 @@
       "slug": "algeria",
       "title": "Algeria",
       "flag": "🇩🇿",
-      "totalUsers": 12444,
+      "totalUsers": 12545,
       "minFollowers": 20,
-      "rankedContributions": 95907,
+      "rankedContributions": 103917,
       "rankedUsers": 256,
       "topUser": {
-        "login": "mohaneddz",
-        "name": "Mohaned-Dz",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/79571930?u=e242b01512c55df092029a6efa0b6d882a6e6892&v=4&s=200",
-        "contributions": 4459
+        "login": "bkader",
+        "name": "Kader Bouyakoub",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4732702?u=04c4e7e41183df599edd86fa4ecd0459d51fc8cd&v=4&s=200",
+        "contributions": 6647
       }
     },
     {
@@ -1220,15 +1220,15 @@
       "slug": "latvia",
       "title": "Latvia",
       "flag": "🇱🇻",
-      "totalUsers": 7880,
+      "totalUsers": 7920,
       "minFollowers": 7,
-      "rankedContributions": 148951,
+      "rankedContributions": 134458,
       "rankedUsers": 256,
       "topUser": {
-        "login": "ThePixelMoon",
-        "name": "ThePixelMoon",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/176160477?u=e2954e6aa25593abb7cdd8d3f3676fc6aeb43bda&v=4&s=200",
-        "contributions": 30176
+        "login": "k0d3r1s",
+        "name": "Dāvis Zālītis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38725938?u=a88f332d9b2099d423a403a359264863da6b71e4&v=4&s=200",
+        "contributions": 14435
       }
     },
     {
@@ -1490,15 +1490,15 @@
       "slug": "kyrgyzstan",
       "title": "Kyrgyzstan",
       "flag": "🇰🇬",
-      "totalUsers": 4548,
+      "totalUsers": 4556,
       "minFollowers": 5,
-      "rankedContributions": 70508,
+      "rankedContributions": 74775,
       "rankedUsers": 256,
       "topUser": {
         "login": "bekishh",
         "name": "Zh Beknazar",
         "avatarUrl": "https://avatars.githubusercontent.com/u/139379787?u=a155123b5a1aa68483c82588234027003b205ff1&v=4&s=200",
-        "contributions": 10297
+        "contributions": 9942
       }
     },
     {
@@ -2150,15 +2150,15 @@
       "slug": "gabon",
       "title": "Gabon",
       "flag": "🇬🇦",
-      "totalUsers": 484,
+      "totalUsers": 489,
       "minFollowers": 0,
-      "rankedContributions": 20585,
+      "rankedContributions": 21036,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
         "name": "Wajahat Ali Mir",
         "avatarUrl": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6&v=4&s=200",
-        "contributions": 5585
+        "contributions": 5583
       }
     },
     {
