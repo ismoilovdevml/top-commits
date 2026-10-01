@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-09-22 10:47:15 +0000",
-  "fetchedAt": "2026-09-30T09:46:10.698Z",
+  "fetchedAt": "2026-10-01T10:12:42.323Z",
   "public": [
     {
       "rank": 1,
@@ -28,7 +28,7 @@
       "name": "DILSHODBEK",
       "contributions": 12594,
       "avatarUrl": "https://avatars.githubusercontent.com/u/236811873?u=9b546d6df7eb5470b4e1a78d199fba3976eb265b&v=4&s=200",
-      "company": "IT-PARK",
+      "company": "",
       "organizations": ""
     },
     {
@@ -982,8 +982,8 @@
       "name": "Abdulla Abdukulov",
       "contributions": 336,
       "avatarUrl": "https://avatars.githubusercontent.com/u/95611906?u=9681806816ca865e20bbfb4c57c95d4471c39300&v=4&s=200",
-      "company": "DIVIDEND GROUP LLC",
-      "organizations": "Techno-Vision-uz, astrumuz"
+      "company": "Qubix",
+      "organizations": "Techno-Vision-uz"
     },
     {
       "rank": 110,
@@ -2352,7 +2352,7 @@
       "name": "DILSHODBEK",
       "contributions": 12594,
       "avatarUrl": "https://avatars.githubusercontent.com/u/236811873?u=9b546d6df7eb5470b4e1a78d199fba3976eb265b&v=4&s=200",
-      "company": "IT-PARK",
+      "company": "",
       "organizations": ""
     },
     {
