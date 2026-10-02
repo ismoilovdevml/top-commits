@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-09-22 10:47:15 +0000",
-  "fetchedAt": "2026-10-01T10:12:42.323Z",
+  "fetchedAt": "2026-10-02T09:50:10.993Z",
   "public": [
     {
       "rank": 1,
@@ -244,8 +244,8 @@
       "name": "Azamov X",
       "contributions": 1414,
       "avatarUrl": "https://avatars.githubusercontent.com/u/108933534?u=4cdcdbf0596002f185f309428cb76852fc25b766&v=4&s=200",
-      "company": "TON Community @Sozo-app",
-      "organizations": "Sozo-app"
+      "company": "",
+      "organizations": ""
     },
     {
       "rank": 28,
@@ -2613,8 +2613,8 @@
       "name": "Azamov X",
       "contributions": 4643,
       "avatarUrl": "https://avatars.githubusercontent.com/u/108933534?u=4cdcdbf0596002f185f309428cb76852fc25b766&v=4&s=200",
-      "company": "TON Community @Sozo-app",
-      "organizations": "Sozo-app"
+      "company": "",
+      "organizations": ""
     },
     {
       "rank": 35,
