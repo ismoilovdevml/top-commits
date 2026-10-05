@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-09-22 10:47:15 +0000",
-  "fetchedAt": "2026-10-04T09:52:02.523Z",
+  "fetchedAt": "2026-10-05T10:31:51.815Z",
   "public": [
     {
       "rank": 1,
@@ -757,7 +757,7 @@
       "name": "Sabrina Babakulova",
       "contributions": 467,
       "avatarUrl": "https://avatars.githubusercontent.com/u/63979168?u=586e5048404b5f563a2f44b687142e364667692f&v=4&s=200",
-      "company": "Claven IO",
+      "company": "",
       "organizations": ""
     },
     {
@@ -1568,7 +1568,7 @@
       "contributions": 186,
       "avatarUrl": "https://avatars.githubusercontent.com/u/37299109?u=6ac690ac62c9560075300f90dc1e7f4c03afa8bc&v=4&s=200",
       "company": "",
-      "organizations": "NixOS, shakhzodkudratov, odc-2024, SafeBite-Hackathon, dowhile-uz"
+      "organizations": "NixOS, shakhzodkudratov, odc-2024, SafeBite-Hackathon"
     },
     {
       "rank": 175,
@@ -2947,7 +2947,7 @@
       "contributions": 2779,
       "avatarUrl": "https://avatars.githubusercontent.com/u/103936585?u=843aa11dc5342ece5ffbb1b268f98e38e3d28cc8&v=4&s=200",
       "company": "Radius Mobile",
-      "organizations": "Radius-Mobile, ShizuUserbot, AmanatPayTeam"
+      "organizations": "Radius-Mobile, ShizuUserbot"
     },
     {
       "rank": 72,
@@ -3414,7 +3414,7 @@
       "name": "Sabrina Babakulova",
       "contributions": 1774,
       "avatarUrl": "https://avatars.githubusercontent.com/u/63979168?u=586e5048404b5f563a2f44b687142e364667692f&v=4&s=200",
-      "company": "Claven IO",
+      "company": "",
       "organizations": ""
     },
     {
