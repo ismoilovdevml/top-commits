@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-10-01 09:32:27 +0000",
-  "fetchedAt": "2026-10-05T10:32:04.717Z",
+  "fetchedAt": "2026-10-06T10:24:02.352Z",
   "public": [
     {
       "rank": 1,
@@ -82,7 +82,7 @@
       "name": "Alpamys Makazhan",
       "contributions": 2917,
       "avatarUrl": "https://avatars.githubusercontent.com/u/188336071?u=35a95931cbb806e7cf8a27b01af1a71af5ba293a&v=4&s=200",
-      "company": "@AlanaTechGroup",
+      "company": "@SoupTeam",
       "organizations": "AlanaTechGroup"
     },
     {
@@ -2676,7 +2676,7 @@
       "name": "Alpamys Makazhan",
       "contributions": 4060,
       "avatarUrl": "https://avatars.githubusercontent.com/u/188336071?u=35a95931cbb806e7cf8a27b01af1a71af5ba293a&v=4&s=200",
-      "company": "@AlanaTechGroup",
+      "company": "@SoupTeam",
       "organizations": "AlanaTechGroup"
     },
     {

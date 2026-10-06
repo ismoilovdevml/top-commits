@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:31:38.326Z",
+  "generatedAt": "2026-10-06T10:23:33.097Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -215,15 +215,15 @@
       "slug": "bangladesh",
       "title": "Bangladesh",
       "flag": "🇧🇩",
-      "totalUsers": 148085,
+      "totalUsers": 149232,
       "minFollowers": 89,
-      "rankedContributions": 243836,
+      "rankedContributions": 243631,
       "rankedUsers": 256,
       "topUser": {
         "login": "ahammadmejbah",
         "name": "Mejbah Ahammad",
         "avatarUrl": "https://avatars.githubusercontent.com/u/56669333?u=004ecfc53f5ff19882dc29cb65e8bafde70a598e&v=4&s=200",
-        "contributions": 27581
+        "contributions": 27577
       }
     },
     {
@@ -680,15 +680,15 @@
       "slug": "belgium",
       "title": "Belgium",
       "flag": "🇧🇪",
-      "totalUsers": 38590,
-      "minFollowers": 44,
-      "rankedContributions": 456951,
+      "totalUsers": 39215,
+      "minFollowers": 49,
+      "rankedContributions": 462007,
       "rankedUsers": 256,
       "topUser": {
         "login": "phmatray",
         "name": "Philippe Matray",
         "avatarUrl": "https://avatars.githubusercontent.com/u/9035444?u=c96bf19888db54a8ea71d82edc7dbbd5ee68bcfd&v=4&s=200",
-        "contributions": 14193
+        "contributions": 13807
       }
     },
     {
@@ -830,15 +830,15 @@
       "slug": "bulgaria",
       "title": "Bulgaria",
       "flag": "🇧🇬",
-      "totalUsers": 26892,
+      "totalUsers": 26947,
       "minFollowers": 28,
-      "rankedContributions": 263117,
+      "rankedContributions": 263525,
       "rankedUsers": 256,
       "topUser": {
         "login": "zah",
         "name": "zah",
         "avatarUrl": "https://avatars.githubusercontent.com/u/175462?u=e5829a3f2d1ada0fbf691b4fd4d96d1b27b37baa&v=4&s=200",
-        "contributions": 19619
+        "contributions": 21654
       }
     },
     {
@@ -935,15 +935,15 @@
       "slug": "uzbekistan",
       "title": "Uzbekistan",
       "flag": "🇺🇿",
-      "totalUsers": 19981,
+      "totalUsers": 20136,
       "minFollowers": 21,
-      "rankedContributions": 387018,
+      "rankedContributions": 400814,
       "rankedUsers": 256,
       "topUser": {
         "login": "AbdullayevTemurmalik",
         "name": "TemurMalik",
         "avatarUrl": "https://avatars.githubusercontent.com/u/225833678?u=b3319471aee657a628b0330f2ebfb9bb914849e0&v=4&s=200",
-        "contributions": 144867
+        "contributions": 144836
       }
     },
     {
@@ -1235,30 +1235,30 @@
       "slug": "rwanda",
       "title": "Rwanda",
       "flag": "🇷🇼",
-      "totalUsers": 7752,
-      "minFollowers": 12,
-      "rankedContributions": 282703,
+      "totalUsers": 7813,
+      "minFollowers": 13,
+      "rankedContributions": 288539,
       "rankedUsers": 256,
       "topUser": {
         "login": "coolbeatz71",
         "name": "Mutombo Jean-vincent",
         "avatarUrl": "https://avatars.githubusercontent.com/u/25999336?u=b786afd91e3b61a2d9c132d1ce48bb038f607122&v=4&s=200",
-        "contributions": 30093
+        "contributions": 31305
       }
     },
     {
       "slug": "tanzania",
       "title": "Tanzania",
       "flag": "🇹🇿",
-      "totalUsers": 7720,
+      "totalUsers": 7787,
       "minFollowers": 7,
-      "rankedContributions": 285459,
+      "rankedContributions": 296888,
       "rankedUsers": 256,
       "topUser": {
         "login": "ebrahimHakimuddin",
         "name": "Ebrahim Tayabali",
         "avatarUrl": "https://avatars.githubusercontent.com/u/47640402?u=f9f92492d165797d4aee35b6e61639e3181da671&v=4&s=200",
-        "contributions": 54363
+        "contributions": 54540
       }
     },
     {
@@ -1640,15 +1640,15 @@
       "slug": "honduras",
       "title": "Honduras",
       "flag": "🇭🇳",
-      "totalUsers": 3292,
+      "totalUsers": 3306,
       "minFollowers": 1,
-      "rankedContributions": 64756,
+      "rankedContributions": 66735,
       "rankedUsers": 256,
       "topUser": {
         "login": "eliac-d",
         "name": "Eliac",
         "avatarUrl": "https://avatars.githubusercontent.com/u/245125913?u=9aeddaa713c29082e3c6fb94d1a87da0e602449a&v=4&s=200",
-        "contributions": 3507
+        "contributions": 3542
       }
     },
     {
@@ -2257,7 +2257,7 @@
       "flag": "🇸🇸",
       "totalUsers": 33,
       "minFollowers": 0,
-      "rankedContributions": 162,
+      "rankedContributions": 161,
       "rankedUsers": 33,
       "topUser": {
         "login": "mathyeoyel",
