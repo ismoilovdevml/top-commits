@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-10-01 09:32:27 +0000",
-  "fetchedAt": "2026-10-07T10:20:14.285Z",
+  "fetchedAt": "2026-10-08T10:39:51.190Z",
   "public": [
     {
       "rank": 1,
@@ -4233,7 +4233,7 @@
       "name": "Artem Anashev",
       "contributions": 742,
       "avatarUrl": "https://avatars.githubusercontent.com/u/6944144?u=02ce903442af68462a9ba8c8add00376218726bb&v=4&s=200",
-      "company": "@MathAndMagic",
+      "company": "@Stivisto",
       "organizations": ""
     },
     {

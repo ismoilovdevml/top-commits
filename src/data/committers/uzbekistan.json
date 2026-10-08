@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-10-05 23:02:01 +0000",
-  "fetchedAt": "2026-10-07T10:19:59.683Z",
+  "fetchedAt": "2026-10-08T10:39:36.267Z",
   "public": [
     {
       "rank": 1,
@@ -73,7 +73,7 @@
       "name": "Dodgy",
       "contributions": 6271,
       "avatarUrl": "https://avatars.githubusercontent.com/u/194051402?u=20a857a1225e0dd243e2a72273972f2ed5d2e50a&v=4&s=200",
-      "company": "",
+      "company": "Dodgyyyness DDC",
       "organizations": ""
     },
     {
@@ -245,7 +245,7 @@
       "contributions": 1483,
       "avatarUrl": "https://avatars.githubusercontent.com/u/194893493?u=06df837740faafbd0d94b80f579b35c2fe856f89&v=4&s=200",
       "company": "",
-      "organizations": "acharya-django"
+      "organizations": ""
     },
     {
       "rank": 28,
@@ -2541,7 +2541,7 @@
       "name": "Dodgy",
       "contributions": 6271,
       "avatarUrl": "https://avatars.githubusercontent.com/u/194051402?u=20a857a1225e0dd243e2a72273972f2ed5d2e50a&v=4&s=200",
-      "company": "",
+      "company": "Dodgyyyness DDC",
       "organizations": ""
     },
     {
@@ -3730,7 +3730,7 @@
       "contributions": 1586,
       "avatarUrl": "https://avatars.githubusercontent.com/u/194893493?u=06df837740faafbd0d94b80f579b35c2fe856f89&v=4&s=200",
       "company": "",
-      "organizations": "acharya-django"
+      "organizations": ""
     },
     {
       "rank": 159,
