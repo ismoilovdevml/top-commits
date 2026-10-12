@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-10-01 09:32:27 +0000",
-  "fetchedAt": "2026-10-11T10:04:37.401Z",
+  "fetchedAt": "2026-10-12T10:56:39.197Z",
   "public": [
     {
       "rank": 1,
@@ -452,7 +452,7 @@
       "contributions": 613,
       "avatarUrl": "https://avatars.githubusercontent.com/u/94337419?u=708fda5d1d9e469bca2eada9e2b6f7d31c0b39ee&v=4&s=200",
       "company": "@pieceowater-dev",
-      "organizations": "ICEBERG-Dev, pieceowater-dev, d3v4u"
+      "organizations": "pieceowater-dev, d3v4u"
     },
     {
       "rank": 51,
@@ -2929,7 +2929,7 @@
       "contributions": 2862,
       "avatarUrl": "https://avatars.githubusercontent.com/u/94337419?u=708fda5d1d9e469bca2eada9e2b6f7d31c0b39ee&v=4&s=200",
       "company": "@pieceowater-dev",
-      "organizations": "ICEBERG-Dev, pieceowater-dev, d3v4u"
+      "organizations": "pieceowater-dev, d3v4u"
     },
     {
       "rank": 70,
