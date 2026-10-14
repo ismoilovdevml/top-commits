@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T10:40:38.773Z",
+  "generatedAt": "2026-10-14T08:46:50.605Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -140,15 +140,15 @@
       "slug": "indonesia",
       "title": "Indonesia",
       "flag": "🇮🇩",
-      "totalUsers": 173920,
-      "minFollowers": 90,
-      "rankedContributions": 625403,
+      "totalUsers": 175796,
+      "minFollowers": 70,
+      "rankedContributions": 715593,
       "rankedUsers": 256,
       "topUser": {
         "login": "Setiawan007",
         "name": "Febrianto Bagus Setiawan",
         "avatarUrl": "https://avatars.githubusercontent.com/u/33013375?u=e48792849f551f3008d7c9c9c6cc4d4d82dc42e9&v=4&s=200",
-        "contributions": 144273
+        "contributions": 133927
       }
     },
     {
@@ -245,15 +245,15 @@
       "slug": "turkey",
       "title": "Turkey",
       "flag": "🇹🇷",
-      "totalUsers": 133721,
-      "minFollowers": 156,
-      "rankedContributions": 521546,
+      "totalUsers": 134774,
+      "minFollowers": 146,
+      "rankedContributions": 636005,
       "rankedUsers": 256,
       "topUser": {
         "login": "komutan234",
         "name": "Turgut Akın",
         "avatarUrl": "https://avatars.githubusercontent.com/u/78382139?v=4&s=200",
-        "contributions": 121385
+        "contributions": 109058
       }
     },
     {
@@ -590,15 +590,15 @@
       "slug": "norway",
       "title": "Norway",
       "flag": "🇳🇴",
-      "totalUsers": 43646,
+      "totalUsers": 43892,
       "minFollowers": 38,
-      "rankedContributions": 614531,
+      "rankedContributions": 643429,
       "rankedUsers": 256,
       "topUser": {
         "login": "marcusramberg",
         "name": "Marcus Ramberg",
         "avatarUrl": "https://avatars.githubusercontent.com/u/5526?v=4&s=200",
-        "contributions": 67640
+        "contributions": 67911
       }
     },
     {
@@ -755,15 +755,15 @@
       "slug": "malaysia",
       "title": "Malaysia",
       "flag": "🇲🇾",
-      "totalUsers": 32940,
+      "totalUsers": 33369,
       "minFollowers": 27,
-      "rankedContributions": 292756,
+      "rankedContributions": 295730,
       "rankedUsers": 256,
       "topUser": {
         "login": "azaharizaman",
         "name": "Azahari Zaman",
         "avatarUrl": "https://avatars.githubusercontent.com/u/117408?u=feba8f3cfabcfed770d958ab2095412e3b889c3d&v=4&s=200",
-        "contributions": 42789
+        "contributions": 43500
       }
     },
     {
@@ -800,15 +800,15 @@
       "slug": "peru",
       "title": "Peru",
       "flag": "🇵🇪",
-      "totalUsers": 29718,
-      "minFollowers": 19,
-      "rankedContributions": 183880,
+      "totalUsers": 29911,
+      "minFollowers": 20,
+      "rankedContributions": 189692,
       "rankedUsers": 256,
       "topUser": {
         "login": "Railly",
         "name": "Railly Hugo",
         "avatarUrl": "https://avatars.githubusercontent.com/u/51397083?u=662c12eb819810138fc0542c6a5fdbdbf208a710&v=4&s=200",
-        "contributions": 7163
+        "contributions": 7508
       }
     },
     {
@@ -1190,15 +1190,15 @@
       "slug": "armenia",
       "title": "Armenia",
       "flag": "🇦🇲",
-      "totalUsers": 8392,
-      "minFollowers": 9,
-      "rankedContributions": 174366,
+      "totalUsers": 8468,
+      "minFollowers": 10,
+      "rankedContributions": 183648,
       "rankedUsers": 256,
       "topUser": {
         "login": "dannote",
         "name": "Danila Poyarkov",
         "avatarUrl": "https://avatars.githubusercontent.com/u/2206583?u=6a74932ec1b477b863842b239b2c52a5823314ed&v=4&s=200",
-        "contributions": 16779
+        "contributions": 18336
       }
     },
     {
@@ -1397,21 +1397,6 @@
       }
     },
     {
-      "slug": "cyprus",
-      "title": "Cyprus",
-      "flag": "🇨🇾",
-      "totalUsers": 6008,
-      "minFollowers": 9,
-      "rankedContributions": 178360,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "cploutarchou",
-        "name": "Christos Ploutarchou",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/49656626?u=b34e41ca86e1e98e6914afb97e128bfb8cac9aca&v=4&s=200",
-        "contributions": 8188
-      }
-    },
-    {
       "slug": "angola",
       "title": "Angola",
       "flag": "🇦🇴",
@@ -1427,18 +1412,33 @@
       }
     },
     {
+      "slug": "cyprus",
+      "title": "Cyprus",
+      "flag": "🇨🇾",
+      "totalUsers": 5869,
+      "minFollowers": 7,
+      "rankedContributions": 222250,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "andre-kuzminykh",
+        "name": "Andre Kuzminykh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8148517?u=47e48ae0954292d6ab92a6416a4699a4f697f217&v=4&s=200",
+        "contributions": 14409
+      }
+    },
+    {
       "slug": "el_salvador",
       "title": "El Salvador",
       "flag": "🇸🇻",
-      "totalUsers": 5196,
+      "totalUsers": 5243,
       "minFollowers": 4,
-      "rankedContributions": 91443,
+      "rankedContributions": 98856,
       "rankedUsers": 256,
       "topUser": {
         "login": "b-mendoza",
         "name": "Bryan Mendoza",
         "avatarUrl": "https://avatars.githubusercontent.com/u/69016561?u=77da5e68c2c0cce778a2c1bfff96634562b5add0&v=4&s=200",
-        "contributions": 7646
+        "contributions": 8437
       }
     },
     {
@@ -1580,39 +1580,39 @@
       "slug": "madagascar",
       "title": "Madagascar",
       "flag": "🇲🇬",
-      "totalUsers": 4435,
+      "totalUsers": 4461,
       "minFollowers": 4,
-      "rankedContributions": 157861,
+      "rankedContributions": 158763,
       "rankedUsers": 256,
       "topUser": {
-        "login": "tonymushah",
-        "name": "Dirk Tony",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/95529016?u=21e00b924943db7940f1bc876348587bd5f52949&v=4&s=200",
-        "contributions": 7336
+        "login": "josoavj",
+        "name": "Josoa Vonjiniaina",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76913187?u=b2f0c42464ab51f7ab27cd0abda86a1dda17eae8&v=4&s=200",
+        "contributions": 7311
       }
     },
     {
       "slug": "moldova",
       "title": "Moldova",
       "flag": "🇲🇩",
-      "totalUsers": 4363,
+      "totalUsers": 4371,
       "minFollowers": 3,
-      "rankedContributions": 100837,
+      "rankedContributions": 105670,
       "rankedUsers": 256,
       "topUser": {
         "login": "seriiserii825",
         "name": "Burduja Sergiu",
         "avatarUrl": "https://avatars.githubusercontent.com/u/20783270?u=1412cf8757586b72444bc460c298ef19904c1135&v=4&s=200",
-        "contributions": 4787
+        "contributions": 4843
       }
     },
     {
       "slug": "qatar",
       "title": "Qatar",
       "flag": "🇶🇦",
-      "totalUsers": 3622,
+      "totalUsers": 3634,
       "minFollowers": 1,
-      "rankedContributions": 88567,
+      "rankedContributions": 91781,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
@@ -1820,15 +1820,15 @@
       "slug": "ivory_coast",
       "title": "Ivory Coast",
       "flag": "🇨🇮",
-      "totalUsers": 2489,
+      "totalUsers": 2496,
       "minFollowers": 0,
-      "rankedContributions": 64023,
+      "rankedContributions": 65077,
       "rankedUsers": 256,
       "topUser": {
         "login": "SOMET1010",
         "name": "PATRICK",
         "avatarUrl": "https://avatars.githubusercontent.com/u/141404422?u=319bbc6f2d9796caf6f70935122c52b9768442f8&v=4&s=200",
-        "contributions": 3608
+        "contributions": 3609
       }
     },
     {
@@ -1910,15 +1910,15 @@
       "slug": "kosovo",
       "title": "Kosovo",
       "flag": "🇽🇰",
-      "totalUsers": 1896,
+      "totalUsers": 1907,
       "minFollowers": 1,
-      "rankedContributions": 40681,
+      "rankedContributions": 41241,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
         "name": "Wajahat Ali Mir",
         "avatarUrl": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6&v=4&s=200",
-        "contributions": 5583
+        "contributions": 5582
       }
     },
     {
@@ -2075,15 +2075,15 @@
       "slug": "mali",
       "title": "Mali",
       "flag": "🇲🇱",
-      "totalUsers": 738,
+      "totalUsers": 750,
       "minFollowers": 0,
-      "rankedContributions": 32965,
+      "rankedContributions": 33190,
       "rankedUsers": 256,
       "topUser": {
         "login": "koneke55",
         "name": "कोनेके",
         "avatarUrl": "https://avatars.githubusercontent.com/u/139575233?u=2e9226b84d47b0607440af932208379dd817842b&v=4&s=200",
-        "contributions": 6382
+        "contributions": 6392
       }
     },
     {
@@ -2137,13 +2137,13 @@
       "flag": "🇹🇲",
       "totalUsers": 606,
       "minFollowers": 0,
-      "rankedContributions": 36944,
+      "rankedContributions": 45956,
       "rankedUsers": 256,
       "topUser": {
         "login": "Kemalstudio",
         "name": "Kemal Atayev",
         "avatarUrl": "https://avatars.githubusercontent.com/u/175585453?u=48f9f9bc07f00a336641b56c9e2390b229c54389&v=4&s=200",
-        "contributions": 9613
+        "contributions": 16387
       }
     },
     {
