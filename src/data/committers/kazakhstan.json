@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-10-19 22:45:04 +0000",
-  "fetchedAt": "2026-10-21T08:38:22.518Z",
+  "fetchedAt": "2026-10-22T08:40:45.125Z",
   "public": [
     {
       "rank": 1,
@@ -19,7 +19,7 @@
       "name": "Danil Silantyev",
       "contributions": 26212,
       "avatarUrl": "https://avatars.githubusercontent.com/u/102828838?u=9852013dfa2299f13a27542a911ac2b37a2a379f&v=4&s=200",
-      "company": "@NDDev-it-com",
+      "company": "NDDev",
       "organizations": ""
     },
     {
@@ -1441,7 +1441,7 @@
       "name": "Alimzhan Kangerey",
       "contributions": 210,
       "avatarUrl": "https://avatars.githubusercontent.com/u/82753456?u=d1d73c73c7afd6811a2ac0d47f5e0e6c3ffee8ef&v=4&s=200",
-      "company": "Spichka & Uiren Go",
+      "company": "Circle Creative Buro",
       "organizations": ""
     },
     {
@@ -2325,7 +2325,7 @@
       "name": "Danil Silantyev",
       "contributions": 80352,
       "avatarUrl": "https://avatars.githubusercontent.com/u/102828838?u=9852013dfa2299f13a27542a911ac2b37a2a379f&v=4&s=200",
-      "company": "@NDDev-it-com",
+      "company": "NDDev",
       "organizations": ""
     },
     {
@@ -2793,7 +2793,7 @@
       "name": "Alimzhan Kangerey",
       "contributions": 3693,
       "avatarUrl": "https://avatars.githubusercontent.com/u/82753456?u=d1d73c73c7afd6811a2ac0d47f5e0e6c3ffee8ef&v=4&s=200",
-      "company": "Spichka & Uiren Go",
+      "company": "Circle Creative Buro",
       "organizations": ""
     },
     {

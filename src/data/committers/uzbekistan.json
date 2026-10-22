@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-10-12 00:11:20 +0000",
-  "fetchedAt": "2026-10-21T08:38:08.329Z",
+  "fetchedAt": "2026-10-22T08:40:32.363Z",
   "public": [
     {
       "rank": 1,
@@ -2107,7 +2107,7 @@
       "name": "Chingiz Gaffarov",
       "contributions": 126,
       "avatarUrl": "https://avatars.githubusercontent.com/u/55571859?u=084b346d6abe7462102464425de99cdaf430a430&v=4&s=200",
-      "company": "Freelancer. Frontend developer at a private IT company. Mentor.",
+      "company": "Freelancer. Frontend developer at Ministry of Transport",
       "organizations": ""
     },
     {
@@ -2278,7 +2278,7 @@
       "name": "Khusanboy Zafarov",
       "contributions": 113,
       "avatarUrl": "https://avatars.githubusercontent.com/u/115022906?u=af6aec9d440820589aad378c117eb3dc8c897276&v=4&s=200",
-      "company": "EduCompass",
+      "company": "",
       "organizations": ""
     },
     {
@@ -3405,7 +3405,7 @@
       "name": "Khusanboy Zafarov",
       "contributions": 1979,
       "avatarUrl": "https://avatars.githubusercontent.com/u/115022906?u=af6aec9d440820589aad378c117eb3dc8c897276&v=4&s=200",
-      "company": "EduCompass",
+      "company": "",
       "organizations": ""
     },
     {
