@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-10-12 00:11:20 +0000",
-  "fetchedAt": "2026-10-22T08:40:32.363Z",
+  "fetchedAt": "2026-10-23T08:36:23.898Z",
   "public": [
     {
       "rank": 1,
@@ -3000,7 +3000,7 @@
       "name": "Shavkatjon Odamboyev",
       "contributions": 3039,
       "avatarUrl": "https://avatars.githubusercontent.com/u/153182519?u=5ad75ba6c9d6d0518c47f60eef605a2e7ce5f8b1&v=4&s=200",
-      "company": "zehnmind.ai",
+      "company": "@zehnmind",
       "organizations": ""
     },
     {
