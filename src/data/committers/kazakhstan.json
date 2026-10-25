@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-10-19 22:45:04 +0000",
-  "fetchedAt": "2026-10-24T08:11:50.672Z",
+  "fetchedAt": "2026-10-25T08:29:35.448Z",
   "public": [
     {
       "rank": 1,
@@ -2389,7 +2389,7 @@
       "contributions": 10914,
       "avatarUrl": "https://avatars.githubusercontent.com/u/18646440?u=3c05e8983416aa17eaff0e0d5627ecd39ab49d55&v=4&s=200",
       "company": "",
-      "organizations": "lunatic-cat"
+      "organizations": ""
     },
     {
       "rank": 10,
