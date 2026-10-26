@@ -2,7 +2,7 @@
   "country": "turkmenistan",
   "title": "Turkmenistan",
   "dataAsOf": "2026-10-21 19:52:22 +0000",
-  "fetchedAt": "2026-10-25T08:30:04.293Z",
+  "fetchedAt": "2026-10-26T09:01:33.256Z",
   "public": [
     {
       "rank": 1,
@@ -271,7 +271,7 @@
       "name": "Akmyrat Meredow",
       "contributions": 150,
       "avatarUrl": "https://avatars.githubusercontent.com/u/180042184?u=b20ddbfa12aa6811b63375afb6f83e3511f10960&v=4&s=200",
-      "company": "TmBiz",
+      "company": "",
       "organizations": ""
     },
     {
@@ -487,7 +487,7 @@
       "name": "Agamyrat",
       "contributions": 85,
       "avatarUrl": "https://avatars.githubusercontent.com/u/65080855?u=4941f7f6f1cba5da458f5d66af99ae0a13445579&v=4&s=200",
-      "company": "Timar",
+      "company": "",
       "organizations": ""
     },
     {
@@ -2766,7 +2766,7 @@
       "name": "Agamyrat",
       "contributions": 814,
       "avatarUrl": "https://avatars.githubusercontent.com/u/65080855?u=4941f7f6f1cba5da458f5d66af99ae0a13445579&v=4&s=200",
-      "company": "Timar",
+      "company": "",
       "organizations": ""
     },
     {
@@ -3261,7 +3261,7 @@
       "name": "Akmyrat Meredow",
       "contributions": 150,
       "avatarUrl": "https://avatars.githubusercontent.com/u/180042184?u=b20ddbfa12aa6811b63375afb6f83e3511f10960&v=4&s=200",
-      "company": "TmBiz",
+      "company": "",
       "organizations": ""
     },
     {
