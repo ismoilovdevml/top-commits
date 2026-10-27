@@ -2,7 +2,7 @@
   "country": "kyrgyzstan",
   "title": "Kyrgyzstan",
   "dataAsOf": "2026-10-24 22:49:46 +0000",
-  "fetchedAt": "2026-10-26T09:01:12.457Z",
+  "fetchedAt": "2026-10-27T09:04:40.588Z",
   "public": [
     {
       "rank": 1,
@@ -65,7 +65,7 @@
       "contributions": 1656,
       "avatarUrl": "https://avatars.githubusercontent.com/u/158167689?u=b6f22c99791e6fcc20eed21490dc41d9e1a1e741&v=4&s=200",
       "company": "",
-      "organizations": "itd-sdk, openfacture, lotusgram"
+      "organizations": ""
     },
     {
       "rank": 8,
@@ -3028,7 +3028,7 @@
       "contributions": 1888,
       "avatarUrl": "https://avatars.githubusercontent.com/u/158167689?u=b6f22c99791e6fcc20eed21490dc41d9e1a1e741&v=4&s=200",
       "company": "",
-      "organizations": "itd-sdk, openfacture, lotusgram"
+      "organizations": ""
     },
     {
       "rank": 81,

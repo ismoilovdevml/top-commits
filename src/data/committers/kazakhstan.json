@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-10-25 18:04:08 +0000",
-  "fetchedAt": "2026-10-26T09:00:59.136Z",
+  "fetchedAt": "2026-10-27T09:04:27.105Z",
   "public": [
     {
       "rank": 1,
@@ -865,7 +865,7 @@
       "name": "Vladislav Manakov",
       "contributions": 374,
       "avatarUrl": "https://avatars.githubusercontent.com/u/15245608?u=d4ed1f479d5a48ad8d3a65a854fb60d0b913075c&v=4&s=200",
-      "company": "@fullstack-development",
+      "company": "",
       "organizations": ""
     },
     {
@@ -2514,7 +2514,7 @@
       "name": "Vladislav Manakov",
       "contributions": 7167,
       "avatarUrl": "https://avatars.githubusercontent.com/u/15245608?u=d4ed1f479d5a48ad8d3a65a854fb60d0b913075c&v=4&s=200",
-      "company": "@fullstack-development",
+      "company": "",
       "organizations": ""
     },
     {
@@ -4152,7 +4152,7 @@
       "name": "mnq",
       "contributions": 944,
       "avatarUrl": "https://avatars.githubusercontent.com/u/130839719?u=c8731ac7dbdf458e5e2f51c244fdbd7607e24de2&v=4&s=200",
-      "company": "LacunaHub",
+      "company": "Kvytta",
       "organizations": "LacunaHub"
     },
     {
