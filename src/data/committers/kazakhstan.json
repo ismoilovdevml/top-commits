@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-10-25 18:04:08 +0000",
-  "fetchedAt": "2026-10-28T09:44:39.637Z",
+  "fetchedAt": "2026-10-29T10:03:09.662Z",
   "public": [
     {
       "rank": 1,
@@ -4152,7 +4152,7 @@
       "name": "mnq",
       "contributions": 944,
       "avatarUrl": "https://avatars.githubusercontent.com/u/130839719?u=c8731ac7dbdf458e5e2f51c244fdbd7607e24de2&v=4&s=200",
-      "company": "Kvytta",
+      "company": "MNQ",
       "organizations": "LacunaHub"
     },
     {
