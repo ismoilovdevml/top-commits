@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-10-25 00:40:28 +0000",
-  "fetchedAt": "2026-10-29T10:02:54.920Z",
+  "fetchedAt": "2026-10-30T10:06:03.832Z",
   "public": [
     {
       "rank": 1,
@@ -1784,7 +1784,7 @@
       "contributions": 167,
       "avatarUrl": "https://avatars.githubusercontent.com/u/103936585?u=843aa11dc5342ece5ffbb1b268f98e38e3d28cc8&v=4&s=200",
       "company": "Radius Mobile",
-      "organizations": "ShizuUserbot, AmanatPayTeam"
+      "organizations": "ShizuUserbot"
     },
     {
       "rank": 199,
@@ -3046,7 +3046,7 @@
       "contributions": 3051,
       "avatarUrl": "https://avatars.githubusercontent.com/u/103936585?u=843aa11dc5342ece5ffbb1b268f98e38e3d28cc8&v=4&s=200",
       "company": "Radius Mobile",
-      "organizations": "ShizuUserbot, AmanatPayTeam"
+      "organizations": "ShizuUserbot"
     },
     {
       "rank": 83,
