@@ -2,7 +2,7 @@
   "country": "kyrgyzstan",
   "title": "Kyrgyzstan",
   "dataAsOf": "2026-10-29 17:29:15 +0000",
-  "fetchedAt": "2026-11-02T11:16:52.907Z",
+  "fetchedAt": "2026-11-03T10:57:08.578Z",
   "public": [
     {
       "rank": 1,
@@ -1441,7 +1441,7 @@
       "name": "Руслан",
       "contributions": 81,
       "avatarUrl": "https://avatars.githubusercontent.com/u/166535149?u=8e7b433d4839024a6c8d5607b5feb23bcf3d344b&v=4&s=200",
-      "company": "KIKO AI",
+      "company": "Retmind",
       "organizations": ""
     },
     {
