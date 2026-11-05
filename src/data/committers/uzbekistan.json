@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-10-31 19:07:32 +0000",
-  "fetchedAt": "2026-11-04T11:00:16.534Z",
+  "fetchedAt": "2026-11-05T11:00:02.700Z",
   "public": [
     {
       "rank": 1,
@@ -37,7 +37,7 @@
       "name": "Dilshod Sattarov",
       "contributions": 12593,
       "avatarUrl": "https://avatars.githubusercontent.com/u/236811873?u=9b546d6df7eb5470b4e1a78d199fba3976eb265b&v=4&s=200",
-      "company": "IT-PARK",
+      "company": "",
       "organizations": ""
     },
     {
@@ -2370,7 +2370,7 @@
       "name": "Dilshod Sattarov",
       "contributions": 12593,
       "avatarUrl": "https://avatars.githubusercontent.com/u/236811873?u=9b546d6df7eb5470b4e1a78d199fba3976eb265b&v=4&s=200",
-      "company": "IT-PARK",
+      "company": "",
       "organizations": ""
     },
     {

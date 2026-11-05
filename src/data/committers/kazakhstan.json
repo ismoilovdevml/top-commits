@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-11-02 01:13:55 +0000",
-  "fetchedAt": "2026-11-04T11:00:30.357Z",
+  "fetchedAt": "2026-11-05T11:00:15.658Z",
   "public": [
     {
       "rank": 1,
@@ -1333,7 +1333,7 @@
       "name": "Catherine Edelveis",
       "contributions": 237,
       "avatarUrl": "https://avatars.githubusercontent.com/u/148977282?u=300bf66baab1551dce8ab6b5bec52b399fcf5b4d&v=4&s=200",
-      "company": "",
+      "company": "BellSoft",
       "organizations": ""
     },
     {
