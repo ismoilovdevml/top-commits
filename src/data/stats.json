@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:59:49.238Z",
+  "generatedAt": "2026-11-06T10:58:08.182Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -260,30 +260,30 @@
       "slug": "poland",
       "title": "Poland",
       "flag": "🇵🇱",
-      "totalUsers": 116869,
+      "totalUsers": 116332,
       "minFollowers": 76,
-      "rankedContributions": 719965,
+      "rankedContributions": 734266,
       "rankedUsers": 256,
       "topUser": {
         "login": "PrzemyslawKlys",
         "name": "Przemysław Kłys",
         "avatarUrl": "https://avatars.githubusercontent.com/u/15063294?u=103b5981a79c86b3c199b8e905ab39ba9088375c&v=4&s=200",
-        "contributions": 40366
+        "contributions": 41759
       }
     },
     {
       "slug": "argentina",
       "title": "Argentina",
       "flag": "🇦🇷",
-      "totalUsers": 115340,
+      "totalUsers": 115249,
       "minFollowers": 59,
-      "rankedContributions": 315318,
+      "rankedContributions": 323455,
       "rankedUsers": 256,
       "topUser": {
         "login": "ulises-jeremias",
         "name": "Ulises Jeremias",
         "avatarUrl": "https://avatars.githubusercontent.com/u/17727170?u=cf7b34c3aef7b83edf9f1c484d4a5d7feaf61958&v=4&s=200",
-        "contributions": 18067
+        "contributions": 18591
       }
     },
     {
@@ -1397,21 +1397,6 @@
       }
     },
     {
-      "slug": "angola",
-      "title": "Angola",
-      "flag": "🇦🇴",
-      "totalUsers": 6043,
-      "minFollowers": 6,
-      "rankedContributions": 110602,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "runtechx",
-        "name": "RunTech",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/278734461?u=689cc05f13c0d1c8101bff01f917298ea0b93141&v=4&s=200",
-        "contributions": 32831
-      }
-    },
-    {
       "slug": "cyprus",
       "title": "Cyprus",
       "flag": "🇨🇾",
@@ -1550,15 +1535,15 @@
       "slug": "afghanistan",
       "title": "Afghanistan",
       "flag": "🇦🇫",
-      "totalUsers": 4536,
+      "totalUsers": 4577,
       "minFollowers": 3,
-      "rankedContributions": 125538,
+      "rankedContributions": 125212,
       "rankedUsers": 256,
       "topUser": {
         "login": "ahmadullahmukhlis",
         "name": "Ahmadullah Mukhlis",
         "avatarUrl": "https://avatars.githubusercontent.com/u/112787367?u=38e30bdfbeb9cead75b4faa6ca793d0209e301b7&v=4&s=200",
-        "contributions": 30478
+        "contributions": 30438
       }
     },
     {
@@ -1760,15 +1745,15 @@
       "slug": "albania",
       "title": "Albania",
       "flag": "🇦🇱",
-      "totalUsers": 2797,
+      "totalUsers": 2810,
       "minFollowers": 1,
-      "rankedContributions": 62482,
+      "rankedContributions": 64625,
       "rankedUsers": 256,
       "topUser": {
-        "login": "arkellahi82-tech",
-        "name": "Arkel Lahi",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/282459367?u=5f434bbe2d0fc094c4101dc4ae090a88137c2330&v=4&s=200",
-        "contributions": 4823
+        "login": "fadion",
+        "name": "Fadion Dashi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/374519?u=e3dfbff3eaedbbd0de752c1361f7ceaae58d7a09&v=4&s=200",
+        "contributions": 5433
       }
     },
     {
@@ -2062,7 +2047,7 @@
       "flag": "🇭🇹",
       "totalUsers": 802,
       "minFollowers": 0,
-      "rankedContributions": 23187,
+      "rankedContributions": 22798,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
@@ -2264,6 +2249,21 @@
         "name": "Mathew Yelose",
         "avatarUrl": "https://avatars.githubusercontent.com/u/103266724?u=1cc67f209f0ef8ce8077c1e94704556cbfa0dd9c&v=4&s=200",
         "contributions": 126
+      }
+    },
+    {
+      "slug": "angola",
+      "title": "Angola",
+      "flag": "🇦🇴",
+      "totalUsers": 0,
+      "minFollowers": 35,
+      "rankedContributions": 22546,
+      "rankedUsers": 180,
+      "topUser": {
+        "login": "Zebedeu",
+        "name": "Marcio Zebedeu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12781593?v=4&s=200",
+        "contributions": 3139
       }
     }
   ]
