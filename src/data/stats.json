@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:27:24.289Z",
+  "generatedAt": "2026-11-09T11:38:45.675Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -515,15 +515,15 @@
       "slug": "kenya",
       "title": "Kenya",
       "flag": "🇰🇪",
-      "totalUsers": 50695,
+      "totalUsers": 50859,
       "minFollowers": 80,
-      "rankedContributions": 820240,
+      "rankedContributions": 884503,
       "rankedUsers": 256,
       "topUser": {
         "login": "mwakidenis",
         "name": "🐘",
         "avatarUrl": "https://avatars.githubusercontent.com/u/182089390?u=a635ac548d9e5151f8e6c7e2e095bc3f7b10be79&v=4&s=200",
-        "contributions": 342055
+        "contributions": 402785
       }
     },
     {
@@ -710,15 +710,15 @@
       "slug": "sri_lanka",
       "title": "Sri Lanka",
       "flag": "🇱🇰",
-      "totalUsers": 38269,
+      "totalUsers": 38431,
       "minFollowers": 38,
-      "rankedContributions": 682106,
+      "rankedContributions": 689675,
       "rankedUsers": 256,
       "topUser": {
         "login": "RensithUdara",
         "name": "Rensith Udara Gonalagoda",
         "avatarUrl": "https://avatars.githubusercontent.com/u/105989347?u=d74b6cabd024b20ec4a9cfb15a59a103e34ce2fa&v=4&s=200",
-        "contributions": 184793
+        "contributions": 187389
       }
     },
     {
@@ -965,15 +965,15 @@
       "slug": "tunisia",
       "title": "Tunisia",
       "flag": "🇹🇳",
-      "totalUsers": 17284,
+      "totalUsers": 17435,
       "minFollowers": 17,
-      "rankedContributions": 689278,
+      "rankedContributions": 697956,
       "rankedUsers": 256,
       "topUser": {
         "login": "haythemgalelem",
         "name": "HAGTIC",
         "avatarUrl": "https://avatars.githubusercontent.com/u/26298059?u=b67781ed245d48341d1f58a6cc4b311948f8733b&v=4&s=200",
-        "contributions": 516054
+        "contributions": 512601
       }
     },
     {
@@ -1040,15 +1040,30 @@
       "slug": "kazakhstan",
       "title": "Kazakhstan",
       "flag": "🇰🇿",
-      "totalUsers": 15086,
+      "totalUsers": 15157,
       "minFollowers": 13,
-      "rankedContributions": 226697,
+      "rankedContributions": 234593,
       "rankedUsers": 256,
       "topUser": {
         "login": "rldyourmnd",
         "name": "Danil Silantyev",
         "avatarUrl": "https://avatars.githubusercontent.com/u/102828838?u=9852013dfa2299f13a27542a911ac2b37a2a379f&v=4&s=200",
-        "contributions": 31949
+        "contributions": 32771
+      }
+    },
+    {
+      "slug": "algeria",
+      "title": "Algeria",
+      "flag": "🇩🇿",
+      "totalUsers": 12926,
+      "minFollowers": 20,
+      "rankedContributions": 122599,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "bkader",
+        "name": "Kader Bouyakoub",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4732702?u=04c4e7e41183df599edd86fa4ecd0459d51fc8cd&v=4&s=200",
+        "contributions": 10247
       }
     },
     {
@@ -1064,21 +1079,6 @@
         "name": "Matija Stepanic",
         "avatarUrl": "https://avatars.githubusercontent.com/u/315282?u=1eb01ff06baa307b48200d456fa62ed19cfc3cce&v=4&s=200",
         "contributions": 43294
-      }
-    },
-    {
-      "slug": "algeria",
-      "title": "Algeria",
-      "flag": "🇩🇿",
-      "totalUsers": 12804,
-      "minFollowers": 20,
-      "rankedContributions": 112933,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "bkader",
-        "name": "Kader Bouyakoub",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4732702?u=04c4e7e41183df599edd86fa4ecd0459d51fc8cd&v=4&s=200",
-        "contributions": 9864
       }
     },
     {
@@ -1430,15 +1430,15 @@
       "slug": "zimbabwe",
       "title": "Zimbabwe",
       "flag": "🇿🇼",
-      "totalUsers": 4805,
+      "totalUsers": 4846,
       "minFollowers": 2,
-      "rankedContributions": 113219,
+      "rankedContributions": 111367,
       "rankedUsers": 256,
       "topUser": {
         "login": "codewithkin",
         "name": "Kin Leon Zinzombe",
         "avatarUrl": "https://avatars.githubusercontent.com/u/125105023?u=d146a087376cd21cacf51d168422b99d5b88e2bf&v=4&s=200",
-        "contributions": 9761
+        "contributions": 9770
       }
     },
     {
@@ -1670,30 +1670,30 @@
       "slug": "senegal",
       "title": "Senegal",
       "flag": "🇸🇳",
-      "totalUsers": 3273,
+      "totalUsers": 3296,
       "minFollowers": 2,
-      "rankedContributions": 99895,
+      "rankedContributions": 102549,
       "rankedUsers": 256,
       "topUser": {
         "login": "traorecheikh",
         "name": "Cheikh Tidiane TRAORÉ",
         "avatarUrl": "https://avatars.githubusercontent.com/u/63582071?u=a0297f189bb2d5331f8a2c624db1c3c6933b33f7&v=4&s=200",
-        "contributions": 4273
+        "contributions": 4317
       }
     },
     {
       "slug": "nicaragua",
       "title": "Nicaragua",
       "flag": "🇳🇮",
-      "totalUsers": 3132,
+      "totalUsers": 3144,
       "minFollowers": 2,
-      "rankedContributions": 96686,
+      "rankedContributions": 100162,
       "rankedUsers": 256,
       "topUser": {
         "login": "williamjmorenor",
         "name": "William Moreno",
         "avatarUrl": "https://avatars.githubusercontent.com/u/3522386?v=4&s=200",
-        "contributions": 7854
+        "contributions": 8935
       }
     },
     {
@@ -2090,9 +2090,9 @@
       "slug": "laos",
       "title": "Laos",
       "flag": "🇱🇦",
-      "totalUsers": 699,
+      "totalUsers": 704,
       "minFollowers": 0,
-      "rankedContributions": 24279,
+      "rankedContributions": 24792,
       "rankedUsers": 256,
       "topUser": {
         "login": "wajahat-ali-mir-dev",
