@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-11-08 23:21:32 +0000",
-  "fetchedAt": "2026-11-09T11:39:12.784Z",
+  "fetchedAt": "2026-11-10T11:18:09.333Z",
   "public": [
     {
       "rank": 1,
@@ -1954,7 +1954,7 @@
       "name": "Slava",
       "contributions": 164,
       "avatarUrl": "https://avatars.githubusercontent.com/u/74858533?u=4c56c35cd029d240fd6314b00d79624d0f8e767a&v=4&s=200",
-      "company": "Moscow Aviation Institute",
+      "company": "T-Bank",
       "organizations": ""
     },
     {

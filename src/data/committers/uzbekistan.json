@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-10-31 19:07:32 +0000",
-  "fetchedAt": "2026-11-09T11:38:59.885Z",
+  "fetchedAt": "2026-11-10T11:17:56.031Z",
   "public": [
     {
       "rank": 1,
@@ -2730,7 +2730,7 @@
       "name": "Safarboy al-Xorazmiy",
       "contributions": 4685,
       "avatarUrl": "https://avatars.githubusercontent.com/u/121188515?u=79f7dd05709a66463e989b27c4b82c91cac8330c&v=4&s=200",
-      "company": "Premier",
+      "company": "Mulki Xorazmiya",
       "organizations": ""
     },
     {
@@ -3099,7 +3099,7 @@
       "name": "Nurmuhammad Mashrapov",
       "contributions": 3042,
       "avatarUrl": "https://avatars.githubusercontent.com/u/112689446?u=3191cfaf90a95691cfd3e81cf4201659097be681&v=4&s=200",
-      "company": "National Statistics Committee of the Republic of Uzbekistan",
+      "company": "",
       "organizations": ""
     },
     {
