@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-11-08 23:21:32 +0000",
-  "fetchedAt": "2026-11-10T11:18:09.333Z",
+  "fetchedAt": "2026-11-11T11:04:01.421Z",
   "public": [
     {
       "rank": 1,
@@ -1630,7 +1630,7 @@
       "name": "Baktiyar Ablaikhan",
       "contributions": 210,
       "avatarUrl": "https://avatars.githubusercontent.com/u/178606776?u=02ba9678f321d077b7682b56426e79b6aef9c53b&v=4&s=200",
-      "company": "",
+      "company": "Rust",
       "organizations": ""
     },
     {
@@ -4404,7 +4404,7 @@
       "name": "Baktiyar Ablaikhan",
       "contributions": 865,
       "avatarUrl": "https://avatars.githubusercontent.com/u/178606776?u=02ba9678f321d077b7682b56426e79b6aef9c53b&v=4&s=200",
-      "company": "",
+      "company": "Rust",
       "organizations": ""
     },
     {
