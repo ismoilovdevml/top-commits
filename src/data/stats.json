@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T11:20:21.388Z",
+  "generatedAt": "2026-11-13T11:04:11.667Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -545,15 +545,15 @@
       "slug": "taiwan",
       "title": "Taiwan",
       "flag": "🇹🇼",
-      "totalUsers": 46891,
-      "minFollowers": 38,
-      "rankedContributions": 922555,
+      "totalUsers": 48210,
+      "minFollowers": 72,
+      "rankedContributions": 717661,
       "rankedUsers": 256,
       "topUser": {
-        "login": "apan1121",
-        "name": "Byron",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4945153?u=f78c0c706156c998b29528136d38477c68032a84&v=4&s=200",
-        "contributions": 63505
+        "login": "dennislee928",
+        "name": "Pei-Chen Lee (Dennis Lee) | 李沛宸",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55692615?u=5fb024a6176fe010f5d2fbae0a231e8be763c79d&v=4&s=200",
+        "contributions": 40593
       }
     },
     {
@@ -1025,15 +1025,15 @@
       "slug": "costa_rica",
       "title": "Costa Rica",
       "flag": "🇨🇷",
-      "totalUsers": 15349,
+      "totalUsers": 15498,
       "minFollowers": 8,
-      "rankedContributions": 159704,
+      "rankedContributions": 172193,
       "rankedUsers": 256,
       "topUser": {
         "login": "skylartaylor",
         "name": "skylar taylor-barrick",
         "avatarUrl": "https://avatars.githubusercontent.com/u/26588250?u=8ccb4577fcdeaa738e224e432c70213e5b644f24&v=4&s=200",
-        "contributions": 9088
+        "contributions": 9647
       }
     },
     {
@@ -1175,15 +1175,15 @@
       "slug": "azerbaijan",
       "title": "Azerbaijan",
       "flag": "🇦🇿",
-      "totalUsers": 9264,
+      "totalUsers": 9357,
       "minFollowers": 16,
-      "rankedContributions": 448905,
+      "rankedContributions": 133995,
       "rankedUsers": 256,
       "topUser": {
-        "login": "shahinpr",
-        "name": "Shahin Aliyev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1715872?v=4&s=200",
-        "contributions": 322656
+        "login": "martian56",
+        "name": "Martian",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/150589141?u=9e35ca7335512ba3af9bb6095297365b6241893d&v=4&s=200",
+        "contributions": 9578
       }
     },
     {
@@ -1235,15 +1235,15 @@
       "slug": "rwanda",
       "title": "Rwanda",
       "flag": "🇷🇼",
-      "totalUsers": 7978,
+      "totalUsers": 8018,
       "minFollowers": 12,
-      "rankedContributions": 331727,
+      "rankedContributions": 339004,
       "rankedUsers": 256,
       "topUser": {
         "login": "coolbeatz71",
         "name": "Mutombo Jean-Vincent",
         "avatarUrl": "https://avatars.githubusercontent.com/u/25999336?u=b786afd91e3b61a2d9c132d1ce48bb038f607122&v=4&s=200",
-        "contributions": 32311
+        "contributions": 32151
       }
     },
     {
