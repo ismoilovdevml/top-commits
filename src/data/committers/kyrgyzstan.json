@@ -2,7 +2,7 @@
   "country": "kyrgyzstan",
   "title": "Kyrgyzstan",
   "dataAsOf": "2026-11-09 12:38:25 +0000",
-  "fetchedAt": "2026-11-13T11:04:50.781Z",
+  "fetchedAt": "2026-11-14T10:31:54.858Z",
   "public": [
     {
       "rank": 1,
@@ -83,7 +83,7 @@
       "contributions": 1587,
       "avatarUrl": "https://avatars.githubusercontent.com/u/89140687?u=01a2235f538159ac3b43befb409a66d958e970e1&v=4&s=200",
       "company": "AIT Solutions",
-      "organizations": "meowerse, AIT-Solutions-Devs, AITS-Devs"
+      "organizations": "meowerse, AIT-Solutions-Devs, AITS-Devs, AITS-Lab"
     },
     {
       "rank": 10,
@@ -2317,7 +2317,7 @@
       "contributions": 28858,
       "avatarUrl": "https://avatars.githubusercontent.com/u/89140687?u=01a2235f538159ac3b43befb409a66d958e970e1&v=4&s=200",
       "company": "AIT Solutions",
-      "organizations": "meowerse, AIT-Solutions-Devs, AITS-Devs"
+      "organizations": "meowerse, AIT-Solutions-Devs, AITS-Devs, AITS-Lab"
     },
     {
       "rank": 2,

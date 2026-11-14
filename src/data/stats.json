@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:04:11.667Z",
+  "generatedAt": "2026-11-14T10:31:20.244Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -260,15 +260,15 @@
       "slug": "poland",
       "title": "Poland",
       "flag": "🇵🇱",
-      "totalUsers": 116332,
-      "minFollowers": 76,
-      "rankedContributions": 734266,
+      "totalUsers": 116670,
+      "minFollowers": 82,
+      "rankedContributions": 759022,
       "rankedUsers": 256,
       "topUser": {
         "login": "PrzemyslawKlys",
         "name": "Przemysław Kłys",
         "avatarUrl": "https://avatars.githubusercontent.com/u/15063294?u=103b5981a79c86b3c199b8e905ab39ba9088375c&v=4&s=200",
-        "contributions": 41759
+        "contributions": 44326
       }
     },
     {
@@ -395,15 +395,15 @@
       "slug": "colombia",
       "title": "Colombia",
       "flag": "🇨🇴",
-      "totalUsers": 81918,
-      "minFollowers": 39,
-      "rankedContributions": 265983,
+      "totalUsers": 81952,
+      "minFollowers": 35,
+      "rankedContributions": 295436,
       "rankedUsers": 256,
       "topUser": {
-        "login": "NietoDeveloper",
-        "name": "Manuel Nieto",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/135185791?u=c691e2425559bc013fd6d3fe18b67ff34005ce33&v=4&s=200",
-        "contributions": 16037
+        "login": "johnny4young",
+        "name": "Johnny IV Young Ospino",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/112983?u=d84627e11f6b0e8431a703674b0908d62208226d&v=4&s=200",
+        "contributions": 16170
       }
     },
     {
@@ -845,15 +845,15 @@
       "slug": "hungary",
       "title": "Hungary",
       "flag": "🇭🇺",
-      "totalUsers": 26482,
+      "totalUsers": 26675,
       "minFollowers": 21,
-      "rankedContributions": 273926,
+      "rankedContributions": 323604,
       "rankedUsers": 256,
       "topUser": {
         "login": "laxika",
         "name": "Gyula Lakatos",
         "avatarUrl": "https://avatars.githubusercontent.com/u/1862574?u=7f00be45fe56313f377814641ee8731b1c444990&v=4&s=200",
-        "contributions": 31367
+        "contributions": 31834
       }
     },
     {
@@ -1670,9 +1670,9 @@
       "slug": "senegal",
       "title": "Senegal",
       "flag": "🇸🇳",
-      "totalUsers": 3296,
+      "totalUsers": 3316,
       "minFollowers": 2,
-      "rankedContributions": 102549,
+      "rankedContributions": 104970,
       "rankedUsers": 256,
       "topUser": {
         "login": "traorecheikh",
@@ -1700,15 +1700,15 @@
       "slug": "malta",
       "title": "Malta",
       "flag": "🇲🇹",
-      "totalUsers": 3098,
+      "totalUsers": 3110,
       "minFollowers": 1,
-      "rankedContributions": 101906,
+      "rankedContributions": 111695,
       "rankedUsers": 256,
       "topUser": {
-        "login": "ripienaar",
-        "name": "R.I.Pienaar",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/82342?v=4&s=200",
-        "contributions": 3922
+        "login": "ksazid",
+        "name": "Sazid",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47315271?u=ea3e4f054d8f330ffc098aa419691764baf85f66&v=4&s=200",
+        "contributions": 6253
       }
     },
     {
@@ -1745,15 +1745,15 @@
       "slug": "albania",
       "title": "Albania",
       "flag": "🇦🇱",
-      "totalUsers": 2810,
+      "totalUsers": 2821,
       "minFollowers": 1,
-      "rankedContributions": 64625,
+      "rankedContributions": 67304,
       "rankedUsers": 256,
       "topUser": {
         "login": "fadion",
         "name": "Fadion Dashi",
         "avatarUrl": "https://avatars.githubusercontent.com/u/374519?u=e3dfbff3eaedbbd0de752c1361f7ceaae58d7a09&v=4&s=200",
-        "contributions": 5433
+        "contributions": 5984
       }
     },
     {
@@ -1865,15 +1865,15 @@
       "slug": "iraq",
       "title": "Iraq",
       "flag": "🇮🇶",
-      "totalUsers": 2174,
+      "totalUsers": 2191,
       "minFollowers": 0,
-      "rankedContributions": 47477,
+      "rankedContributions": 51619,
       "rankedUsers": 256,
       "topUser": {
-        "login": "shaheenfarjo",
-        "name": "Shaheen K. Farjo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/58872085?u=e49621d61add6d45122b53669d98b00af01fa036&v=4&s=200",
-        "contributions": 3577
+        "login": "pageton",
+        "name": "Sadiq",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90288810?u=e5346f4c48957044c379fc05892d1d5e779e42b1&v=4&s=200",
+        "contributions": 4148
       }
     },
     {
