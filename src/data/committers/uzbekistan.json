@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-11-15 03:26:34 +0000",
-  "fetchedAt": "2026-11-15T11:00:08.624Z",
+  "fetchedAt": "2026-11-16T11:28:43.422Z",
   "public": [
     {
       "rank": 1,
@@ -938,7 +938,7 @@
       "contributions": 397,
       "avatarUrl": "https://avatars.githubusercontent.com/u/68727555?u=e34faf3f72c443ce6bd659c21442a75ff97d9896&v=4&s=200",
       "company": "Fincube",
-      "organizations": ""
+      "organizations": "accelera-it"
     },
     {
       "rank": 105,
@@ -3892,7 +3892,7 @@
       "contributions": 1663,
       "avatarUrl": "https://avatars.githubusercontent.com/u/68727555?u=e34faf3f72c443ce6bd659c21442a75ff97d9896&v=4&s=200",
       "company": "Fincube",
-      "organizations": ""
+      "organizations": "accelera-it"
     },
     {
       "rank": 177,
