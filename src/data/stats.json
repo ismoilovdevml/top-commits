@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T11:28:29.978Z",
+  "generatedAt": "2026-11-17T11:56:54.356Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -1487,6 +1487,21 @@
       }
     },
     {
+      "slug": "macedonia",
+      "title": "North Macedonia",
+      "flag": "🇲🇰",
+      "totalUsers": 4686,
+      "minFollowers": 4,
+      "rankedContributions": 92447,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "wajahat-ali-mir-dev",
+        "name": "Wajahat Ali Mir",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6&v=4&s=200",
+        "contributions": 5579
+      }
+    },
+    {
       "slug": "paraguay",
       "title": "Paraguay",
       "flag": "🇵🇾",
@@ -1505,30 +1520,15 @@
       "slug": "kyrgyzstan",
       "title": "Kyrgyzstan",
       "flag": "🇰🇬",
-      "totalUsers": 4642,
+      "totalUsers": 4667,
       "minFollowers": 5,
-      "rankedContributions": 81334,
+      "rankedContributions": 96254,
       "rankedUsers": 256,
       "topUser": {
-        "login": "bekishh",
-        "name": "Zh Beknazar",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/139379787?u=a155123b5a1aa68483c82588234027003b205ff1&v=4&s=200",
-        "contributions": 7856
-      }
-    },
-    {
-      "slug": "macedonia",
-      "title": "North Macedonia",
-      "flag": "🇲🇰",
-      "totalUsers": 4636,
-      "minFollowers": 4,
-      "rankedContributions": 88533,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "wajahat-ali-mir-dev",
-        "name": "Wajahat Ali Mir",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6&v=4&s=200",
-        "contributions": 5581
+        "login": "toksaitov",
+        "name": "Toksaitov Dmitrii Alexandrovich",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97272?u=622e125828e0de7e0d911d38d1781b8b68332f8c&v=4&s=200",
+        "contributions": 13406
       }
     },
     {
@@ -1607,6 +1607,21 @@
       }
     },
     {
+      "slug": "zambia",
+      "title": "Zambia",
+      "flag": "🇿🇲",
+      "totalUsers": 3697,
+      "minFollowers": 2,
+      "rankedContributions": 71217,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "Abdurrahmaan9",
+        "name": "Abdurrahmaan9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/114228057?u=460eed705aff1350399683c425764a2997686d2c&v=4&s=200",
+        "contributions": 6960
+      }
+    },
+    {
       "slug": "qatar",
       "title": "Qatar",
       "flag": "🇶🇦",
@@ -1619,21 +1634,6 @@
         "name": "Omar Al Matar",
         "avatarUrl": "https://avatars.githubusercontent.com/u/9145989?u=73666513a1dddb18cb15460bbc9ada46301c6e38&v=4&s=200",
         "contributions": 7264
-      }
-    },
-    {
-      "slug": "zambia",
-      "title": "Zambia",
-      "flag": "🇿🇲",
-      "totalUsers": 3648,
-      "minFollowers": 2,
-      "rankedContributions": 64357,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "Abdurrahmaan9",
-        "name": "Abdurrahmaan9",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/114228057?u=460eed705aff1350399683c425764a2997686d2c&v=4&s=200",
-        "contributions": 6930
       }
     },
     {
@@ -2225,15 +2225,15 @@
       "slug": "chad",
       "title": "Chad",
       "flag": "🇹🇩",
-      "totalUsers": 334,
+      "totalUsers": 337,
       "minFollowers": 0,
-      "rankedContributions": 8431,
+      "rankedContributions": 7905,
       "rankedUsers": 256,
       "topUser": {
-        "login": "hamidbong",
-        "name": "Hamid Bong Brahim",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/117206678?v=4&s=200",
-        "contributions": 1805
+        "login": "adoumouangnamouemmanuel",
+        "name": "Emmanuel Adoum",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/125479958?u=29b079e297fb0267dbfaed271884a405cfb4561e&v=4&s=200",
+        "contributions": 1297
       }
     },
     {
