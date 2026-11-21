@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-11-15 03:26:34 +0000",
-  "fetchedAt": "2026-11-20T11:45:49.829Z",
+  "fetchedAt": "2026-11-21T11:11:02.612Z",
   "public": [
     {
       "rank": 1,
@@ -2505,7 +2505,7 @@
       "name": "Behzod Halil",
       "contributions": 7480,
       "avatarUrl": "https://avatars.githubusercontent.com/u/72313937?u=08c2e9d626090c791ca2d78b8d0acf6d0621b310&v=4&s=200",
-      "company": "Keep building...",
+      "company": "",
       "organizations": "getspherelabs"
     },
     {

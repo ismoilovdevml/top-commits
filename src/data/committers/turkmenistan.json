@@ -2,7 +2,7 @@
   "country": "turkmenistan",
   "title": "Turkmenistan",
   "dataAsOf": "2026-10-27 05:41:07 +0000",
-  "fetchedAt": "2026-11-20T11:46:39.604Z",
+  "fetchedAt": "2026-11-21T11:11:46.899Z",
   "public": [
     {
       "rank": 1,
@@ -190,7 +190,7 @@
       "name": "Mekan Baymyradov",
       "contributions": 282,
       "avatarUrl": "https://avatars.githubusercontent.com/u/179567000?u=ae201392a1388a19d30db733250007afa14faf89&v=4&s=200",
-      "company": "",
+      "company": "Ojak smart homes",
       "organizations": ""
     },
     {
@@ -3054,7 +3054,7 @@
       "name": "Mekan Baymyradov",
       "contributions": 295,
       "avatarUrl": "https://avatars.githubusercontent.com/u/179567000?u=ae201392a1388a19d30db733250007afa14faf89&v=4&s=200",
-      "company": "",
+      "company": "Ojak smart homes",
       "organizations": ""
     },
     {

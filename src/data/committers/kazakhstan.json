@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-11-08 23:21:32 +0000",
-  "fetchedAt": "2026-11-20T11:46:04.947Z",
+  "fetchedAt": "2026-11-21T11:11:16.259Z",
   "public": [
     {
       "rank": 1,
@@ -4188,7 +4188,7 @@
       "name": "Yeren Kalibek",
       "contributions": 1009,
       "avatarUrl": "https://avatars.githubusercontent.com/u/93337824?u=e3aa75db46833ce5229f9349dae1747d0b63b905&v=4&s=200",
-      "company": "BI Innovations",
+      "company": "",
       "organizations": ""
     },
     {
