@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:53:47.053Z",
+  "generatedAt": "2026-11-24T13:48:58.531Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -35,15 +35,15 @@
       "slug": "india",
       "title": "India",
       "flag": "🇮🇳",
-      "totalUsers": 1231534,
-      "minFollowers": 375,
-      "rankedContributions": 651872,
+      "totalUsers": 1239367,
+      "minFollowers": 376,
+      "rankedContributions": 685083,
       "rankedUsers": 256,
       "topUser": {
         "login": "senamakel",
         "name": "Steven Enamakel",
         "avatarUrl": "https://avatars.githubusercontent.com/u/31011319?u=46f1f85872ce4853805645f1fbc666cc1baecd3b&v=4&s=200",
-        "contributions": 117708
+        "contributions": 124315
       }
     },
     {
@@ -545,15 +545,15 @@
       "slug": "taiwan",
       "title": "Taiwan",
       "flag": "🇹🇼",
-      "totalUsers": 48210,
-      "minFollowers": 72,
-      "rankedContributions": 717661,
+      "totalUsers": 48812,
+      "minFollowers": 71,
+      "rankedContributions": 754197,
       "rankedUsers": 256,
       "topUser": {
         "login": "dennislee928",
         "name": "Pei-Chen Lee (Dennis Lee) | 李沛宸",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/55692615?u=5fb024a6176fe010f5d2fbae0a231e8be763c79d&v=4&s=200",
-        "contributions": 40593
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55692615?u=c45140f1ac940cba24300aabc0ad3b2f317efa96&v=4&s=200",
+        "contributions": 40947
       }
     },
     {
@@ -635,15 +635,15 @@
       "slug": "romania",
       "title": "Romania",
       "flag": "🇷🇴",
-      "totalUsers": 42538,
-      "minFollowers": 30,
-      "rankedContributions": 355114,
+      "totalUsers": 42362,
+      "minFollowers": 25,
+      "rankedContributions": 414466,
       "rankedUsers": 256,
       "topUser": {
         "login": "0-vortex",
         "name": "TED Vortex (Teodor-Eugen Duțulescu)",
         "avatarUrl": "https://avatars.githubusercontent.com/u/237133?u=64379657205570b77ceeeba44e495ca3135916b0&v=4&s=200",
-        "contributions": 22702
+        "contributions": 18802
       }
     },
     {
@@ -1802,6 +1802,21 @@
       }
     },
     {
+      "slug": "malawi",
+      "title": "Malawi",
+      "flag": "🇲🇼",
+      "totalUsers": 2588,
+      "minFollowers": 1,
+      "rankedContributions": 59470,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "ColonelBlimp",
+        "name": "ColonelBlimp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20266202?u=8450ae756d59cda38bdf3a3821b7b1f0c531f1d1&v=4&s=200",
+        "contributions": 4589
+      }
+    },
+    {
       "slug": "ivory_coast",
       "title": "Ivory Coast",
       "flag": "🇨🇮",
@@ -1829,21 +1844,6 @@
         "name": "Steve Aster AFOVO",
         "avatarUrl": "https://avatars.githubusercontent.com/u/72698973?u=a08e4cbb9bbfccf7ddf8605573f8073f7d468f2a&v=4&s=200",
         "contributions": 14257
-      }
-    },
-    {
-      "slug": "malawi",
-      "title": "Malawi",
-      "flag": "🇲🇼",
-      "totalUsers": 2540,
-      "minFollowers": 1,
-      "rankedContributions": 57120,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "ColonelBlimp",
-        "name": "ColonelBlimp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20266202?u=8450ae756d59cda38bdf3a3821b7b1f0c531f1d1&v=4&s=200",
-        "contributions": 4804
       }
     },
     {
