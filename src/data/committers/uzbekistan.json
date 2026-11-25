@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-11-15 03:26:34 +0000",
-  "fetchedAt": "2026-11-24T13:49:14.211Z",
+  "fetchedAt": "2026-11-25T13:01:27.201Z",
   "public": [
     {
       "rank": 1,
@@ -1756,7 +1756,7 @@
       "name": "Muhammad Ibrohimov",
       "contributions": 176,
       "avatarUrl": "https://avatars.githubusercontent.com/u/108574977?u=5bf76174da37c5edef70f54852f6dbcdc674b16f&v=4&s=200",
-      "company": "",
+      "company": "Smartmiz",
       "organizations": ""
     },
     {

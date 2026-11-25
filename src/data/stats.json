@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T13:48:58.531Z",
+  "generatedAt": "2026-11-25T13:01:12.822Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -65,15 +65,15 @@
       "slug": "china",
       "title": "China",
       "flag": "🇨🇳",
-      "totalUsers": 436835,
-      "minFollowers": 689,
-      "rankedContributions": 1026143,
+      "totalUsers": 438083,
+      "minFollowers": 619,
+      "rankedContributions": 1131142,
       "rankedUsers": 256,
       "topUser": {
         "login": "felixonmars",
         "name": "Felix Yan",
         "avatarUrl": "https://avatars.githubusercontent.com/u/1006477?v=4&s=200",
-        "contributions": 211981
+        "contributions": 223191
       }
     },
     {
@@ -335,15 +335,15 @@
       "slug": "ukraine",
       "title": "Ukraine",
       "flag": "🇺🇦",
-      "totalUsers": 101529,
+      "totalUsers": 101734,
       "minFollowers": 53,
-      "rankedContributions": 378239,
+      "rankedContributions": 391876,
       "rankedUsers": 256,
       "topUser": {
         "login": "MikhailKasimov",
         "name": "Mikhail Kasimov",
         "avatarUrl": "https://avatars.githubusercontent.com/u/7167300?u=6e6fa04368b15a5a57505eb1078246514faa64e3&v=4&s=200",
-        "contributions": 24025
+        "contributions": 23928
       }
     },
     {
@@ -590,15 +590,15 @@
       "slug": "norway",
       "title": "Norway",
       "flag": "🇳🇴",
-      "totalUsers": 43841,
-      "minFollowers": 29,
-      "rankedContributions": 814549,
+      "totalUsers": 43989,
+      "minFollowers": 46,
+      "rankedContributions": 648218,
       "rankedUsers": 256,
       "topUser": {
         "login": "marcusramberg",
         "name": "Marcus Ramberg",
         "avatarUrl": "https://avatars.githubusercontent.com/u/5526?v=4&s=200",
-        "contributions": 60291
+        "contributions": 60006
       }
     },
     {
@@ -692,6 +692,21 @@
       }
     },
     {
+      "slug": "sri_lanka",
+      "title": "Sri Lanka",
+      "flag": "🇱🇰",
+      "totalUsers": 38849,
+      "minFollowers": 38,
+      "rankedContributions": 687015,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "RensithUdara",
+        "name": "Rensith Udara Gonalagoda",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105989347?u=d74b6cabd024b20ec4a9cfb15a59a103e34ce2fa&v=4&s=200",
+        "contributions": 190479
+      }
+    },
+    {
       "slug": "thailand",
       "title": "Thailand",
       "flag": "🇹🇭",
@@ -704,21 +719,6 @@
         "name": "Dmitrii Vasilev",
         "avatarUrl": "https://avatars.githubusercontent.com/u/6774813?u=18c30d1c223759bf1a70f1c3fda5935952c38c20&v=4&s=200",
         "contributions": 32769
-      }
-    },
-    {
-      "slug": "sri_lanka",
-      "title": "Sri Lanka",
-      "flag": "🇱🇰",
-      "totalUsers": 38431,
-      "minFollowers": 38,
-      "rankedContributions": 689675,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "RensithUdara",
-        "name": "Rensith Udara Gonalagoda",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/105989347?u=d74b6cabd024b20ec4a9cfb15a59a103e34ce2fa&v=4&s=200",
-        "contributions": 187389
       }
     },
     {
@@ -740,15 +740,15 @@
       "slug": "new_zealand",
       "title": "New Zealand",
       "flag": "🇳🇿",
-      "totalUsers": 36969,
-      "minFollowers": 36,
-      "rankedContributions": 550949,
+      "totalUsers": 36238,
+      "minFollowers": 20,
+      "rankedContributions": 674086,
       "rankedUsers": 256,
       "topUser": {
         "login": "ryanbr",
         "name": "Fanboynz",
         "avatarUrl": "https://avatars.githubusercontent.com/u/1659004?v=4&s=200",
-        "contributions": 59587
+        "contributions": 60517
       }
     },
     {
@@ -1370,15 +1370,15 @@
       "slug": "slovenia",
       "title": "Slovenia",
       "flag": "🇸🇮",
-      "totalUsers": 6744,
+      "totalUsers": 6878,
       "minFollowers": 8,
-      "rankedContributions": 194857,
+      "rankedContributions": 248599,
       "rankedUsers": 256,
       "topUser": {
         "login": "garbas",
         "name": "Rok Garbas",
         "avatarUrl": "https://avatars.githubusercontent.com/u/20208?u=91a075b9c4353116dbf0ec9db5c3c4a688e6fd91&v=4&s=200",
-        "contributions": 11854
+        "contributions": 11917
       }
     },
     {
@@ -1532,6 +1532,21 @@
       }
     },
     {
+      "slug": "afghanistan",
+      "title": "Afghanistan",
+      "flag": "🇦🇫",
+      "totalUsers": 4665,
+      "minFollowers": 3,
+      "rankedContributions": 127636,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "ahmadullahmukhlis",
+        "name": "Ahmadullah Mukhlis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/112787367?u=38e30bdfbeb9cead75b4faa6ca793d0209e301b7&v=4&s=200",
+        "contributions": 30274
+      }
+    },
+    {
       "slug": "bosnia_and_herzegovina",
       "title": "Bosnia and Herzegovina",
       "flag": "🇧🇦",
@@ -1559,21 +1574,6 @@
         "name": "Delian Delchev",
         "avatarUrl": "https://avatars.githubusercontent.com/u/113510?u=0408e8a8b5e99d32a8cc45bcdf5942535a2cd1b1&v=4&s=200",
         "contributions": 11917
-      }
-    },
-    {
-      "slug": "afghanistan",
-      "title": "Afghanistan",
-      "flag": "🇦🇫",
-      "totalUsers": 4577,
-      "minFollowers": 3,
-      "rankedContributions": 125212,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "ahmadullahmukhlis",
-        "name": "Ahmadullah Mukhlis",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/112787367?u=38e30bdfbeb9cead75b4faa6ca793d0209e301b7&v=4&s=200",
-        "contributions": 30438
       }
     },
     {
@@ -2075,15 +2075,15 @@
       "slug": "mali",
       "title": "Mali",
       "flag": "🇲🇱",
-      "totalUsers": 765,
+      "totalUsers": 790,
       "minFollowers": 0,
-      "rankedContributions": 34322,
+      "rankedContributions": 35925,
       "rankedUsers": 256,
       "topUser": {
         "login": "koneke55",
         "name": "कोनेके",
         "avatarUrl": "https://avatars.githubusercontent.com/u/139575233?u=2e9226b84d47b0607440af932208379dd817842b&v=4&s=200",
-        "contributions": 6252
+        "contributions": 5936
       }
     },
     {
