@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T13:01:12.822Z",
+  "generatedAt": "2026-11-26T12:41:31.143Z",
   "countries": [
     {
       "slug": "worldwide",
@@ -395,15 +395,15 @@
       "slug": "colombia",
       "title": "Colombia",
       "flag": "🇨🇴",
-      "totalUsers": 81952,
-      "minFollowers": 35,
-      "rankedContributions": 295436,
+      "totalUsers": 82424,
+      "minFollowers": 36,
+      "rankedContributions": 310802,
       "rankedUsers": 256,
       "topUser": {
-        "login": "johnny4young",
-        "name": "Johnny IV Young Ospino",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/112983?u=d84627e11f6b0e8431a703674b0908d62208226d&v=4&s=200",
-        "contributions": 16170
+        "login": "NietoDeveloper",
+        "name": "Manuel Nieto",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/135185791?u=c691e2425559bc013fd6d3fe18b67ff34005ce33&v=4&s=200",
+        "contributions": 18434
       }
     },
     {
@@ -557,21 +557,6 @@
       }
     },
     {
-      "slug": "ireland",
-      "title": "Ireland",
-      "flag": "🇮🇪",
-      "totalUsers": 45946,
-      "minFollowers": 48,
-      "rankedContributions": 458467,
-      "rankedUsers": 256,
-      "topUser": {
-        "login": "rjrodger",
-        "name": "Richard Rodger",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/138608?v=4&s=200",
-        "contributions": 38297
-      }
-    },
-    {
       "slug": "chile",
       "title": "Chile",
       "flag": "🇨🇱",
@@ -584,6 +569,21 @@
         "name": "Eduardo Díaz",
         "avatarUrl": "https://avatars.githubusercontent.com/u/515492?u=715514c30d9fc7196999df4f4e22f907635db48a&v=4&s=200",
         "contributions": 14834
+      }
+    },
+    {
+      "slug": "ireland",
+      "title": "Ireland",
+      "flag": "🇮🇪",
+      "totalUsers": 45060,
+      "minFollowers": 27,
+      "rankedContributions": 603329,
+      "rankedUsers": 256,
+      "topUser": {
+        "login": "rjrodger",
+        "name": "Richard Rodger",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/138608?v=4&s=200",
+        "contributions": 39429
       }
     },
     {
@@ -1025,15 +1025,15 @@
       "slug": "costa_rica",
       "title": "Costa Rica",
       "flag": "🇨🇷",
-      "totalUsers": 15559,
+      "totalUsers": 15588,
       "minFollowers": 8,
-      "rankedContributions": 175950,
+      "rankedContributions": 179913,
       "rankedUsers": 256,
       "topUser": {
         "login": "skylartaylor",
         "name": "skylar taylor-barrick",
         "avatarUrl": "https://avatars.githubusercontent.com/u/26588250?u=8ccb4577fcdeaa738e224e432c70213e5b644f24&v=4&s=200",
-        "contributions": 9831
+        "contributions": 10268
       }
     },
     {
@@ -1565,15 +1565,15 @@
       "slug": "luxembourg",
       "title": "Luxembourg",
       "flag": "🇱🇺",
-      "totalUsers": 4591,
+      "totalUsers": 4601,
       "minFollowers": 5,
-      "rankedContributions": 189216,
+      "rankedContributions": 193648,
       "rankedUsers": 256,
       "topUser": {
         "login": "delian",
         "name": "Delian Delchev",
         "avatarUrl": "https://avatars.githubusercontent.com/u/113510?u=0408e8a8b5e99d32a8cc45bcdf5942535a2cd1b1&v=4&s=200",
-        "contributions": 11917
+        "contributions": 13904
       }
     },
     {
@@ -1715,15 +1715,15 @@
       "slug": "malta",
       "title": "Malta",
       "flag": "🇲🇹",
-      "totalUsers": 3120,
+      "totalUsers": 3122,
       "minFollowers": 1,
-      "rankedContributions": 114951,
+      "rankedContributions": 119221,
       "rankedUsers": 256,
       "topUser": {
         "login": "ksazid",
         "name": "Sazid",
         "avatarUrl": "https://avatars.githubusercontent.com/u/47315271?u=ea3e4f054d8f330ffc098aa419691764baf85f66&v=4&s=200",
-        "contributions": 6278
+        "contributions": 6291
       }
     },
     {
