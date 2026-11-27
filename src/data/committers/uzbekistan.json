@@ -2,7 +2,7 @@
   "country": "uzbekistan",
   "title": "Uzbekistan",
   "dataAsOf": "2026-11-15 03:26:34 +0000",
-  "fetchedAt": "2026-11-26T12:41:45.724Z",
+  "fetchedAt": "2026-11-27T12:30:17.934Z",
   "public": [
     {
       "rank": 1,
@@ -1325,7 +1325,7 @@
       "contributions": 263,
       "avatarUrl": "https://avatars.githubusercontent.com/u/89484240?u=7a545d2fc023d372e6061ecbf4bc4a35b23fe447&v=4&s=200",
       "company": "SWE at dona.uz & Gopher Uzbekistan chair at @floss-uz & @gofer-uz",
-      "organizations": "floss-uz, gofer-uz"
+      "organizations": "floss-uz, gofer-uz, buildwithuz"
     },
     {
       "rank": 148,
@@ -3379,7 +3379,7 @@
       "contributions": 2384,
       "avatarUrl": "https://avatars.githubusercontent.com/u/89484240?u=7a545d2fc023d372e6061ecbf4bc4a35b23fe447&v=4&s=200",
       "company": "SWE at dona.uz & Gopher Uzbekistan chair at @floss-uz & @gofer-uz",
-      "organizations": "floss-uz, gofer-uz"
+      "organizations": "floss-uz, gofer-uz, buildwithuz"
     },
     {
       "rank": 120,
@@ -3468,7 +3468,7 @@
       "name": "Elzodxon Sharofaddinov",
       "contributions": 2267,
       "avatarUrl": "https://avatars.githubusercontent.com/u/52325239?u=5c76562b77c15d91ad20b699125be118d3890fd6&v=4&s=200",
-      "company": "@aisha-group",
+      "company": "@voicelab-uz",
       "organizations": ""
     },
     {
