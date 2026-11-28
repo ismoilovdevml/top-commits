@@ -2,7 +2,7 @@
   "country": "kazakhstan",
   "title": "Kazakhstan",
   "dataAsOf": "2026-11-08 23:21:32 +0000",
-  "fetchedAt": "2026-11-27T12:30:31.836Z",
+  "fetchedAt": "2026-11-28T11:53:06.082Z",
   "public": [
     {
       "rank": 1,
@@ -1702,7 +1702,7 @@
       "name": "Insomnia",
       "contributions": 196,
       "avatarUrl": "https://avatars.githubusercontent.com/u/146523977?u=afcb306f47aa25e3eb714566ad00829f8a982217&v=4&s=200",
-      "company": "",
+      "company": "CAP EDU",
       "organizations": ""
     },
     {
